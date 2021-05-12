@@ -1,5 +1,4 @@
-# Project Title
-JobsMatch: Web/Mobile application used by IT students for matching jobs to GGC courses
+# JobsMatch: Web/Mobile application used by IT students for matching jobs to GGC courses
 
 ## Description
 This tool is designed to assist IT students in exploring different entry-level positions and then view the specific courses at GGC which would provide the entry-level skills for each position they are interested in. The scope of this project for Spring 2021 is to gather job listing datasets, clean and filter the initial datasets, manually test the project's goal, and statistically analyze data about job skills. The result of the project is that we have proven that our process works and that important job-skills data can be captured, filtered, displayed, and can be ultimately used in an application. Significant further development is required. Other IT students at GGC will have the opportunity to provide more research into different entry-level positions and provide the actual development of the Web/Mobile application to create a highly-beneficial working tool.  
@@ -7,18 +6,16 @@ This tool is designed to assist IT students in exploring different entry-level p
 ### Project Demo Video:  << link >>           
 
 ## Team
-Student: Hugh Smith, Photo: << link >>
+Student: Hugh Smith
 Advisor: Dr. Anca Doloc-Mihu, Assistant Professor of Information Technology
 
 ## Publications
-CCSC abstract: << link >>
-Create Symposium Poster: << link >>
+* STaRS Symposium 2nd Place Poster https://ggc-stars.github.io/posters/, April 8, 2021, GGC
+* CREATE Symposium, April 29, 2021, GGC
 
 ## Outreach Activities
-Symposium 1
-Class Presentation 1
-Class Presentation 2
-URP Presentation
+* ITEC 2140 Introduction to Java, Profession Xin Xu, April 15, 2021
+* ITEC 2140 Introduction to Java, Profession Xin Xu, April 16, 2021
 
 ## Technology
 I utilized the website kaggle.com to obtain the job listing datasets, Microsoft Excel for data cleansing, Google Drive for online file location, and Google Colab Notebook for python development, data analysis, and display.
@@ -64,3 +61,15 @@ I utilized the website kaggle.com to obtain the job listing datasets, Microsoft 
         5. Run short list analysis of specific skill-sets
             1. Will print lists of skill words in different orders
             2. Will display histogram showing top skill words in chosen order
+
+## Project Status
+1.  Datasets collected and cleaned
+2.  Analysis in progress
+    * Implement regex to better filter job postings dataset
+
+### To Do
+1.  Collect and analyze surveys from students
+2.  Build matching skills to ITEC courses
+3.  Match skills from jobs to ITEC courses
+4.  Build website showcase skills, courses, and job categories
+5.  Figure out a way to make website interactive
