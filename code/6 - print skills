@@ -1,0 +1,17 @@
+# iterates through all_words to create skill_words dictionary to eventually plot
+for r in rev_all_words:
+   if r.lower() in plot_skills:
+    skill_words.update({r : all_words[r]*100})
+
+# tests prints (1-4)
+
+print(skill_words)
+
+reverse_words = sorted(skill_words, key=skill_words.get, reverse=True)
+print(reverse_words)
+
+ac_words = dict(sorted(skill_words.items(), key=lambda x: x[0].upper()))
+print(ac_words)
+
+lc_words = dict((k.lower(), v) for k, v in skill_words.items())
+print(lc_words)

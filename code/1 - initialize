@@ -1,0 +1,5 @@
+# Initialize program, connect to my google drive
+
+import pandas as pd
+from google.colab import drive
+drive.mount('/content/grive')
