@@ -3,7 +3,7 @@
 ## Description
 This tool is designed to assist IT students in exploring different entry-level positions and then view the specific courses at GGC which would provide the entry-level skills for each position they are interested in. The scope of this project for Spring 2021 is to gather job listing datasets, clean and filter the initial datasets, manually test the project's goal, and statistically analyze data about job skills. The result of the project is that we have proven that our process works and that important job-skills data can be captured, filtered, displayed, and can be ultimately used in an application. Significant further development is required. Other IT students at GGC will have the opportunity to provide more research into different entry-level positions and provide the actual development of the Web/Mobile application to create a highly-beneficial working tool.  
 
-### Project Demo Video:  << link >>           
+### Project Demo Video:        
 
 ## Team
 Student: Hugh Smith
@@ -14,8 +14,8 @@ Advisor: Dr. Anca Doloc-Mihu, Assistant Professor of Information Technology
 * CREATE Symposium, April 29, 2021, GGC
 
 ## Outreach Activities
-* ITEC 2140 Introduction to Java, Profession Xin Xu, April 15, 2021
-* ITEC 2140 Introduction to Java, Profession Xin Xu, April 16, 2021
+* ITEC 2140 Introduction to Java, Profession Xin Xu, April 27, 2021
+* ITEC 2140 Introduction to Java, Profession Xin Xu, April 28, 2021
 
 ## Technology
 I utilized the website kaggle.com to obtain the job listing datasets, Microsoft Excel for data cleansing, Google Drive for online file location, and Google Colab Notebook for python development, data analysis, and display.
@@ -23,7 +23,7 @@ I utilized the website kaggle.com to obtain the job listing datasets, Microsoft 
 2. https://www.microsoft.com/en-us/microsoft-365/excel
 3. https://drive.google.com/drive/my-drive  
 4. https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index
-5. Photo of project application:
+5. Technical Results: 
 
 ## Project Setup/Installation
 1. Consulted with advisor (and searched online) to find job listing dataset sources
@@ -31,8 +31,8 @@ I utilized the website kaggle.com to obtain the job listing datasets, Microsoft 
 3. Downloaded datasets which likely contained job titles in the concentration researched
 4. Created a master spreadsheet to summarize all datasets downloaded
 5. Used MS Excel to explore and filter down to entry-level job titles in each dataset
-   Made sure each dataset of job listings contained a column called "job description" where details
-   about skills and abilities were requested by employers
+   Made sure each dataset of job listings contained a column where the details
+   about required skills, abilities, and responsibilities were specified by employers
 6. Saved dataset copies on Google Drive
 7. Saved a specific subset file for each dataset containing enough of one type of job title:
     1. For example: I created a dataset called DS-8
