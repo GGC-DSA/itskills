@@ -23,7 +23,7 @@ I utilized the website kaggle.com to obtain the job listing datasets, Microsoft 
 2. https://www.microsoft.com/en-us/microsoft-365/excel
 3. https://drive.google.com/drive/my-drive  
 4. https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index
-5. Technical Results: 
+5. Technical Results: https://github.com/GGC-DSA/itskills/blob/main/media/Technical%20Results/SD%20Skills.png
 
 ## Project Setup/Installation
 1. Consulted with advisor (and searched online) to find job listing dataset sources
