@@ -6,8 +6,8 @@ This tool is designed to assist IT students in exploring different entry-level p
 ### Project Demo Video: https://github.com/GGC-DSA/itskills/blob/main/media/Presentation.mp4        
 
 ## Team
-Student: Hugh Smith
-Advisor: Dr. Anca Doloc-Mihu, Assistant Professor of Information Technology
+* Student: Hugh Smith
+* Advisor: Dr. Anca Doloc-Mihu, Assistant Professor of Information Technology
 
 ## Publications
 * STaRS Symposium 2nd Place Poster https://ggc-stars.github.io/posters/, April 8, 2021, GGC
