@@ -44,8 +44,12 @@ I utilized the website kaggle.com to obtain the job listing datasets, Microsoft 
     2. Loaded single job title datasets (from step 7)
     3. Created dictionary to strip out common words during analysis
     4. Stripped meaningless characters out of data
-    5. Created skill dictionaries to home in on skill words during analysis
-    6. Created counter object to automatically rank top 1000 words
+    5. Created counter object to automatically rank top 1000 words
+    6. Created dictionaries to home in on select words during analysis
+        * Created MS Excel file "SD Key Skills Python Dictionary Builder"
+        * Copied Top 1000 words/ranks from Python results to this file
+        * Worked through list to create common word and skill set dictionaries
+        * Formatted to put back into Python coding to build dictionaries
     7. Created analysis loop to filter out common words and filter down to skill words
     8. Created histogram plot to display skills words in a ranked order     
 
