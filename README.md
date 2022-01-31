@@ -5,6 +5,10 @@ This tool is designed to assist IT students in exploring different entry-level p
 
 ### Project Demo Video: https://github.com/GGC-DSA/itskills/blob/main/media/Presentation.mp4        
 
+## Spring 2022 Team
+*Student: Michael Murillo Martinez
+* Advisor: Dr. Anca Doloc-Mihu, Assistant Professor of Information Technology
+
 ## Team
 * Student: Hugh Smith
 * Advisor: Dr. Anca Doloc-Mihu, Assistant Professor of Information Technology
