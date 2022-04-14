@@ -5,6 +5,10 @@ This tool is designed to assist IT students in exploring different entry-level p
 
 ### Project Demo Video: https://github.com/GGC-DSA/itskills/blob/main/media/Presentation.mp4        
 
+## Spring 2022 Team
+* Student: Michael Murillo Martinez
+* Advisor: Dr. Anca Doloc-Mihu, Assistant Professor of Information Technology
+
 ## Team
 * Student: Hugh Smith
 * Advisor: Dr. Anca Doloc-Mihu, Assistant Professor of Information Technology
@@ -71,9 +75,15 @@ I utilized the website kaggle.com to obtain the job listing datasets, Microsoft 
 2.  Analysis in progress
     * Implement regex to better filter job postings dataset
 
-### To Do
+### Remaing Scope of Project
 1.  Collect and analyze surveys from students
 2.  Build matching skills to ITEC courses
 3.  Match skills from jobs to ITEC courses
 4.  Build website showcase skills, courses, and job categories
 5.  Figure out a way to make website interactive
+
+### Spring 2022 Scope
+1.  Update Survey 
+2.  Collect more data on Students from Survey 
+3.  Diversify sites we are gathing data for keywords from
+
