@@ -94,7 +94,7 @@ function update(source) {
             }
             else
             {
-                return d.name + d.classNum ;
+                return d.name ;  //d.classNum ;
             }
 
 
