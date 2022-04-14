@@ -78,7 +78,7 @@ function update(source) {
         // adds hover effect
         .attr("r", 4.5).on("mouseover", function (d) {
         d3.select(this.parentNode).select("text").style("fill", "blue");
-    }).on("mouseout", function (d) {
+            }).on("mouseout", function (d) {
         d3.select(this.parentNode).select("text").style("fill", "black")});
 
     nodeEnter.append("text")
@@ -94,7 +94,7 @@ function update(source) {
             }
             else
             {
-                return d.name + '\n' +d.classNum ;
+                return d.name + d.classNum ;
             }
 
 
@@ -128,8 +128,7 @@ function update(source) {
     var nodeExit = node.exit().transition()
         .duration(duration)
         .attr("transform", function (d) {
-            return "translate(" + source.x + "," + source.y + ")";
-        })
+            return "translate(" + source.x + "," + source.y + ")"; })
         .remove();
 
     nodeExit.select("circle")
