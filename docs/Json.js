@@ -368,23 +368,23 @@ var treeJson = [
                         "level": "green",
                         "_children": [
                             {
-                                "name": "Data Scientists",
+                                "name": "Data Analysts",
                                 "parent": "Data  Science",
                                 "value": 9,
                                 "type": "darkblue",
                                 "level": "purple",
                                 "_children": [
                                     {
-                                        "name": "Java",
-                                        "parent": "Data Scientists",
+                                        "name": "Data",
+                                        "parent": "Data Analysts",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
                                         "_children": [
                                             {
-                                                "name": "Adv Programming",
-                                                "classNum": "ITEC 3150",
-                                                "parent": "Java",
+                                                "name": "tba",
+                                                "classNum": "tba",
+                                                "parent": "Data",
                                                 "value": 7,
                                                 "type": "lightgreen",
                                                 "level": "black"
@@ -392,7 +392,7 @@ var treeJson = [
                                     },
                                     {
                                         "name": "SQL",
-                                        "parent": "Data Scientists",
+                                        "parent": "Data Analysts",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
@@ -407,96 +407,96 @@ var treeJson = [
                                             }]
                                     },
                                     {
-                                        "name": ".Net",
-                                        "parent": "Data Scientists",
+                                        "name": "R",
+                                        "parent": "Data Analysts",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
                                         "_children": [
                                             {
-                                                "name": "tbh",
-                                                "classNum": "ITEC 3150",
-                                                "parent": ".Net",
+                                                "name": "tba",
+                                                "classNum": "tba",
+                                                "parent": "R",
                                                 "value": 7,
                                                 "type": "lightgreen",
                                                 "level": "black"
                                             }]
                                     },
                                     {
-                                        "name": "CSS",
-                                        "parent": "Data Scientists",
+                                        "name": "Analysis",
+                                        "parent": "Data Analysts",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
                                         "_children": [
                                             {
-                                                "name": "Web Dev",
-                                                "classNum": "ITEC 3150",
-                                                "parent": "CSS",
+                                                "name": "Systems Analysis and Design",
+                                                "classNum": "ITec 3700",
+                                                "parent": "Analysis",
                                                 "value": 7,
                                                 "type": "lightgreen",
                                                 "level": "black"
                                             }]
                                     },
                                     {
-                                        "name": "JavaScript",
-                                        "parent": "Data Scientists",
+                                        "name": "Manage",
+                                        "parent": "Data Analysts",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
                                         "_children": [
                                             {
-                                                "name": "Web Dev",
-                                                "classNum": "ITEC 3150",
-                                                "parent": "JavaScript",
+                                                "name": "TBA",
+                                                "classNum": "TBA",
+                                                "parent": "Manage",
                                                 "value": 7,
                                                 "type": "lightgreen",
                                                 "level": "black"
                                             }]
                                     },
                                     {
-                                        "name": "Server",
-                                        "parent": "Data Scientists",
+                                        "name": "Process",
+                                        "parent": "Data Analysts",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
                                         "_children": [
                                             {
-                                                "name": "tbh",
-                                                "classNum": "ITEC 3150",
-                                                "parent": "Server",
+                                                "name": "TBA",
+                                                "classNum": "TBA",
+                                                "parent": "Process",
                                                 "value": 7,
                                                 "type": "lightgreen",
                                                 "level": "black"
                                             }]
                                     }
                                     , {
-                                        "name": "MVC",
-                                        "parent": "Data Scientists",
+                                        "name": "System",
+                                        "parent": "Data Analysts",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
                                         "_children": [
                                             {
-                                                "name": "tbh",
-                                                "classNum": "ITEC 3150",
-                                                "parent": "MVC",
+                                                "name": "Systems Analysis and Design",
+                                                "classNum": "ITEC 3700",
+                                                "parent": "System",
                                                 "value": 7,
                                                 "type": "lightgreen",
                                                 "level": "black"
                                             }]
                                     },
                                     {
-                                        "name": "Rest API",
-                                        "parent": "Data Scientists",
+                                        "name": "Development",
+                                        "parent": "Data Analysts",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
                                         "_children": [
                                             {
-                                                "name": "Software Projects",
-                                                "classNum": "ITEC 3150",
-                                                "parent": "Rest API",
+                                                "name": "TBA",
+                                                "classNum": "TBA",
+                                                "parent": "Development",
                                                 "value": 7,
                                                 "type": "lightgreen",
                                                 "level": "black"
@@ -504,7 +504,7 @@ var treeJson = [
                                     },
                                     {
                                         "name": "Microsoft",
-                                        "parent": "Data Scientists",
+                                        "parent": "Data Analysts",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
@@ -519,16 +519,16 @@ var treeJson = [
                                             }]
                                     }
                                     , {
-                                        "name": "PHP",
-                                        "parent": "Data Scientists",
+                                        "name": "Model",
+                                        "parent": "Data Analysts",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
                                         "_children": [
                                             {
-                                                "name": "Web Dev",
-                                                "classNum": "ITEC 3150",
-                                                "parent": "SQL",
+                                                "name": "TBA",
+                                                "classNum": "TBA",
+                                                "parent": "Model",
                                                 "value": 7,
                                                 "type": "lightgreen",
                                                 "level": "black"
@@ -537,23 +537,23 @@ var treeJson = [
 
                             },
                             {
-                                "name": "Data Analysts",
+                                "name": " Data Scientists",
                                 "parent": "Data Science",
                                 "value": 9,
                                 "type": "darkblue",
                                 "level": "purple",
                                 "_children": [
                                     {
-                                        "name": "Java",
-                                        "parent": "Data Analysts",
+                                        "name": "R",
+                                        "parent": " Data Scientists",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
                                         "_children": [
                                             {
-                                                "name": "Adv Programming",
-                                                "classNum": "ITEC 3150",
-                                                "parent": "Java",
+                                                "name": "TBA",
+                                                "classNum": "TBA",
+                                                "parent": "R",
                                                 "value": 7,
                                                 "type": "lightgreen",
                                                 "level": "black"
@@ -561,7 +561,7 @@ var treeJson = [
                                     },
                                     {
                                         "name": "SQL",
-                                        "parent": "Data Analysts",
+                                        "parent": " Data Scientists",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
@@ -576,64 +576,64 @@ var treeJson = [
                                             }]
                                     },
                                     {
-                                        "name": ".Net",
-                                        "parent": "Data Analysts",
+                                        "name": "Data",
+                                        "parent": " Data Scientists",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
                                         "_children": [
                                             {
-                                                "name": "tbh",
-                                                "classNum": "ITEC 3150",
-                                                "parent": ".Net",
+                                                "name": "TBA",
+                                                "classNum": "TBA",
+                                                "parent": "Data",
                                                 "value": 7,
                                                 "type": "lightgreen",
                                                 "level": "black"
                                             }]
                                     },
                                     {
-                                        "name": "CSS",
-                                        "parent": "Data Analysts",
+                                        "name": "Model",
+                                        "parent": " Data Scientists",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
                                         "_children": [
                                             {
-                                                "name": "Web Dev",
-                                                "classNum": "ITEC 3150",
-                                                "parent": "CSS",
+                                                "name": "TBA",
+                                                "classNum": "TBA",
+                                                "parent": "Model",
                                                 "value": 7,
                                                 "type": "lightgreen",
                                                 "level": "black"
                                             }]
                                     },
                                     {
-                                        "name": "JavaScript",
-                                        "parent": "Data Analysts",
+                                        "name": "Python",
+                                        "parent": " Data Scientists",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
                                         "_children": [
                                             {
-                                                "name": "Web Dev",
-                                                "classNum": "ITEC 3150",
-                                                "parent": "JavaScript",
+                                                "name": "TBA",
+                                                "classNum": "TBA",
+                                                "parent": "Python",
                                                 "value": 7,
                                                 "type": "lightgreen",
                                                 "level": "black"
                                             }]
                                     },
                                     {
-                                        "name": "Server",
-                                        "parent": "Data Analysts",
+                                        "name": "Analysis",
+                                        "parent": " Data Scientists",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
                                         "_children": [
                                             {
-                                                "name": "tbh",
-                                                "classNum": "ITEC 3150",
-                                                "parent": "Server",
+                                                "name": "Systems Analysis and Design",
+                                                "classNum": "ITEC 3700",
+                                                "parent": "Analysis",
                                                 "value": 7,
                                                 "type": "lightgreen",
                                                 "level": "black"
@@ -641,7 +641,7 @@ var treeJson = [
                                     }
                                     , {
                                         "name": "MVC",
-                                        "parent": "Data Analysts",
+                                        "parent": " Data Scientists",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
@@ -656,16 +656,16 @@ var treeJson = [
                                             }]
                                     },
                                     {
-                                        "name": "Rest API",
-                                        "parent": "Data Analysts",
+                                        "name": "Process",
+                                        "parent": " Data Scientists",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
                                         "_children": [
                                             {
-                                                "name": "Software Projects",
-                                                "classNum": "ITEC 3150",
-                                                "parent": "Rest API",
+                                                "name": "TBA",
+                                                "classNum": "TBA",
+                                                "parent": "Process",
                                                 "value": 7,
                                                 "type": "lightgreen",
                                                 "level": "black"
@@ -673,7 +673,7 @@ var treeJson = [
                                     },
                                     {
                                         "name": "Microsoft",
-                                        "parent": "Data Analysts",
+                                        "parent": " Data Scientists",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
@@ -688,16 +688,16 @@ var treeJson = [
                                             }]
                                     }
                                     , {
-                                        "name": "PHP",
-                                        "parent": "Data Analysts",
+                                        "name": "Development",
+                                        "parent": " Data Scientists",
                                         "value": 8,
                                         "type": "lightblue",
                                         "level": "orange",
                                         "_children": [
                                             {
-                                                "name": "Web Dev",
-                                                "classNum": "ITEC 3150",
-                                                "parent": "SQL",
+                                                "name": "TBA",
+                                                "classNum": "TBA",
+                                                "parent": "Development",
                                                 "value": 7,
                                                 "type": "lightgreen",
                                                 "level": "black"
