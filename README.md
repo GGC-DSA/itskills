@@ -82,8 +82,9 @@ I utilized the website kaggle.com to obtain the job listing datasets, Microsoft 
 4.  Build website showcase skills, courses, and job categories
 5.  Figure out a way to make website interactive
 
-### Spring 2022 Scope
-1.  Update Survey 
-2.  Collect more data on Students from Survey 
-3.  Diversify sites we are gathing data for keywords from
+### Spring 2022 Remaining Scope
+1.  Collect Survey from Alumni
+2.  Reach out to comapnies to collect data
+3.  Clean up interface/fix sizing for moblie use
+4.  update information on tree
 
