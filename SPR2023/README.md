@@ -7,4 +7,5 @@ As GGC (Georgia Gwinnett College) information technology students' progress in t
 ## Spring 2023 Team
 * Student: Ashley Mendez
 * Student: Anel Coralic
+* Student: Samuel Downs
 * Advisor: Dr. Anca Doloc-Mihu, Assistant Professor of Information Technology
