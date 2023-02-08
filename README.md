@@ -9,7 +9,7 @@ This tool is designed to assist IT students in exploring different entry-level p
 * Student: Michael Murillo Martinez
 * Advisor: Dr. Anca Doloc-Mihu, Assistant Professor of Information Technology
 
-## Team
+## Summer 2021 Team
 * Student: Hugh Smith
 * Advisor: Dr. Anca Doloc-Mihu, Assistant Professor of Information Technology
 
@@ -75,16 +75,13 @@ I utilized the website kaggle.com to obtain the job listing datasets, Microsoft 
 2.  Analysis in progress
     * Implement regex to better filter job postings dataset
 
-### Remaing Scope of Project
-1.  Collect and analyze surveys from students
-2.  Build matching skills to ITEC courses
-3.  Match skills from jobs to ITEC courses
-4.  Build website showcase skills, courses, and job categories
-5.  Figure out a way to make website interactive
-
-### Spring 2022 Remaining Scope
-1.  Collect Survey from Alumni
+### Spring 2022 Remaing Scope of Project
+1.  Collect and analyze surveys from students\
 2.  Reach out to comapnies to collect data
-3.  Clean up interface/fix sizing for moblie use
-4.  update information on tree
+3.  Build matching skills to ITEC courses
+4.  Match skills from jobs to ITEC courses
+5.  Build website showcase skills, courses, and job categories
+6.  Figure out a way to make website interactive
+7.  Clean up interface/fix sizing for mobile use
+8.  Update information on tree/ make better interface
 
