@@ -5,6 +5,10 @@ This tool is designed to assist IT students in exploring different entry-level p
 
 ### Project Demo Video: https://github.com/GGC-DSA/itskills/blob/main/media/Presentation.mp4        
 
+## Spring 2023 Team
+* Students: Anel Coralic, Sam Downs, Ashley Mendez
+* Advisor: Dr. Anca Doloc-Mihu, Assistant Professor of Information Technology
+
 ## Spring 2022 Team
 * Student: Michael Murillo Martinez
 * Advisor: Dr. Anca Doloc-Mihu, Assistant Professor of Information Technology
@@ -84,4 +88,3 @@ I utilized the website kaggle.com to obtain the job listing datasets, Microsoft 
 6.  Figure out a way to make website interactive
 7.  Clean up interface/fix sizing for mobile use
 8.  Update information on tree/ make better interface
-
