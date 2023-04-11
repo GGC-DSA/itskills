@@ -1,12 +1,10 @@
 // ************** Generate the tree diagram  *****************
-    width = window.innerWidth// Use the window's width
-    , height = window.innerHeight// Use the window's height
+var width = window.innerWidth; // Use the window's width
+var height = window.innerHeight; // Use the window's height
 
 var i = 0,
     duration = 750,
     root;
-
-
 
 var tree = d3.layout.tree().size([height, width]);
 
@@ -22,7 +20,7 @@ var svg = d3.select("body").append("svg")
 svg.append("rect")
     .attr("width", "75%")
     .attr("height", "100%")
-    .attr("fill",  "#d7e1ec")
+    .attr("fill", "#d7e1ec")
     .attr("rx", "10%");
 
 var aspect = width / height,
@@ -33,6 +31,7 @@ d3.select(window)
         chart.attr("width", targetWidth);
         chart.attr("height", targetWidth / aspect);
     });
+
 root = treeJson[0];
 root.x0 = height / 2;
 root.y0 = 0;
@@ -48,7 +47,7 @@ function update(source) {
 
     // Normalize for fixed-depth y.
     nodes.forEach(function (d) {
-        d.y = d.depth * 120;
+        d.y = d.depth * 180; // Modified to increase horizontal spacing between nodes
     });
 
     // Update the nodes…
@@ -61,7 +60,7 @@ function update(source) {
     var nodeEnter = node.enter().append("g")
         .attr("class", "node")
         .attr("transform", function (d) {
-            return "translate(" + source.x0 + "," + source.y0 + ")";
+            return "translate(" + source.y0 + "," + source.x0 + ")"; // Modified to start from left center
         })
         .on("click", click);
 
@@ -77,9 +76,10 @@ function update(source) {
         })
         // adds hover effect
         .attr("r", 4.5).on("mouseover", function (d) {
-        d3.select(this.parentNode).select("text").style("fill", "blue");
-            }).on("mouseout", function (d) {
-        d3.select(this.parentNode).select("text").style("fill", "black")});
+            d3.select(this.parentNode).select("text").style("fill", "blue");
+        }).on("mouseout", function (d) {
+            d3.select(this.parentNode).select("text").style("fill", "black")
+        });
 
     nodeEnter.append("text")
         .attr("y", function (d) {
@@ -88,26 +88,21 @@ function update(source) {
         .attr("dy", "0em")
         .attr("text-anchor", "middle")
         .text(function (d) {
-            if(d.classNum == null)
-            {
+            if (d.classNum == null) {
+                return d.name;
+            } else {
                 return d.name;
             }
-            else
-            {
-                return d.name ;  //d.classNum ;
-            }
-
-
         })
         .style("fill-opacity", 1);
 
 
 
-    // Transition nodes to their new position.
-    var nodeUpdate = node.transition()
+// Transition nodes to their new position.
+var nodeUpdate = node.transition()
         .duration(duration)
         .attr("transform", function (d) {
-            return "translate(" + d.x + "," + d.y + ")";
+            return "translate(" + d.y + "," + d.x + ")";
         });
 
     nodeUpdate.select("circle")
@@ -128,7 +123,8 @@ function update(source) {
     var nodeExit = node.exit().transition()
         .duration(duration)
         .attr("transform", function (d) {
-            return "translate(" + source.x + "," + source.y + ")"; })
+            return "translate(" + source.y + "," + source.x + ")";
+        })
         .remove();
 
     nodeExit.select("circle")
@@ -137,19 +133,25 @@ function update(source) {
     nodeExit.select("text")
         .style("fill-opacity", 1e-6);
 
-    // Update the links…
+    // Update the links...
     var link = svg.selectAll("path.link")
         .data(links, function (d) {
             return d.target.id;
         });
 
-    // Enter the links.
+    // Enter any new links at the parent's previous position.
     link.enter().insert("path", "g")
         .attr("class", "link")
-        .style("stroke", function (d) {
-            return d.target.level;
-        })
-        .attr("d", diagonal);
+        .attr("d", function (d) {
+            var o = {
+                x: source.x0,
+                y: source.y0
+            };
+            return diagonal({
+                source: o,
+                target: o
+            });
+        });
 
     // Transition links to their new position.
     link.transition()
@@ -160,31 +162,26 @@ function update(source) {
     link.exit().transition()
         .duration(duration)
         .attr("d", function (d) {
-            var o = {y: source.y, x: source.x};
-            return diagonal({source: o, target: o});
+            var o = {
+                x: source.x,
+                y: source.y
+            };
+            return diagonal({
+                source: o,
+                target: o
+            });
         })
         .remove();
 
     // Stash the old positions for transition.
     nodes.forEach(function (d) {
-        d.y0 = d.y;
         d.x0 = d.x;
+        d.y0 = d.y;
     });
 }
 
+// Toggle children on click.
 function click(d) {
-    var index;
-    for(var i=0;i<d.parent.children.length;i++){//length of current label
-        if(d.parent.children[i].name===d.name)
-            index = i;
-    };
-
-    for(var i=0;i<d.parent.children.length;i++){
-        if(typeof d.parent.children[i].children!=="undefined" && i!=index){//if child is expnd then make null
-            d.parent.children[i]._children=d.parent.children[i].children;
-            d.parent.children[i].children= null;
-        }
-    }
     if (d.children) {
         d._children = d.children;
         d.children = null;

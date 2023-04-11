@@ -708,21 +708,6 @@ var treeJson = [
 
                             }]
                     }
-                    {
-                        "name": "Digital Media",
-                        "parent": "INFORMATION TECHNOLOGY",
-                        "value": 10,
-                        "type": "steelblue",
-                        "level": "green",
-                        "_children": [
-                            {
-                                "name": "Data Analysts",
-                                "parent": "Data  Science",
-                                "value": 9,
-                                "type": "darkblue",
-                                "level": "purple",
-                                "_children": [ 
-                    }
 
                 ]
             }]
