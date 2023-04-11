@@ -102,6 +102,10 @@ function update(source) {
 var nodeUpdate = node.transition()
         .duration(duration)
         .attr("transform", function (d) {
+            // Adjust the source.y coordinate of the first node (root node)
+            if (d === root) {
+                return "translate(" + d.y + "," + (d.x - 100) + ")";
+            }
             return "translate(" + d.y + "," + d.x + ")";
         });
 
