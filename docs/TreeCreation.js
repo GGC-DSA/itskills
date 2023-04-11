@@ -109,7 +109,7 @@ function update(source) {
     .attr("transform", function (d) {
       // Adjust the source.y coordinate of the first node (root node)
       if (d === root) {
-        return "translate(" + d.y + "," + (d.x - 200) + ")";
+        return "translate(" + d.y + "," + (d.x - 130) + ")";
       }
       return "translate(" + d.y + "," + d.x + ")";
     });
