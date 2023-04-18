@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <title>Grizzly Path</title>
 
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styleSheet.css" />
     <meta name="viewport" content="width=device-width, initial-scale=0.5" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
 
   <body>
@@ -17,9 +19,10 @@
 
     <!-- Create buttons to navigate website-->
     <div class="navbar">
-        <a href="index.html">About</a>
-        <div class="dropdown">
-        <button class="dropbtn" onclick="myFunction()">Concentrations
+      <a href="index.html">About</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">
+          Concentrations
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content" id="myDropdown">
@@ -28,28 +31,27 @@
           <a href="ERP.html">Enterprise Systems</a>
           <a href="SD.html">Software Development</a>
           <a href="SS.html">Systems and Security</a>
-
         </div>
-        </div> 
       </div>
-      
-      <script>
+    </div>
+
+    <script>
       /* When the user clicks on the button, 
       toggle between hiding and showing the dropdown content */
       function myFunction() {
         document.getElementById("myDropdown").classList.toggle("show");
       }
-      
+
       // Close the dropdown if the user clicks outside of it
-      window.onclick = function(e) {
-        if (!e.target.matches('.dropbtn')) {
-        var myDropdown = document.getElementById("myDropdown");
-          if (myDropdown.classList.contains('show')) {
-            myDropdown.classList.remove('show');
+      window.onclick = function (e) {
+        if (!e.target.matches(".dropbtn")) {
+          var myDropdown = document.getElementById("myDropdown");
+          if (myDropdown.classList.contains("show")) {
+            myDropdown.classList.remove("show");
           }
         }
-      }
-      </script>
+      };
+    </script>
 
     <div class="aboutMe">
       <h1>About The Project</h1>

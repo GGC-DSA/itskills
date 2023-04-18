@@ -1,6 +1,6 @@
 // ************** Generate the tree diagram  *****************
-var width = window.innerWidth; // Use the window's width
-var height = window.innerHeight; // Use the window's height
+(width = window.innerWidth), // Use the window's width
+  (height = window.innerHeight); // Use the window's height
 
 var i = 0,
   duration = 750,
@@ -32,7 +32,6 @@ d3.select(window).on("resize", function () {
   chart.attr("width", targetWidth);
   chart.attr("height", targetWidth / aspect);
 });
-
 root = treeJson[0];
 root.x0 = height / 2;
 root.y0 = 0;
@@ -48,7 +47,7 @@ function update(source) {
 
   // Normalize for fixed-depth y.
   nodes.forEach(function (d) {
-    d.y = d.depth * 180; // Modified to increase horizontal spacing between nodes
+    d.y = d.depth * 120;
   });
 
   // Update the nodes…
@@ -62,7 +61,7 @@ function update(source) {
     .append("g")
     .attr("class", "node")
     .attr("transform", function (d) {
-      return "translate(" + source.y0 + "," + source.x0 + ")"; // Modified to start from left center
+      return "translate(" + source.x0 + "," + source.y0 + ")";
     })
     .on("click", click);
 
@@ -97,7 +96,7 @@ function update(source) {
       if (d.classNum == null) {
         return d.name;
       } else {
-        return d.name;
+        return d.name; //d.classNum ;
       }
     })
     .style("fill-opacity", 1);
@@ -107,11 +106,7 @@ function update(source) {
     .transition()
     .duration(duration)
     .attr("transform", function (d) {
-      // Adjust the source.y coordinate of the first node (root node)
-      if (d === root) {
-        return "translate(" + d.y + "," + (d.x - 130) + ")";
-      }
-      return "translate(" + d.y + "," + d.x + ")";
+      return "translate(" + d.x + "," + d.y + ")";
     });
 
   nodeUpdate
@@ -134,7 +129,7 @@ function update(source) {
     .transition()
     .duration(duration)
     .attr("transform", function (d) {
-      return "translate(" + source.y + "," + source.x + ")";
+      return "translate(" + source.x + "," + source.y + ")";
     })
     .remove();
 
@@ -178,8 +173,20 @@ function update(source) {
   });
 }
 
-// Toggle children on click.
 function click(d) {
+  var index;
+  for (var i = 0; i < d.parent.children.length; i++) {
+    //length of current label
+    if (d.parent.children[i].name === d.name) index = i;
+  }
+
+  for (var i = 0; i < d.parent.children.length; i++) {
+    if (typeof d.parent.children[i].children !== "undefined" && i != index) {
+      //if child is expnd then make null
+      d.parent.children[i]._children = d.parent.children[i].children;
+      d.parent.children[i].children = null;
+    }
+  }
   if (d.children) {
     d._children = d.children;
     d.children = null;
