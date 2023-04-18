@@ -1,18 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
+    <title>Grizzly Path</title>
+
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styleSheet.css" />
     <meta name="viewport" content="width=device-width, initial-scale=0.5" />
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <body>
-    <h1>Mapping GGC courses to desired skills in the industry</h1>
 
-    <!-- load the d3.js library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
-    <script src="Json.js"></script>
-    <script src="TreeCreation.js"></script>
+  <body>
+    <!-- Title for WebPage-->
+    <h1>Grizzly Path</h1>
+
+    <!-- Create buttons to navigate website-->
+    <div class="navbar">
+        <a href="index.html">About</a>
+        <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">Concentrations
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+          <a href="DSA.html">Data Science and Analytics</a>
+          <a href="DM.html">Digital Media</a>
+          <a href="ERP.html">Enterprise Systems</a>
+          <a href="SD.html">Software Development</a>
+          <a href="SS.html">Systems and Security</a>
+
+        </div>
+        </div> 
+      </div>
+      
+      <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(e) {
+        if (!e.target.matches('.dropbtn')) {
+        var myDropdown = document.getElementById("myDropdown");
+          if (myDropdown.classList.contains('show')) {
+            myDropdown.classList.remove('show');
+          }
+        }
+      }
+      </script>
 
     <div class="aboutMe">
       <h1>About The Project</h1>
