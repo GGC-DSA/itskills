@@ -23,7 +23,7 @@
 
   body {
     background-image: url("ggc.png.jpg");
-    background-size: contain;
+    background-size: cover; /* Update background-size property */
   }
 
   div.aboutMe {
