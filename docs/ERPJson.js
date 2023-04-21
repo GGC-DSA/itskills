@@ -1,0 +1,456 @@
+var treeJson = [
+  {
+    name: "Enterprise Systems",
+    value: 14,
+    type: "black",
+    level: "red",
+    children: [
+      {
+        name: "Business Analyst",
+        parent: "Enterprise Systems",
+        value: 12,
+        type: "grey",
+        level: "pink",
+        children: [
+          {
+            name: "ERP Systems",
+            parent: "Business Analyst",
+            value: 10,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "ERP Systems",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "SQL",
+            parent: "Business Analyst",
+            value: 8,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "SQL",
+                value: 7,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Microsoft Excel",
+            parent: "Microsoft Excel",
+            value: 6,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Microsoft Excel",
+                value: 5,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Analysis Skills",
+            parent: "Business Analyst",
+            value: 4,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Analysis Skills",
+                value: 3,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Power BI",
+            parent: "Business Analyst",
+            value: 2,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Power BI",
+                value: 1,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "IT Business Analyst",
+        parent: "Enterprise Systems",
+        value: 0,
+        type: "grey",
+        level: "pink",
+        children: [
+          {
+            name: "ERP Systems",
+            parent: "IT Business Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "ERP Systems",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Business Analysis",
+            parent: "IT Business Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Business Analysis",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Microsoft Excel",
+            parent: "IT Business Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Microsoft Excel",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Manufacturing",
+            parent: "IT Business Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Manufacturing",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "SQL",
+            parent: "IT Business Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "SQL",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "ERP Analyst",
+        parent: "Enterprise Systems",
+        value: 0,
+        type: "grey",
+        level: "pink",
+        children: [
+          {
+            name: "ERP Systems",
+            parent: "ERP Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "ERP Systems",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Manufacturing",
+            parent: "ERP Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Manufacturing",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Microsoft Excel",
+            parent: "ERP Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Microsoft Excel",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "SQL",
+            parent: "ERP Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "SQL",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Power BI",
+            parent: "ERP Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Power BI",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "Operations Analyst",
+        parent: "Enterprise Systems",
+        value: 0,
+        type: "grey",
+        level: "pink",
+        children: [
+          {
+            name: "Microsoft Excel",
+            parent: "ERP Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Microsoft Excel",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Analysis Skills",
+            parent: "ERP Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Analysis Skills",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "ERP Systems",
+            parent: "ERP Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "ERP Systems",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "SQL",
+            parent: "ERP Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "SQL",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Manufacturing",
+            parent: "ERP Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Manufacturing",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "Financial Analyst",
+        parent: "Enterprise Systems",
+        value: 0,
+        type: "grey",
+        level: "pink",
+        children: [
+          {
+            name: "Microsoft Excel",
+            parent: "Financial Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Microsoft Excel",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "ERP Systems",
+            parent: "Financial Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "ERP Systems",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Accounting",
+            parent: "Financial Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Accounting",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Analysis Skills",
+            parent: "Financial Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Analysis Skills",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Microsoft Powerpoint",
+            parent: "Financial Analyst",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Microsoft Powerpoint",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+];
+console.log(JSON.parse(treeJson));
