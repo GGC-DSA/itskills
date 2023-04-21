@@ -1,0 +1,456 @@
+var treeJson = [
+  {
+    name: "Software Development",
+    value: 14,
+    type: "black",
+    level: "red",
+    children: [
+      {
+        name: "Software Engineer",
+        parent: "Software Development",
+        value: 12,
+        type: "grey",
+        level: "pink",
+        children: [
+          {
+            name: "C++",
+            parent: "Software Engineer",
+            value: 10,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "C++",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "SQL",
+            parent: "Software Engineer",
+            value: 8,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "SQL",
+                value: 7,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "React",
+            parent: "Software Engineer",
+            value: 6,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "React",
+                value: 5,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Agile",
+            parent: "Software Engineer",
+            value: 4,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Agile",
+                value: 3,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Design Patterns",
+            parent: "Software Engineer",
+            value: 2,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Design Patterns",
+                value: 1,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "Software Developer",
+        parent: "Software Development",
+        value: 0,
+        type: "grey",
+        level: "pink",
+        children: [
+          {
+            name: "SQL",
+            parent: "Software Developer",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "SQL",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "CSS",
+            parent: "Software Developer",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "CSS",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Azure",
+            parent: "Software Developer",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Azure",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "React",
+            parent: "Software Developer",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "React",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "REST",
+            parent: "Software Developer",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "REST",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "DevOps Engineer",
+        parent: "Software Development",
+        value: 0,
+        type: "grey",
+        level: "pink",
+        children: [
+          {
+            name: "DevOps",
+            parent: "DevOps Engineer",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "DevOps",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Azure",
+            parent: "DevOps Engineer",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Azure",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Shell Scripting",
+            parent: "DevOps Engineer",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Shell Scripting",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Bash",
+            parent: "DevOps Engineer",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Bash",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Jenkins",
+            parent: "DevOps Engineer",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Jenkins",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "Web Developer",
+        parent: "Software Development",
+        value: 0,
+        type: "grey",
+        level: "pink",
+        children: [
+          {
+            name: "CSS",
+            parent: "Web Developer",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "CSS",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "SQL",
+            parent: "Web Developer",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "SQL",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Node.js",
+            parent: "Web Developer",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "Node.js",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "React",
+            parent: "Web Developer",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "React",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "APIs",
+            parent: "Web Developer",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "APIs",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "JOB 5",
+        parent: "Software Development",
+        value: 0,
+        type: "grey",
+        level: "pink",
+        children: [
+          {
+            name: "SKILL 1",
+            parent: "JOB 5",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "SKILL 1",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "SKILL 2",
+            parent: "JOB 5",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "SKILL 2",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "SKILL 3",
+            parent: "JOB 5",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "SKILL 3",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "SKILL 4",
+            parent: "JOB 5",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "SKILL 4",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "SKILL 5",
+            parent: "JOB 5",
+            value: 0,
+            type: "steelblue",
+            level: "green",
+            children: [
+              {
+                name: "COURSE",
+                parent: "SKILL 5",
+                value: 0,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+];
+console.log(JSON.parse(treeJson));
