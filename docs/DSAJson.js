@@ -362,7 +362,7 @@ var treeJson = [
         ],
       },
       {
-        name: "JOB 5",
+        name: "JOB_5",
         parent: "Data Science and Analytics",
         value: 0,
         type: "grey",
