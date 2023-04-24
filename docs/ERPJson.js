@@ -11,14 +11,14 @@ var treeJson = [
         value: 12,
         type: "grey",
         level: "pink",
-        children: [
+        _children: [
           {
             name: "ERP Systems",
             parent: "Business Analyst",
             value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "ERP Systems",
@@ -34,7 +34,7 @@ var treeJson = [
             value: 8,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "SQL",
@@ -50,7 +50,7 @@ var treeJson = [
             value: 6,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Microsoft Excel",
@@ -66,7 +66,7 @@ var treeJson = [
             value: 4,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Analysis Skills",
@@ -82,7 +82,7 @@ var treeJson = [
             value: 2,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Power BI",
@@ -100,14 +100,14 @@ var treeJson = [
         value: 0,
         type: "grey",
         level: "pink",
-        children: [
+        _children: [
           {
             name: "ERP Systems",
             parent: "IT Business Analyst",
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "ERP Systems",
@@ -123,7 +123,7 @@ var treeJson = [
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Business Analysis",
@@ -139,7 +139,7 @@ var treeJson = [
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Microsoft Excel",
@@ -155,7 +155,7 @@ var treeJson = [
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Manufacturing",
@@ -171,7 +171,7 @@ var treeJson = [
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "SQL",
@@ -189,14 +189,14 @@ var treeJson = [
         value: 0,
         type: "grey",
         level: "pink",
-        children: [
+        _children: [
           {
             name: "ERP Systems",
             parent: "ERP Analyst",
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "ERP Systems",
@@ -212,7 +212,7 @@ var treeJson = [
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Manufacturing",
@@ -228,7 +228,7 @@ var treeJson = [
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Microsoft Excel",
@@ -244,7 +244,7 @@ var treeJson = [
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "SQL",
@@ -260,7 +260,7 @@ var treeJson = [
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Power BI",
@@ -278,14 +278,14 @@ var treeJson = [
         value: 0,
         type: "grey",
         level: "pink",
-        children: [
+        _children: [
           {
             name: "Microsoft Excel",
             parent: "ERP Analyst",
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Microsoft Excel",
@@ -301,7 +301,7 @@ var treeJson = [
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Analysis Skills",
@@ -317,7 +317,7 @@ var treeJson = [
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "ERP Systems",
@@ -333,7 +333,7 @@ var treeJson = [
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "SQL",
@@ -349,7 +349,7 @@ var treeJson = [
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Manufacturing",
@@ -367,14 +367,14 @@ var treeJson = [
         value: 0,
         type: "grey",
         level: "pink",
-        children: [
+        _children: [
           {
             name: "Microsoft Excel",
             parent: "Financial Analyst",
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Microsoft Excel",
@@ -390,7 +390,7 @@ var treeJson = [
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "ERP Systems",
@@ -406,7 +406,7 @@ var treeJson = [
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Accounting",
@@ -422,7 +422,7 @@ var treeJson = [
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Analysis Skills",
@@ -438,7 +438,7 @@ var treeJson = [
             value: 0,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Microsoft Powerpoint",
