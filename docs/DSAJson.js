@@ -31,14 +31,14 @@ var treeJson = [
           {
             name: "Machine Learning",
             parent: "Data Scientist",
-            value: 8,
+            value: 10,
             type: "steelblue",
             level: "green",
             children: [
               {
                 name: "COURSE",
                 parent: "Machine Learning",
-                value: 7,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -47,14 +47,14 @@ var treeJson = [
           {
             name: "SQL",
             parent: "Data Scientist",
-            value: 6,
+            value: 10,
             type: "steelblue",
             level: "green",
             children: [
               {
                 name: "COURSE",
                 parent: "SQL",
-                value: 5,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -63,14 +63,14 @@ var treeJson = [
           {
             name: "R",
             parent: "Data Scientist",
-            value: 4,
+            value: 10,
             type: "steelblue",
             level: "green",
             children: [
               {
                 name: "COURSE",
                 parent: "R",
-                value: 3,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -79,14 +79,14 @@ var treeJson = [
           {
             name: "Data Mining",
             parent: "Data Scientist",
-            value: 2,
+            value: 10,
             type: "steelblue",
             level: "green",
             children: [
               {
                 name: "COURSE",
                 parent: "Data Mining",
-                value: 1,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -97,21 +97,21 @@ var treeJson = [
       {
         name: "Data Analyst",
         parent: "Data Science and Analytics",
-        value: 0,
+        value: 12,
         type: "grey",
         level: "pink",
         children: [
           {
             name: "Python",
             parent: "Data Analyst",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
             children: [
               {
                 name: "COURSE",
                 parent: "Python",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -120,14 +120,14 @@ var treeJson = [
           {
             name: "Machine Learning",
             parent: "Data Analyst",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
             children: [
               {
                 name: "COURSE",
                 parent: "Machine Learning",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -136,14 +136,14 @@ var treeJson = [
           {
             name: "SQL",
             parent: "Data Analyst",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
             children: [
               {
                 name: "COURSE",
                 parent: "SQL",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -152,14 +152,14 @@ var treeJson = [
           {
             name: "R",
             parent: "Data Analyst",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
             children: [
               {
                 name: "COURSE",
                 parent: "R",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -168,14 +168,14 @@ var treeJson = [
           {
             name: "Analysis Skills",
             parent: "Data Analyst",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
             children: [
               {
                 name: "COURSE",
                 parent: "Analysis Skills",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -186,21 +186,21 @@ var treeJson = [
       {
         name: "Data Architect",
         parent: "Data Science and Analytics",
-        value: 0,
+        value: 12,
         type: "grey",
         level: "pink",
         children: [
           {
             name: "Machine Learning",
             parent: "Data Architect",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
             children: [
               {
                 name: "COURSE",
                 parent: "Machine Learning",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -209,14 +209,14 @@ var treeJson = [
           {
             name: "Python",
             parent: "Data Architect",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
             children: [
               {
                 name: "COURSE",
                 parent: "Python",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -225,14 +225,14 @@ var treeJson = [
           {
             name: "AI",
             parent: "Data Architect",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
             children: [
               {
                 name: "COURSE",
                 parent: "AI",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -241,14 +241,14 @@ var treeJson = [
           {
             name: "PyTorch",
             parent: "Data Architect",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
             children: [
               {
                 name: "COURSE",
                 parent: "PyTorch",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -257,14 +257,14 @@ var treeJson = [
           {
             name: "TensorFlow",
             parent: "Data Architect",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
             children: [
               {
                 name: "COURSE",
                 parent: "TensorFlow",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
