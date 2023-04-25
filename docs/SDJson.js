@@ -11,14 +11,14 @@ var treeJson = [
         value: 12,
         type: "grey",
         level: "pink",
-        children: [
+        _children: [
           {
             name: "C++",
             parent: "Software Engineer",
             value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "C++",
@@ -31,14 +31,14 @@ var treeJson = [
           {
             name: "SQL",
             parent: "Software Engineer",
-            value: 8,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "SQL",
-                value: 7,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -47,14 +47,14 @@ var treeJson = [
           {
             name: "React",
             parent: "Software Engineer",
-            value: 6,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "React",
-                value: 5,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -63,14 +63,14 @@ var treeJson = [
           {
             name: "Agile",
             parent: "Software Engineer",
-            value: 4,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Agile",
-                value: 3,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -79,14 +79,14 @@ var treeJson = [
           {
             name: "Design Patterns",
             parent: "Software Engineer",
-            value: 2,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Design Patterns",
-                value: 1,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -97,21 +97,21 @@ var treeJson = [
       {
         name: "Software Developer",
         parent: "Software Development",
-        value: 0,
+        value: 12,
         type: "grey",
         level: "pink",
-        children: [
+        _children: [
           {
             name: "SQL",
             parent: "Software Developer",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "SQL",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -120,14 +120,14 @@ var treeJson = [
           {
             name: "CSS",
             parent: "Software Developer",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "CSS",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -136,14 +136,14 @@ var treeJson = [
           {
             name: "Azure",
             parent: "Software Developer",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Azure",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -152,14 +152,14 @@ var treeJson = [
           {
             name: "React",
             parent: "Software Developer",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "React",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -168,14 +168,14 @@ var treeJson = [
           {
             name: "REST",
             parent: "Software Developer",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "REST",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -186,21 +186,21 @@ var treeJson = [
       {
         name: "DevOps Engineer",
         parent: "Software Development",
-        value: 0,
+        value: 12,
         type: "grey",
         level: "pink",
-        children: [
+        _children: [
           {
             name: "DevOps",
             parent: "DevOps Engineer",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "DevOps",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -209,14 +209,14 @@ var treeJson = [
           {
             name: "Azure",
             parent: "DevOps Engineer",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Azure",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -225,14 +225,14 @@ var treeJson = [
           {
             name: "Shell Scripting",
             parent: "DevOps Engineer",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Shell Scripting",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -241,14 +241,14 @@ var treeJson = [
           {
             name: "Bash",
             parent: "DevOps Engineer",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Bash",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -257,14 +257,14 @@ var treeJson = [
           {
             name: "Jenkins",
             parent: "DevOps Engineer",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Jenkins",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -275,21 +275,21 @@ var treeJson = [
       {
         name: "Web Developer",
         parent: "Software Development",
-        value: 0,
+        value: 12,
         type: "grey",
         level: "pink",
-        children: [
+        _children: [
           {
             name: "CSS",
             parent: "Web Developer",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "CSS",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -298,14 +298,14 @@ var treeJson = [
           {
             name: "SQL",
             parent: "Web Developer",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "SQL",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -314,14 +314,14 @@ var treeJson = [
           {
             name: "Node.js",
             parent: "Web Developer",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "Node.js",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -330,14 +330,14 @@ var treeJson = [
           {
             name: "React",
             parent: "Web Developer",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "React",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -346,14 +346,14 @@ var treeJson = [
           {
             name: "APIs",
             parent: "Web Developer",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "APIs",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -364,21 +364,21 @@ var treeJson = [
       {
         name: "JOB 5",
         parent: "Software Development",
-        value: 0,
+        value: 12,
         type: "grey",
         level: "pink",
-        children: [
+        _children: [
           {
             name: "SKILL 1",
             parent: "JOB 5",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "SKILL 1",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -387,14 +387,14 @@ var treeJson = [
           {
             name: "SKILL 2",
             parent: "JOB 5",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "SKILL 2",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -403,14 +403,14 @@ var treeJson = [
           {
             name: "SKILL 3",
             parent: "JOB 5",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "SKILL 3",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -419,14 +419,14 @@ var treeJson = [
           {
             name: "SKILL 4",
             parent: "JOB 5",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "SKILL 4",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
@@ -435,14 +435,14 @@ var treeJson = [
           {
             name: "SKILL 5",
             parent: "JOB 5",
-            value: 0,
+            value: 10,
             type: "steelblue",
             level: "green",
-            children: [
+            _children: [
               {
                 name: "COURSE",
                 parent: "SKILL 5",
-                value: 0,
+                value: 9,
                 type: "darkblue",
                 level: "purple",
               },
