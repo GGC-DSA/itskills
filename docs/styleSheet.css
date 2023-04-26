@@ -6,7 +6,8 @@
   }
 
   .node text {
-    font: 12px sans-serif;
+    /*font: 12px sans-serif;*/
+    font-optical-sizing: auto;
   }
 
   .link {
@@ -17,8 +18,15 @@
 
   h1 {
     text-align: center;
-    background-color: #ffffff;
-    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    color: #00704a;
+    /*
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);*/
+
+  }
+
+  h3 {
+    color:  #00704a;
+    /*background-color: #ffffff;*/
   }
 
   body {
@@ -28,14 +36,31 @@
 
   div.aboutMe {
     text-align: center;
+    font-family: cursive;
+    font-size: 110%;
+   /* background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);*/
+
+  }
+
+  div.Creaters {
+    text-align: center;
+    position: absolute;
+    left: 500px;
+    bottom: 0;
+    width: fit-content;
+    color: #000000;
     background-color: #ffffff;
-    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    border-radius: 30px;
+    border-style: dashed solid;
+    /*border: thick double #32a1ce;*/
+    border-width: thick;
   }
 }
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #a5acb0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
