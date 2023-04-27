@@ -272,6 +272,95 @@ var treeJson = [
           },
         ],
       },
+        {
+        name: "Web Developer",
+        parent: "Software Development",
+        value: 12,
+        type: "grey",
+        level: "pink",
+        _children: [
+          {
+            name: "CSS",
+            parent: "Web Developer",
+            value: 10,
+            type: "steelblue",
+            level: "green",
+            _children: [
+              {
+                name: "COURSE",
+                parent: "CSS",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "SQL",
+            parent: "Web Developer",
+            value: 10,
+            type: "steelblue",
+            level: "green",
+            _children: [
+              {
+                name: "COURSE",
+                parent: "SQL",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "Node.js",
+            parent: "Web Developer",
+            value: 10,
+            type: "steelblue",
+            level: "green",
+            _children: [
+              {
+                name: "COURSE",
+                parent: "Node.js",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "React",
+            parent: "Web Developer",
+            value: 10,
+            type: "steelblue",
+            level: "green",
+            _children: [
+              {
+                name: "COURSE",
+                parent: "React",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+          {
+            name: "APIs",
+            parent: "Web Developer",
+            value: 10,
+            type: "steelblue",
+            level: "green",
+            _children: [
+              {
+                name: "COURSE",
+                parent: "APIs",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
 ];
