@@ -103,18 +103,27 @@ I utilized the website kaggle.com to obtain the job listing datasets, Microsoft 
 3.  Grizzly Path Website up to date since April '23
 
 ## Datasets
+### Cleaned
 * [Digital Media](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Combined%2C%20Compressed%2C%20and%20Generalized/DMDF.csv)
 * [Enterprise Systems](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Combined%2C%20Compressed%2C%20and%20Generalized/ESDF.csv)
 * [Systems and Security](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Combined%2C%20Compressed%2C%20and%20Generalized/SASDF.csv)
 * [Software Development](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Combined%2C%20Compressed%2C%20and%20Generalized/SDDF.csv)
 * [Data Science and Analytics](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Anel's%20DSA/cleanedDSAData.csv)
+### Original
+* [Indeed CSV files](https://github.com/GGC-DSA/itskills/tree/main/Spr%20'23/Indeed%20Datasets)
+* [Simply Hired CSV files](https://github.com/GGC-DSA/itskills/tree/main/Spr%20'23/SimplyHiredData)
+
+## Main methods for Analysis, ML/AI 
+* Python - value_counts()
+* Predicting job titles - Naive Byes, Logistic Regression, Support Vector Machine, Random Forest
+
+## 2 Main Results
+![Systems and Security Common Job Titles](https://github.com/GGC-DSA/itskills/blob/main/media/Spr%20'23/Systems%20and%20Security%20Results/SAS_Common_JobTitles.jpg)
+![Software Developer Common Skills for Web Developer](https://github.com/GGC-DSA/itskills/blob/main/media/Spr%20'23/Software%20Development%20Results/SD_CommonSkills_WebDeveloper.jpg)
 
 ### Spring 2022 Remaing Scope of Project
-1.  Collect and analyze surveys from students\
-2.  Reach out to comapnies to collect data
-3.  Build matching skills to ITEC courses
-4.  Match skills from jobs to ITEC courses
-5.  Build website showcase skills, courses, and job categories
-6.  Figure out a way to make website interactive
-7.  Clean up interface/fix sizing for mobile use
-8.  Update information on tree/ make better interface
+1. Create/Update GGC class survey. Needs to be user friendly and easier to extract data.
+2. Ask GGC IT students to complete survey
+3. Associate skills from job titles to GGC courses.
+4. Update Grizzly Path website with GGC courses 
+
