@@ -3,26 +3,38 @@
 ## Description
 This tool is designed to assist IT students in exploring different entry-level positions and then view the specific courses at GGC which would provide the entry-level skills for each position they are interested in. The scope of this project for Spring 2021 is to gather job listing datasets, clean and filter the initial datasets, manually test the project's goal, and statistically analyze data about job skills. The result of the project is that we have proven that our process works and that important job-skills data can be captured, filtered, displayed, and can be ultimately used in an application. Significant further development is required. Other IT students at GGC will have the opportunity to provide more research into different entry-level positions and provide the actual development of the Web/Mobile application to create a highly-beneficial working tool.  
 
-### Project Demo Video Spring '23: 
-### Project Demo Video: https://github.com/GGC-DSA/itskills/blob/main/media/Presentation.mp4    
+## Project Demo Video
+### Spring '23:  [Grizzly Insights Screencast](https://github.com/GGC-DSA/itskills/blob/main/media/Spr%20'23/ItSkills%20Screencast%20Spring%202023.mp4)
+### Summer '21: [Hugh Smith Presentation](https://github.com/GGC-DSA/itskills/blob/main/media/Sum%20'21/Presentation.mp4)
 
-### Spring '23 Notebook: ![Grizzly Insights Notebook](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Grizzly_Insights.ipynb)
+## Project Website 
+### Spring '23: [Grizzly Path](ggc-dsa.github.io/itskills/)
 
-## Spring 2023 Team
+## Notebook
+### Spring '23: [Grizzly Insights Notebook](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Grizzly_Insights.ipynb)
+
+## Final Report
+### Spring '23: [Grizzly Insights Final Report](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Grizzly%20Insights%20Final%20Report.pdf)
+
+## Spring '23 Team
 ![alt text](https://github.com/GGC-DSA/itskills/blob/main/media/Spr%20'23/Team%20Photo)
 * Students: Anel Coralic, Sam Downs, Ashley Mendez
 * Advisor: Dr. Anca Doloc-Mihu, Assistant Professor of Information Technology
 
-## Spring 2022 Team
+## Spring '22 Team
 * Student: Michael Murillo Martinez
 * Advisor: Dr. Anca Doloc-Mihu, Assistant Professor of Information Technology
 
-## Summer 2021 Team
+## Summer '21 Team
 * Student: Hugh Smith
 * Advisor: Dr. Anca Doloc-Mihu, Assistant Professor of Information Technology
 
 ## Publications
-* STaRS Symposium 2nd Place Poster https://ggc-stars.github.io/posters/, April 8, 2021, GGC
+### STaRS Symposium Poster
+* [Grizzly Insights Poster, April 13, 2023 at GGC](https://github.com/GGC-DSA/itskills/blob/main/media/Spr%20'23/Grizzly_Insight_STARS_Poster_1.pdf)
+* 2nd Place Poster https://ggc-stars.github.io/posters/, April 8, 2021 at GGC
+### CREATE Symposium
+* [Grizzly Insights Presentation, April 27, 2023 at GGC](https://github.com/GGC-DSA/itskills/blob/main/media/Spr%20'23/Grizzly%20Insights%20CREATE_Presentation_ITSkills.pptx)
 * CREATE Symposium, April 29, 2021, GGC
 
 ## Outreach Activities
@@ -30,6 +42,13 @@ This tool is designed to assist IT students in exploring different entry-level p
 * ITEC 2140 Introduction to Java, Profession Xin Xu, April 28, 2021
 
 ## Technology
+### Spring '23
+* [Web Scraper Google Chrome Extension](https://chrome.google.com/webstore/detail/web-scraper-free-web-scra/jnhgnonknehpejjnehehllkliplmbmhn?hl=en)
+* [Web Scraper YouTube Tutorial](https://youtu.be/aClnnoQK9G0)
+* [Jupyter Notebook](https://jupyter.org/install)
+* [Google Colab](https://colab.research.google.com/)
+* Python, HTML, JavaScript, CSS
+### Summer '21
 I utilized the website kaggle.com to obtain the job listing datasets, Microsoft Excel for data cleansing, Google Drive for online file location, and Google Colab Notebook for python development, data analysis, and display.
 1. https://www.kaggle.com/
 2. https://www.microsoft.com/en-us/microsoft-365/excel
@@ -79,9 +98,16 @@ I utilized the website kaggle.com to obtain the job listing datasets, Microsoft 
             2. Will display histogram showing top skill words in chosen order
 
 ## Project Status
-1.  Datasets collected and cleaned
-2.  Analysis in progress
-    * Implement regex to better filter job postings dataset
+1.  Datasets collected from Jan '23
+2.  Cleaned and Analyzed for common skills and job titles
+3.  Grizzly Path Website up to date since April '23
+
+## Datasets
+* [Digital Media](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Combined%2C%20Compressed%2C%20and%20Generalized/DMDF.csv)
+* [Enterprise Systems](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Combined%2C%20Compressed%2C%20and%20Generalized/ESDF.csv)
+* [Systems and Security](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Combined%2C%20Compressed%2C%20and%20Generalized/SASDF.csv)
+* [Software Development](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Combined%2C%20Compressed%2C%20and%20Generalized/SDDF.csv)
+* [Data Science and Analytics](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Anel's%20DSA/cleanedDSAData.csv)
 
 ### Spring 2022 Remaing Scope of Project
 1.  Collect and analyze surveys from students\
