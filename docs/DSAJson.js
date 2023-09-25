@@ -20,14 +20,35 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 4400  Special Topics in Information Technology",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },    
               {
-                name: "COURSE",
+                name: "ITEC 4700  Artificial Intelligence",
+                parent: "Python",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },
+              {
+                name: "ITEC 4230 Data Science & Analytics Capstone Project",
+                parent: "Python",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },
+              {
+                name: "DATA 1501 Introduction to Data Science",
+                parent: "Python",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },
+              {
+                name: "Introduction to Programming",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
@@ -43,7 +64,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 4700  Artificial Intelligence",
                 parent: "Machine Learning",
                 value: 9,
                 type: "darkblue",
@@ -59,7 +80,28 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 3200  Introduction to Databases",
+                parent: "SQL",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },            
+              {
+                name: "ITEC 3860  Software Development I",
+                parent: "SQL",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },        
+              {
+                name: "ITEC 4450  Web Development",
+                parent: "SQL",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },          
+              {
+                name: "ITEC 4230 Data Science & Analytics Capstone Project",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
@@ -75,7 +117,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 4220 Advanced Data Analytics",
+                parent: "R",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },       
+              {
+                name: "ITEC 4230 Data Science & Analytics Capstone Project",
                 parent: "R",
                 value: 9,
                 type: "darkblue",
@@ -116,7 +165,35 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "DATA 1501 Introduction to Data Science",
+                parent: "Python",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },        
+              {
+                name: "Introduction to Programming",
+                parent: "Python",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },      
+              {
+                name: "ITEC 4700  Artificial Intelligence",
+                parent: "Python",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },       
+              {
+                name: "ITEC 4400  Special Topics in Information Technology",
+                parent: "Python",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },          
+              {
+                name: "ITEC 4230 Data Science & Analytics Capstone Project",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
@@ -132,7 +209,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 4700  Artificial Intelligence",
                 parent: "Machine Learning",
                 value: 9,
                 type: "darkblue",
@@ -148,7 +225,28 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 3200  Introduction to Databases",
+                parent: "SQL",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },       
+              {
+                name: "ITEC 4450  Web Development",
+                parent: "SQL",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },       
+              {
+                name: "ITEC 4220 Advanced Data Analytics",
+                parent: "SQL",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },        
+              {
+                name: "ITEC 4230 Data Science & Analytics Capstone Project",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
@@ -164,7 +262,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 4220 Advanced Data Analytics",
+                parent: "R",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },       
+              {
+                name: "ITEC 4230 Data Science & Analytics Capstone Project",
                 parent: "R",
                 value: 9,
                 type: "darkblue",
@@ -205,7 +310,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 4700  Artificial Intelligence",
                 parent: "Machine Learning",
                 value: 9,
                 type: "darkblue",
@@ -221,7 +326,35 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "DATA 1501 Introduction to Data Science",
+                parent: "Python",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },      
+              {
+                name: "ITEC 2120 Introduction to Programming",
+                parent: "Python",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },       
+              {
+                name: "ITEC 4400  Special Topics in Information Technology",
+                parent: "Python",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },       
+              {
+                name: "ITEC 4700  Artificial Intelligence",
+                parent: "Python",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },      
+              {
+                name: "ITEC 4230 Data Science & Analytics Capstone Project",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
@@ -237,7 +370,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 4700  Artificial Intelligence",
                 parent: "AI",
                 value: 9,
                 type: "darkblue",
@@ -253,7 +386,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 4700  Artificial Intelligence",
                 parent: "PyTorch",
                 value: 9,
                 type: "darkblue",
@@ -269,7 +402,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 4700  Artificial Intelligence",
                 parent: "TensorFlow",
                 value: 9,
                 type: "darkblue",
