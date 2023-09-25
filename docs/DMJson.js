@@ -139,7 +139,7 @@ var treeJson = [
                 level: "purple",
               },
               {
-                name: "ITEC 3870  Software Development II",
+                name: "ITEC 4230 Data Science & Analytics Capstone Project",
                 parent: "Communication Skills",
                 value: 9,
                 type: "darkblue",
