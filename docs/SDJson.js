@@ -13,14 +13,14 @@ var treeJson = [
         level: "pink",
         _children: [
           {
-            name: "C++",
+            name: "C#",
             parent: "Software Engineer",
             value: 10,
             type: "steelblue",
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 4650 Game Development",
                 parent: "C++",
                 value: 9,
                 type: "darkblue",
@@ -36,7 +36,35 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 3200  Introduction to Databases",
+                parent: "SQL",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },    
+              {
+                name: "ITEC 4450  Web Development",
+                parent: "SQL",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },      
+              {
+                name: "ITEC 4220 Advanced Data Analytics",
+                parent: "SQL",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },         
+              {
+                name: "ITEC 3860  Software Development I",
+                parent: "SQL",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },       
+              {
+                name: "ITEC 4230 Data Science & Analytics Capstone Project",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
@@ -68,7 +96,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 3870  Software Development II",
+                parent: "Agile",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },        
+              {
+                name: "ITEC 4860  Software Development Project",
                 parent: "Agile",
                 value: 9,
                 type: "darkblue",
@@ -109,7 +144,35 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 3200  Introduction to Databases",
+                parent: "SQL",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },    
+              {
+                name: "ITEC 4450  Web Development",
+                parent: "SQL",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },      
+              {
+                name: "ITEC 4220 Advanced Data Analytics",
+                parent: "SQL",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },         
+              {
+                name: "ITEC 3860  Software Development I",
+                parent: "SQL",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },       
+              {
+                name: "ITEC 4230 Data Science & Analytics Capstone Project",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
@@ -125,7 +188,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 2130  Web Technologies",
+                parent: "CSS",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },     
+              {
+                name: "ITEC 4450  Web Development",
                 parent: "CSS",
                 value: 9,
                 type: "darkblue",
@@ -230,7 +300,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 4100 Advanced Networks",
+                parent: "Shell Scripting",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },
+              {
+                name: "ITEC 3600 Operating Systems",
                 parent: "Shell Scripting",
                 value: 9,
                 type: "darkblue",
@@ -246,7 +323,21 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 3860  Software Development I",
+                parent: "Bash",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },
+              {
+                name: "ITEC 3870  Software Development II",
+                parent: "Bash",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },           
+              {
+                name: "ITEC 3300 Information Security",
                 parent: "Bash",
                 value: 9,
                 type: "darkblue",
@@ -287,7 +378,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 2130  Web Technologies",
+                parent: "CSS",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },     
+              {
+                name: "ITEC 4450  Web Development",
                 parent: "CSS",
                 value: 9,
                 type: "darkblue",
@@ -303,7 +401,35 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 3200  Introduction to Databases",
+                parent: "SQL",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },    
+              {
+                name: "ITEC 4450  Web Development",
+                parent: "SQL",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },      
+              {
+                name: "ITEC 4220 Advanced Data Analytics",
+                parent: "SQL",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },         
+              {
+                name: "ITEC 3860  Software Development I",
+                parent: "SQL",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },       
+              {
+                name: "ITEC 4230 Data Science & Analytics Capstone Project",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
@@ -319,7 +445,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 3870  Software Development II",
                 parent: "Node.js",
                 value: 9,
                 type: "darkblue",
@@ -351,7 +477,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 4220 Advanced Data Analytics",
                 parent: "APIs",
                 value: 9,
                 type: "darkblue",
