@@ -171,7 +171,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: ""DATA 1501 Introduction to Data Science"",
+                name: "DATA 1501 Introduction to Data Science",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
