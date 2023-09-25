@@ -36,7 +36,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "DATA 1501 Introduction to Data Science",
+                parent: "Microsoft Excel",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },              
+              {
+                name: "ITEC 2201 Introduction to Information Systems",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
@@ -68,7 +75,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 2110  Digital Media",
                 parent: "Adobe Photoshop",
                 value: 9,
                 type: "darkblue",
@@ -125,7 +132,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 3870  Software Development II",
+                parent: "Communication Skills",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },
+              {
+                name: "ITEC 3870  Software Development II",
                 parent: "Communication Skills",
                 value: 9,
                 type: "darkblue",
@@ -157,7 +171,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: ""DATA 1501 Introduction to Data Science"",
+                parent: "Microsoft Excel",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },          
+              {
+                name: "ITEC 2201 Introduction to Information Systems",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
@@ -214,7 +235,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 3870  Software Development II",
                 parent: "Communication Skills",
                 value: 9,
                 type: "darkblue",
@@ -230,7 +251,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 2110  Digital Media",
                 parent: "Adobe Photoshop",
                 value: 9,
                 type: "darkblue",
@@ -246,7 +267,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 3350 Digital Commerce",
                 parent: "Marketing",
                 value: 9,
                 type: "darkblue",
@@ -287,7 +308,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 3350 Digital Commerce",
                 parent: "Digital Marketing",
                 value: 9,
                 type: "darkblue",
@@ -335,7 +356,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "DATA 1501 Introduction to Data Science",
+                parent: "Microsoft Excel",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },          
+              {
+                name: "ITEC 2201 Introduction to Information Systems",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
@@ -392,7 +420,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 3350 Digital Commerce",
                 parent: "Marketing",
                 value: 9,
                 type: "darkblue",
@@ -440,7 +468,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 2110  Digital Media",
                 parent: "Adobe Premiere",
                 value: 9,
                 type: "darkblue",
