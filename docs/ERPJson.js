@@ -525,7 +525,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 4750 Enterprise Architecture Design",
                 parent: "ERP Systems",
                 value: 9,
                 type: "darkblue",
