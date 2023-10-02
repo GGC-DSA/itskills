@@ -376,7 +376,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 3870  Software Development II",
+                parent: "Communication Skills",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },
+              {
+                name: "ITEC 4230 Data Science & Analytics Capstone Project",
                 parent: "Communication Skills",
                 value: 9,
                 type: "darkblue",
