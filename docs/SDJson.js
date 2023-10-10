@@ -80,7 +80,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 3870 Software Development II",
+                parent: "React",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },     
+              {
+                name: "ITEC 4860 Software Development Project",
                 parent: "React",
                 value: 9,
                 type: "darkblue",
@@ -204,14 +211,14 @@ var treeJson = [
             ],
           },
           {
-            name: "Azure",
+            name: "AWS/Azure",
             parent: "Software Developer",
             value: 10,
             type: "steelblue",
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 4000 Cloud Computing Technologies",
                 parent: "Azure",
                 value: 9,
                 type: "darkblue",
@@ -227,7 +234,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 3870 Software Development II",
+                parent: "React",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },     
+              {
+                name: "ITEC 4860 Software Development Project",
                 parent: "React",
                 value: 9,
                 type: "darkblue",
@@ -243,7 +257,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 3870 Software Development II",
+                parent: "REST",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },      
+              {
+                name: "ITEC 4550 Mobile Application Development",
                 parent: "REST",
                 value: 9,
                 type: "darkblue",
@@ -261,30 +282,14 @@ var treeJson = [
         level: "pink",
         _children: [
           {
-            name: "DevOps",
+            name: "AWS/Azure",
             parent: "DevOps Engineer",
             value: 10,
             type: "steelblue",
             level: "green",
             _children: [
               {
-                name: "COURSE",
-                parent: "DevOps",
-                value: 9,
-                type: "darkblue",
-                level: "purple",
-              },
-            ],
-          },
-          {
-            name: "Azure",
-            parent: "DevOps Engineer",
-            value: 10,
-            type: "steelblue",
-            level: "green",
-            _children: [
-              {
-                name: "COURSE",
+                name: "ITEC 4000 Cloud Computing Technologies",
                 parent: "Azure",
                 value: 9,
                 type: "darkblue",
@@ -346,14 +351,14 @@ var treeJson = [
             ],
           },
           {
-            name: "Jenkins",
+            name: "Java",
             parent: "DevOps Engineer",
             value: 10,
             type: "steelblue",
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 3150 Advanced Programming",
                 parent: "Jenkins",
                 value: 9,
                 type: "darkblue",
@@ -461,7 +466,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 3870 Software Development II",
+                parent: "React",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },     
+              {
+                name: "ITEC 4860 Software Development Project",
                 parent: "React",
                 value: 9,
                 type: "darkblue",
@@ -478,6 +490,27 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 4220 Advanced Data Analytics",
+                parent: "APIs",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },      
+              {
+                name: "ITEC 3870 Software Development II",
+                parent: "APIs",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },       
+              {
+                name: "ITEC 4860 Software Development Project",
+                parent: "APIs",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },        
+              {
+                name: "ITEC 4550 Mobile Application Development",
                 parent: "APIs",
                 value: 9,
                 type: "darkblue",
