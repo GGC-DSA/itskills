@@ -96,7 +96,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 4150 Enterprise Process Integration",
+                parent: "Analysis Skills",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },        
+              {
+                name: "ITEC 4750 Enterprise Architecture Design",
                 parent: "Analysis Skills",
                 value: 9,
                 type: "darkblue",
@@ -160,7 +167,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "Domain Elective(s) for General Business",
                 parent: "Business Analysis",
                 value: 9,
                 type: "darkblue",
@@ -185,22 +192,6 @@ var treeJson = [
               {
                 name: "ITEC 2201 Introduction to Information Systems",
                 parent: "Microsoft Excel",
-                value: 9,
-                type: "darkblue",
-                level: "purple",
-              },
-            ],
-          },
-          {
-            name: "Manufacturing",
-            parent: "IT Business Analyst",
-            value: 10,
-            type: "steelblue",
-            level: "green",
-            _children: [
-              {
-                name: "COURSE",
-                parent: "Manufacturing",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
@@ -270,22 +261,6 @@ var treeJson = [
             ],
           },
           {
-            name: "Manufacturing",
-            parent: "ERP Analyst",
-            value: 10,
-            type: "steelblue",
-            level: "green",
-            _children: [
-              {
-                name: "COURSE",
-                parent: "Manufacturing",
-                value: 9,
-                type: "darkblue",
-                level: "purple",
-              },
-            ],
-          },
-          {
             name: "Microsoft Excel",
             parent: "ERP Analyst",
             value: 10,
@@ -346,7 +321,7 @@ var treeJson = [
             ],
           },
           {
-            name: "SAP",
+            name: "SAP/Power BI/Tableau",
             parent: "ERP Analyst",
             value: 10,
             type: "steelblue",
@@ -408,7 +383,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 4150 Enterprise Process Integration",
+                parent: "Analysis Skills",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },        
+              {
+                name: "ITEC 4750 Enterprise Architecture Design",
                 parent: "Analysis Skills",
                 value: 9,
                 type: "darkblue",
@@ -463,22 +445,6 @@ var treeJson = [
               {
                 name: "ITEC 4230 Data Science & Analytics Capstone Project",
                 parent: "SQL",
-                value: 9,
-                type: "darkblue",
-                level: "purple",
-              },
-            ],
-          },
-          {
-            name: "Manufacturing",
-            parent: "ERP Analyst",
-            value: 10,
-            type: "steelblue",
-            level: "green",
-            _children: [
-              {
-                name: "COURSE",
-                parent: "Manufacturing",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
@@ -541,7 +507,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "Domain Elective Accounting: ACCT 2101",
                 parent: "Accounting",
                 value: 9,
                 type: "darkblue",
@@ -557,7 +523,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 4150 Enterprise Process Integration",
+                parent: "Analysis Skills",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },        
+              {
+                name: "ITEC 4750 Enterprise Architecture Design",
                 parent: "Analysis Skills",
                 value: 9,
                 type: "darkblue",
@@ -573,7 +546,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 1001 Introduction to Computing",
                 parent: "Microsoft Powerpoint",
                 value: 9,
                 type: "darkblue",
