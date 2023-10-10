@@ -57,7 +57,7 @@ var treeJson = [
             ],
           },
           {
-            name: "Machine Learning",
+            name: "Machine Learning/AI",
             parent: "Data Scientist",
             value: 10,
             type: "steelblue",
@@ -65,6 +65,20 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 4700  Artificial Intelligence",
+                parent: "Machine Learning",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              }, 
+              {
+                name: "MATH 2050 Statistics",
+                parent: "Machine Learning",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },         
+              {
+                name: "MATH 2450 Linear Algebra",
                 parent: "Machine Learning",
                 value: 9,
                 type: "darkblue",
@@ -126,22 +140,6 @@ var treeJson = [
               {
                 name: "ITEC 4230 Data Science & Analytics Capstone Project",
                 parent: "R",
-                value: 9,
-                type: "darkblue",
-                level: "purple",
-              },
-            ],
-          },
-          {
-            name: "Data Mining",
-            parent: "Data Scientist",
-            value: 10,
-            type: "steelblue",
-            level: "green",
-            _children: [
-              {
-                name: "COURSE",
-                parent: "Data Mining",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
@@ -285,7 +283,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 4220 Advanced Data Analytics",
+                parent: "Analysis Skills",
+                value: 9,
+                type: "darkblue",
+                level: "purple",
+              },       
+              {
+                name: "ITEC 4230 Data Science & Analytics Capstone Project",
                 parent: "Analysis Skills",
                 value: 9,
                 type: "darkblue",
