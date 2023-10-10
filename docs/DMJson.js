@@ -91,7 +91,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 1001 Introduction to Computing",
                 parent: "Microsoft Powerpoint",
                 value: 9,
                 type: "darkblue",
@@ -155,7 +155,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 2110 Digital Media",
                 parent: "Editing",
                 value: 9,
                 type: "darkblue",
@@ -333,22 +333,6 @@ var treeJson = [
             ],
           },
           {
-            name: "Google Ads",
-            parent: "Digital Marketing Specialist",
-            value: 10,
-            type: "steelblue",
-            level: "green",
-            _children: [
-              {
-                name: "COURSE",
-                parent: "Google Ads",
-                value: 9,
-                type: "darkblue",
-                level: "purple",
-              },
-            ],
-          },
-          {
             name: "Microsoft Excel",
             parent: "Digital Marketing Specialist",
             value: 10,
@@ -452,7 +436,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "COURSE",
+                name: "ITEC 2110 Digital Media",
                 parent: "Editing",
                 value: 9,
                 type: "darkblue",
