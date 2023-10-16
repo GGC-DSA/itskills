@@ -41,14 +41,14 @@ var treeJson = [
                 level: "purple",
               },
               {
-                name: "DATA 1501 Intro to Data Science",
+                name: "DATA 1501 Intro Data Science",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },
               {
-                name: "Intro to Programming",
+                name: "Intro Programming",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
@@ -94,7 +94,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3200  Introduction to Databases",
+                name: "ITEC 3200  Introduction Databases",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
@@ -163,14 +163,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "DATA 1501 Intro to Data Science",
+                name: "DATA 1501 Intro Data Science",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },        
               {
-                name: "Intro to Programming",
+                name: "Intro Programming",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
@@ -223,7 +223,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3200 Intro to Databases",
+                name: "ITEC 3200 Intro Databases",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
@@ -331,14 +331,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "DATA 1501 Intro to Data Science",
+                name: "DATA 1501 Intro Data Science",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },      
               {
-                name: "ITEC 2120 Intro to Programming",
+                name: "ITEC 2120 Intro Programming",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
