@@ -36,7 +36,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3200 Intro to Databases",
+                name: "ITEC 3200 Intro Databases",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
@@ -151,7 +151,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3200 Intro to Databases",
+                name: "ITEC 3200 Intro Databases",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
@@ -406,7 +406,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3200 Intro to Databases",
+                name: "ITEC 3200 Intro Databases",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
