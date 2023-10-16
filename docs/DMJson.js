@@ -36,14 +36,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "DATA 1501 Introduction to Data Science",
+                name: "DATA 1501 Intro to Data Science",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },              
               {
-                name: "ITEC 2201 Introduction to Information Systems",
+                name: "ITEC 2201 Intron to Info Systems",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
@@ -139,7 +139,7 @@ var treeJson = [
                 level: "purple",
               },
               {
-                name: "ITEC 4230 Data Science & Analytics Capstone Project",
+                name: "ITEC 4230 DSA Capstone",
                 parent: "Communication Skills",
                 value: 9,
                 type: "darkblue",
@@ -171,14 +171,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "DATA 1501 Introduction to Data Science",
+                name: "DATA 1501 Intro to Data Science",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },          
               {
-                name: "ITEC 2201 Introduction to Information Systems",
+                name: "ITEC 2201 Intro to Info Systems",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
@@ -251,7 +251,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 2110  Digital Media",
+                name: "ITEC 2110 Digital Media",
                 parent: "Adobe Photoshop",
                 value: 9,
                 type: "darkblue",
@@ -340,14 +340,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "DATA 1501 Introduction to Data Science",
+                name: "DATA 1501 Intro to Data Science",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },          
               {
-                name: "ITEC 2201 Introduction to Information Systems",
+                name: "ITEC 2201 Intro to Info Systems",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
