@@ -43,7 +43,7 @@ var treeJson = [
                 level: "purple",
               },              
               {
-                name: "ITEC 2201 Intron to Info Systems",
+                name: "ITEC 2201 Intro to Info Systems",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
