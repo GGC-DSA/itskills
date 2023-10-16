@@ -20,7 +20,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4400  Special Topics in Information Technology",
+                name: "ITEC 4400 Special Topics",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
@@ -34,21 +34,21 @@ var treeJson = [
                 level: "purple",
               },
               {
-                name: "ITEC 4230 Data Science & Analytics Capstone Project",
+                name: "ITEC 4230 DSA Capstone",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },
               {
-                name: "DATA 1501 Introduction to Data Science",
+                name: "DATA 1501 Intro to Data Science",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },
               {
-                name: "Introduction to Programming",
+                name: "Intro to Programming",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
@@ -115,7 +115,7 @@ var treeJson = [
                 level: "purple",
               },          
               {
-                name: "ITEC 4230 Data Science & Analytics Capstone Project",
+                name: "ITEC 4230 DSA Capstone",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
@@ -138,7 +138,7 @@ var treeJson = [
                 level: "purple",
               },       
               {
-                name: "ITEC 4230 Data Science & Analytics Capstone Project",
+                name: "ITEC 4230 DSA Capstone",
                 parent: "R",
                 value: 9,
                 type: "darkblue",
@@ -163,35 +163,35 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "DATA 1501 Introduction to Data Science",
+                name: "DATA 1501 Intro to Data Science",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },        
               {
-                name: "Introduction to Programming",
+                name: "Intro to Programming",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },      
               {
-                name: "ITEC 4700  Artificial Intelligence",
+                name: "ITEC 4700 Artificial Intelligence",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },       
               {
-                name: "ITEC 4400  Special Topics in Information Technology",
+                name: "ITEC 4400 Special Topics",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },          
               {
-                name: "ITEC 4230 Data Science & Analytics Capstone Project",
+                name: "ITEC 4230 DSA Capstone",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
@@ -223,14 +223,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3200  Introduction to Databases",
+                name: "ITEC 3200 Intro to Databases",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },       
               {
-                name: "ITEC 4450  Web Development",
+                name: "ITEC 4450 Web Development",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
@@ -244,7 +244,7 @@ var treeJson = [
                 level: "purple",
               },        
               {
-                name: "ITEC 4230 Data Science & Analytics Capstone Project",
+                name: "ITEC 4230 DSA Capstone",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
@@ -267,7 +267,7 @@ var treeJson = [
                 level: "purple",
               },       
               {
-                name: "ITEC 4230 Data Science & Analytics Capstone Project",
+                name: "ITEC 4230 DSA Capstone",
                 parent: "R",
                 value: 9,
                 type: "darkblue",
@@ -290,7 +290,7 @@ var treeJson = [
                 level: "purple",
               },       
               {
-                name: "ITEC 4230 Data Science & Analytics Capstone Project",
+                name: "ITEC 4230 DSA Capstone",
                 parent: "Analysis Skills",
                 value: 9,
                 type: "darkblue",
@@ -331,21 +331,21 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "DATA 1501 Introduction to Data Science",
+                name: "DATA 1501 Intro to Data Science",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },      
               {
-                name: "ITEC 2120 Introduction to Programming",
+                name: "ITEC 2120 Intro to Programming",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },       
               {
-                name: "ITEC 4400  Special Topics in Information Technology",
+                name: "ITEC 4400 Special Topics",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
@@ -359,7 +359,7 @@ var treeJson = [
                 level: "purple",
               },      
               {
-                name: "ITEC 4230 Data Science & Analytics Capstone Project",
+                name: "ITEC 4230 DSA Capstone",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
