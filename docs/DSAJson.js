@@ -48,7 +48,7 @@ var treeJson = [
                 level: "purple",
               },
               {
-                name: "     Intro Programming1",
+                name: "Intro Programming",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
