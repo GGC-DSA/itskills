@@ -27,7 +27,7 @@ var treeJson = [
                 level: "purple",
               },    
               {
-                name: "ITEC 4700  Artificial Intelligence",
+                name: "ITEC 4700  Artificial Intelligence1",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
