@@ -20,7 +20,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3300 Information Security",
+                name: "ITEC 3300 Info Security",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -41,7 +41,7 @@ var treeJson = [
                 level: "purple",
               },
               {
-                name: "ITEC 4550 Mobile Application Development",
+                name: "ITEC 4550 Mobile Apps Dev",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -57,21 +57,21 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4310  Operating Systems Security",
+                name: "ITEC 4310 OS Security",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },
               {
-                name: "ITEC 4330  System Administration",
+                name: "ITEC 4330 System Administration",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },
               {
-                name: "ITEC 3600 Operating Systems",
+                name: "ITEC 3600 OS",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
@@ -144,7 +144,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3300 Information Security",
+                name: "ITEC 3300 Info Security",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -165,7 +165,7 @@ var treeJson = [
                 level: "purple",
               },
               {
-                name: "ITEC 4550 Mobile Application Development",
+                name: "ITEC 4550 Mobile Apps Dev",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -270,14 +270,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4310  Operating Systems Security",
+                name: "ITEC 4310 OS Security",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },
               {
-                name: "ITEC 4330  System Administration",
+                name: "ITEC 4330 System Administration",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
@@ -300,7 +300,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3300 Information Security",
+                name: "ITEC 3300 Info Security",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -321,7 +321,7 @@ var treeJson = [
                 level: "purple",
               },
               {
-                name: "ITEC 4550 Mobile Application Development",
+                name: "ITEC 4550 Mobile Apps Dev",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -362,7 +362,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3300 Information Security",
+                name: "ITEC 3300 Info Security",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -383,7 +383,7 @@ var treeJson = [
                 level: "purple",
               },
               {
-                name: "ITEC 4550 Mobile Application Development",
+                name: "ITEC 4550 Mobile Apps Dev",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -399,7 +399,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4310  Operating Systems Security",
+                name: "ITEC 4310 OS Security",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
@@ -413,7 +413,7 @@ var treeJson = [
                 level: "purple",
               },
               {
-                name: "ITEC 3600 Operating Systems",
+                name: "ITEC 3600 OS",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
@@ -486,14 +486,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3870  Software Development II",
+                name: "ITEC 3870  Software Dev II",
                 parent: "Communication Skills",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },
               {
-                name: "ITEC 4230 Data Science & Analytics Capstone Project",
+                name: "ITEC 4230 DSA Capstone",
                 parent: "Communication Skills",
                 value: 9,
                 type: "darkblue",
@@ -509,21 +509,21 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4310  Operating Systems Security",
+                name: "ITEC 4310 OS Security",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },
               {
-                name: "ITEC 4330  System Administration",
+                name: "ITEC 4330 System Administration",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },
               {
-                name: "ITEC 3600 Operating Systems",
+                name: "ITEC 3600 OS",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
@@ -539,7 +539,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3300 Information Security",
+                name: "ITEC 3300 Info Security",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -560,7 +560,7 @@ var treeJson = [
                 level: "purple",
               },
               {
-                name: "ITEC 4550 Mobile Application Development",
+                name: "ITEC 4550 Mobile Apps Dev",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
