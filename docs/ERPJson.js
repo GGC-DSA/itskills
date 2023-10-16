@@ -36,28 +36,28 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3200  Introduction to Databases",
+                name: "ITEC 3200 Intro to Databases",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },            
               {
-                name: "ITEC 3860  Software Development I",
+                name: "ITEC 3860 Software Dev I",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },        
               {
-                name: "ITEC 4450  Web Development",
+                name: "ITEC 4450 Web Dev",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },          
               {
-                name: "ITEC 4230 Data Science & Analytics Capstone Project",
+                name: "ITEC 4230 DSA Capstone",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
@@ -73,14 +73,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "DATA 1501 Introduction to Data Science",
+                name: "DATA 1501 Intro to Data Science",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },       
               {
-                name: "ITEC 2201 Introduction to Information Systems",
+                name: "ITEC 2201 Intro to Info Systems",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
@@ -119,7 +119,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4210 Information Analytics",
+                name: "ITEC 4210 Info Analytics",
                 parent: "SAP",
                 value: 9,
                 type: "darkblue",
@@ -183,14 +183,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "DATA 1501 Introduction to Data Science",
+                name: "DATA 1501 Introto Data Science",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },       
               {
-                name: "ITEC 2201 Introduction to Information Systems",
+                name: "ITEC 2201 Intro to Info Systems",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
@@ -206,28 +206,28 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3200  Introduction to Databases",
+                name: "ITEC 3200 Intro to Databases",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },            
               {
-                name: "ITEC 3860  Software Development I",
+                name: "ITEC 3860 Software Dev I",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },        
               {
-                name: "ITEC 4450  Web Development",
+                name: "ITEC 4450 Web Dev",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },          
               {
-                name: "ITEC 4230 Data Science & Analytics Capstone Project",
+                name: "ITEC 4230 DSA Capstone",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
@@ -275,7 +275,7 @@ var treeJson = [
                 level: "purple",
               },      
               {
-                name: "ITEC 2201 Introduction to Information Systems",
+                name: "ITEC 2201 Intro to Info Systems",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
@@ -291,28 +291,28 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3200  Introduction to Databases",
+                name: "ITEC 3200 Intro to Databases",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },            
               {
-                name: "ITEC 3860  Software Development I",
+                name: "ITEC 3860 Software Dev",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },        
               {
-                name: "ITEC 4450  Web Development",
+                name: "ITEC 4450 Web Dev",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },          
               {
-                name: "ITEC 4230 Data Science & Analytics Capstone Project",
+                name: "ITEC 4230 DSA Capstone",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
@@ -328,7 +328,7 @@ var treeJson = [
             level: "green",
             _children: [
              {
-                name: "ITEC 4210 Information Analytics",
+                name: "ITEC 4210 Info Analytics",
                 parent: "SAP",
                 value: 9,
                 type: "darkblue",
@@ -360,14 +360,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "DATA 1501 Introduction to Data Science",
+                name: "DATA 1501 Intro to Data Science",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },      
               {
-                name: "ITEC 2201 Introduction to Information Systems",
+                name: "ITEC 2201 Intro to Info Systems",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
@@ -422,28 +422,28 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3200  Introduction to Databases",
+                name: "ITEC 3200 Intro to Databases",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },            
               {
-                name: "ITEC 3860  Software Development I",
+                name: "ITEC 3860 Software Dev I",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },        
               {
-                name: "ITEC 4450  Web Development",
+                name: "ITEC 4450 Web Dev",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },          
               {
-                name: "ITEC 4230 Data Science & Analytics Capstone Project",
+                name: "ITEC 4230 DSA Capstone",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
@@ -468,14 +468,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "DATA 1501 Introduction to Data Science",
+                name: "DATA 1501 Intro to Data Science",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },          
               {
-                name: "ITEC 2201 Introduction to Information Systems",
+                name: "ITEC 2201 Intro to Info Systems",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
