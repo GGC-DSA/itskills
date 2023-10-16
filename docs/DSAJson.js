@@ -20,14 +20,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4400  \nSpecial Topics in Information Technology",
+                name: "1ITEC 4400  \nSpecial Topics in Information Technology",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },    
               {
-                name: "ITEC 4700  Artificial Intelligence1",
+                name: "ITEC 4700  Artificial Intelligence",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
