@@ -99,6 +99,17 @@ function update(source) {
         return d.name; //d.classNum ;
       }
     })
+    .append("svg:tspan")
+    .attr("y", function (d) {
+      return d.children || d._children ? -0 : 0;
+    })
+    .attr("dy", "3em")
+    .attr("x", "0")
+    .text(function (d) {
+      if(d.line2) {
+        return d.line2
+      }
+    })
     .style("fill-opacity", 1);
 
   // Transition nodes to their new position.
