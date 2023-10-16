@@ -8,7 +8,7 @@
   .node text {
     font: 12px sans-serif;
     font-optical-sizing: auto;
-    white-space: pre;
+    white-space: pre-line;
   }
 
   .link {
