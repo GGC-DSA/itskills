@@ -20,7 +20,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: ['ITEC 3350 ','Digital Commerce'],
+                name: {name: "ITEC 3350", name: "Digital Commerce"},
                 parent: "Marketing",
                 value: 9,
                 type: "darkblue",
