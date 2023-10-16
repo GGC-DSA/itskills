@@ -36,14 +36,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "DATA 1501 Intro to Data Science",
+                name: "DATA 1501 Intro Data Science",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },              
               {
-                name: "ITEC 2201 Intro to Info Systems",
+                name: "ITEC 2201 Intro Info Systems",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
@@ -91,7 +91,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 1001 Introduction to Computing",
+                name: "ITEC 1001 Introduction Computing",
                 parent: "Microsoft Powerpoint",
                 value: 9,
                 type: "darkblue",
@@ -171,14 +171,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "DATA 1501 Intro to Data Science",
+                name: "DATA 1501 Intro Data Science",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },          
               {
-                name: "ITEC 2201 Intro to Info Systems",
+                name: "ITEC 2201 Intro Info Systems",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
@@ -340,14 +340,14 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "DATA 1501 Intro to Data Science",
+                name: "DATA 1501 Intro Data Science",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },          
               {
-                name: "ITEC 2201 Intro to Info Systems",
+                name: "ITEC 2201 Intro Info Systems",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
