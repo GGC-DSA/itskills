@@ -101,14 +101,14 @@ var treeJson = [
                 level: "purple",
               },            
               {
-                name: "ITEC 3860  Software Development I",
+                name: "ITEC 3860  Software Dev I",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },        
               {
-                name: "ITEC 4450  Web Development",
+                name: "ITEC 4450  Web Dev",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
@@ -230,7 +230,7 @@ var treeJson = [
                 level: "purple",
               },       
               {
-                name: "ITEC 4450 Web Development",
+                name: "ITEC 4450 Web Dev",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
