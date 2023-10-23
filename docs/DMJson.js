@@ -135,14 +135,16 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3870  Software Dev II",
+                name: "ITEC 3870 ",
+                line2: "Software Dev II",
                 parent: "Communication Skills",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },
               {
-                name: "ITEC 4230 DSA Capstone",
+                name: "ITEC 4230",
+                line2: "DSA Capstone",
                 parent: "Communication Skills",
                 value: 9,
                 type: "darkblue",
@@ -174,14 +176,16 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "DATA 1501 Intro Data Science",
+                name: "DATA 1501",
+                line2: "Intro Data Science",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },          
               {
-                name: "ITEC 2201 Intro Info Systems",
+                name: "ITEC 2201",
+                line2: "Intro Info Systems",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
@@ -343,14 +347,16 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "DATA 1501 Intro Data Science",
+                name: "DATA 1501 ",
+                line2: "Intro Data Science",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },          
               {
-                name: "ITEC 2201 Intro Info Systems",
+                name: "ITEC 2201 ",
+                line2: "Intro Info Systems",
                 parent: "Microsoft Excel",
                 value: 9,
                 type: "darkblue",
