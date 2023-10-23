@@ -127,7 +127,7 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4210 Info Analytics",
+                name: "ITEC 4210",
                 line2: "Info Analytics",
                 parent: "SAP",
                 value: 9,
@@ -135,7 +135,7 @@ var treeJson = [
                 level: "purple",
               },         
               {
-                name: "ITEC 4750 Enterprise Architecture Design",
+                name: "ITEC 4750",
                 line2: "Enterprise Architecture Design",
                 parent: "SAP",
                 value: 9,
@@ -350,7 +350,7 @@ var treeJson = [
             level: "green",
             _children: [
              {
-                name: "ITEC 4210 Info Analytics",
+                name: "ITEC 4210",
                 line2: "Info Analytics",
                 parent: "SAP",
                 value: 9,
@@ -358,7 +358,7 @@ var treeJson = [
                 level: "purple",
               },         
               {
-                name: "ITEC 4750 Enterprise Architecture Design",
+                name: "ITEC 4750",
                 line2: "Enterprise Architecture Design",
                 parent: "SAP",
                 value: 9,
