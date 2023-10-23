@@ -20,8 +20,8 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4400 ",
-                line2: "Special Topics",
+                name: "ITEC 3160 Python",
+                line2: "Data Science",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
@@ -168,8 +168,8 @@ var treeJson = [
             level: "green",
             _children: [
                             {
-                name: "ITEC 4400 ",
-                line2: "Special Topics",
+                name: "ITEC 3160 Python ",
+                line2: "Data Science",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
@@ -343,8 +343,8 @@ var treeJson = [
             level: "green",
             _children: [
                             {
-                name: "ITEC 4400 ",
-                line2: "Special Topics",
+                name: "ITEC 3160 ",
+                line2: "Data Science",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
