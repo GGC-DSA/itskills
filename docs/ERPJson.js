@@ -20,8 +20,8 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4750 Enterprise Architecture Design",
-                line2: "",
+                name: "ITEC 4750 ",
+                line2: "Enterprise Architecture Design",
                 parent: "ERP Systems",
                 value: 9,
                 type: "darkblue",
@@ -162,8 +162,8 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4750 Enterprise Architecture Design",
-                line2: "",
+                name: "ITEC 4750 ",
+                line2: "Enterprise Architecture Design",
                 parent: "ERP Systems",
                 value: 9,
                 type: "darkblue",
@@ -179,8 +179,8 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "Domain Elective(s) for General Business",
-                line2: "",
+                name: "Domain Elective(s) for ",
+                line2: "General Business",
                 parent: "Business Analysis",
                 value: 9,
                 type: "darkblue",
@@ -271,8 +271,8 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4750 Enterprise Architecture Design",
-                line2: "",
+                name: "ITEC 4750 ",
+                line2: "Enterprise Architecture Design",
                 parent: "ERP Systems",
                 value: 9,
                 type: "darkblue",
@@ -438,8 +438,8 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4750 Enterprise Architecture Design",
-                line2: "",
+                name: "ITEC 4750 ",
+                line2: "Enterprise Architecture Design",
                 parent: "ERP Systems",
                 value: 9,
                 type: "darkblue",
@@ -530,8 +530,8 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4750 Enterprise Architecture Design",
-                line2: "",
+                name: "ITEC 4750 ",
+                line2: "Enterprise Architecture Design",
                 parent: "ERP Systems",
                 value: 9,
                 type: "darkblue",
@@ -547,8 +547,8 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "Domain Elective Accounting: ACCT 2101",
-                line2: "",
+                name: "Domain Elective Accounting: ",
+                line2: "ACCT 2101",
                 parent: "Accounting",
                 value: 9,
                 type: "darkblue",
@@ -589,8 +589,8 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 1001 Introduction to Computing",
-                line2: "",
+                name: "ITEC 1001 ",
+                line2: "Introduction to Computing",
                 parent: "Microsoft Powerpoint",
                 value: 9,
                 type: "darkblue",
