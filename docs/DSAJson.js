@@ -20,9 +20,8 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3160 Python",
-                line2: "",
-                line2: "Data Science",
+                name: "ITEC 3160 ",
+                line2: "Python Data Science",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
@@ -70,24 +69,24 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4700  Artificial Intelligence",
-                line2: "",
+                name: "ITEC 4700  ",
+                line2: "Artificial Intelligence",
                 parent: "Machine Learning",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               }, 
               {
-                name: "MATH 2050 Statistics",
-                line2: "",
+                name: "MATH 2050 ",
+                line2: "Statistics",
                 parent: "Machine Learning",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },         
               {
-                name: "MATH 2450 Linear Algebra",
-                line2: "",
+                name: "MATH 2450 ",
+                line2: "Linear Algebra",
                 parent: "Machine Learning",
                 value: 9,
                 type: "darkblue",
@@ -103,32 +102,32 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3200  Introduction Databases",
-                line2: "",
+                name: "ITEC 3200  ",
+                line2: "Introduction Databases",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },            
               {
-                name: "ITEC 3860  Software Dev I",
-                line2: "",
+                name: "ITEC 3860  ",
+                line2: "Software Dev I",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },        
               {
-                name: "ITEC 4450  Web Dev",
-                line2: "",
+                name: "ITEC 4450  ",
+                line2: "Web Dev",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },          
               {
-                name: "ITEC 4230 DSA Capstone",
-                line2: "",
+                name: "ITEC 4230 ",
+                line2: "DSA Capstone",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
@@ -144,16 +143,16 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4220 Advanced Data Analytics",
-                line2: "",
+                name: "ITEC 4220 ",
+                line2: "Advanced Data Analytics",
                 parent: "R",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },       
               {
-                name: "ITEC 4230 DSA Capstone",
-                line2: "",
+                name: "ITEC 4230 ",
+                line2: "DSA Capstone",
                 parent: "R",
                 value: 9,
                 type: "darkblue",
@@ -178,9 +177,8 @@ var treeJson = [
             level: "green",
             _children: [
                             {
-                name: "ITEC 3160 Python ",
-                              line2: "",
-                line2: "Data Science",
+                name: "ITEC 3160",
+                line2: "Python Data Science",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
@@ -228,8 +226,8 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4700  Artificial Intelligence",
-                line2: "",
+                name: "ITEC 4700  ",
+                line2: "Artificial Intelligence",
                 parent: "Machine Learning",
                 value: 9,
                 type: "darkblue",
@@ -245,32 +243,32 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 3200 Intro Databases",
-                line2: "",
+                name: "ITEC 3200 ",
+                line2: "Intro Databases",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },       
               {
-                name: "ITEC 4450 Web Dev",
-                line2: "",
+                name: "ITEC 4450 ",
+                line2: "Web Dev",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },       
               {
-                name: "ITEC 4220 Advanced Data Analytics",
-                line2: "",
+                name: "ITEC 4220 ",
+                line2: "Advanced Data Analytics",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },        
               {
-                name: "ITEC 4230 DSA Capstone",
-                line2: "",
+                name: "ITEC 4230 ",
+                line2: "DSA Capstone",
                 parent: "SQL",
                 value: 9,
                 type: "darkblue",
@@ -286,16 +284,16 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4220 Advanced Data Analytics",
-                line2: "",
+                name: "ITEC 4220 ",
+                line2: "Advanced Data Analytics",
                 parent: "R",
                 value: 9,
                 type: "darkblue",
                 level: "purple",
               },       
               {
-                name: "ITEC 4230 DSA Capstone",
-                line2: "",
+                name: "ITEC 4230 ",
+                line2: "DSA Capstone",
                 parent: "R",
                 value: 9,
                 type: "darkblue",
@@ -345,8 +343,8 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4700  Artificial Intelligence",
-                line2: "",
+                name: "ITEC 4700  ",
+                line2: "Artificial Intelligence",
                 parent: "Machine Learning",
                 value: 9,
                 type: "darkblue",
@@ -363,7 +361,7 @@ var treeJson = [
             _children: [
                             {
                 name: "ITEC 3160 ",
-                line2: "Data Science",
+                line2: "Python Data Science",
                 parent: "Python",
                 value: 9,
                 type: "darkblue",
@@ -411,8 +409,8 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4700  Artificial Intelligence",
-                line2: "",
+                name: "ITEC 4700  ",
+                line2: "Artificial Intelligence",
                 parent: "AI",
                 value: 9,
                 type: "darkblue",
@@ -428,8 +426,8 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4700  Artificial Intelligence",
-                line2: "",
+                name: "ITEC 4700  ",
+                line2: "Artificial Intelligence",
                 parent: "PyTorch",
                 value: 9,
                 type: "darkblue",
@@ -445,8 +443,8 @@ var treeJson = [
             level: "green",
             _children: [
               {
-                name: "ITEC 4700  Artificial Intelligence",
-                line2: "",
+                name: "ITEC 4700",
+                line2: "Artificial Intelligence",
                 parent: "TensorFlow",
                 value: 9,
                 type: "darkblue",
