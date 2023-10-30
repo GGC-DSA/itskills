@@ -21,6 +21,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 3300 Info Security",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -28,6 +29,7 @@ var treeJson = [
               },
               {
                 name: "ITEC 4320 Internet Security",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -35,6 +37,7 @@ var treeJson = [
               }, 
               {
                 name: "ITEC 4200 Advanced Databases",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -42,6 +45,7 @@ var treeJson = [
               },
               {
                 name: "ITEC 4550 Mobile Apps Dev",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -58,6 +62,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 4310 OS Security",
+                line2: "",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
@@ -65,6 +70,7 @@ var treeJson = [
               },
               {
                 name: "ITEC 4330 System Administration",
+                line2: "",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
@@ -72,6 +78,7 @@ var treeJson = [
               },
               {
                 name: "ITEC 3600 OS",
+                line2: "",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
@@ -88,6 +95,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "CISSP",
                 value: 9,
                 type: "darkblue",
@@ -104,6 +112,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 4000 Cloud Computing Technologies",
+                line2: "",
                 parent: "Azure",
                 value: 9,
                 type: "darkblue",
@@ -120,6 +129,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "PCI",
                 value: 9,
                 type: "darkblue",
@@ -145,6 +155,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 3300 Info Security",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -152,6 +163,7 @@ var treeJson = [
               },
               {
                 name: "ITEC 4320 Internet Security",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -159,6 +171,7 @@ var treeJson = [
               }, 
               {
                 name: "ITEC 4200 Advanced Databases",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -166,6 +179,7 @@ var treeJson = [
               },
               {
                 name: "ITEC 4550 Mobile Apps Dev",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -182,6 +196,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 4000 Cloud Computing Technologies",
+                line2: "",
                 parent: "Azure",
                 value: 9,
                 type: "darkblue",
@@ -198,6 +213,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "Analysis Skills",
                 value: 9,
                 type: "darkblue",
@@ -214,6 +230,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "CISSP",
                 value: 9,
                 type: "darkblue",
@@ -230,6 +247,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "IDS",
                 value: 9,
                 type: "darkblue",
@@ -255,6 +273,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 4000 Cloud Computing Technologies",
+                line2: "",
                 parent: "Azure",
                 value: 9,
                 type: "darkblue",
@@ -271,6 +290,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 4310 OS Security",
+                line2: "",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
@@ -278,6 +298,7 @@ var treeJson = [
               },
               {
                 name: "ITEC 4330 System Administration",
+                line2: "",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
@@ -285,6 +306,7 @@ var treeJson = [
               },
               {
                 name: "ITEC 3600 Operating Systems",
+                line2: "",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
@@ -301,6 +323,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 3300 Info Security",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -308,6 +331,7 @@ var treeJson = [
               },
               {
                 name: "ITEC 4320 Internet Security",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -315,6 +339,7 @@ var treeJson = [
               }, 
               {
                 name: "ITEC 4200 Advanced Databases",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -322,6 +347,7 @@ var treeJson = [
               },
               {
                 name: "ITEC 4550 Mobile Apps Dev",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -338,6 +364,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "CISSP",
                 value: 9,
                 type: "darkblue",
@@ -363,6 +390,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 3300 Info Security",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -370,6 +398,7 @@ var treeJson = [
               },
               {
                 name: "ITEC 4320 Internet Security",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -377,6 +406,7 @@ var treeJson = [
               }, 
               {
                 name: "ITEC 4200 Advanced Databases",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -384,6 +414,7 @@ var treeJson = [
               },
               {
                 name: "ITEC 4550 Mobile Apps Dev",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -400,6 +431,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 4310 OS Security",
+                line2: "",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
@@ -407,6 +439,7 @@ var treeJson = [
               },
               {
                 name: "ITEC 4330  System Administration",
+                line2: "",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
@@ -414,6 +447,7 @@ var treeJson = [
               },
               {
                 name: "ITEC 3600 OS",
+                line2: "",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
@@ -430,6 +464,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "Analysis Skills",
                 value: 9,
                 type: "darkblue",
@@ -446,6 +481,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "PCI",
                 value: 9,
                 type: "darkblue",
@@ -462,6 +498,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "Vulnerability Management",
                 value: 9,
                 type: "darkblue",
@@ -487,6 +524,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 3870  Software Dev II",
+                line2: "",
                 parent: "Communication Skills",
                 value: 9,
                 type: "darkblue",
@@ -494,6 +532,7 @@ var treeJson = [
               },
               {
                 name: "ITEC 4230 DSA Capstone",
+                line2: "",
                 parent: "Communication Skills",
                 value: 9,
                 type: "darkblue",
@@ -510,6 +549,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 4310 OS Security",
+                line2: "",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
@@ -517,6 +557,7 @@ var treeJson = [
               },
               {
                 name: "ITEC 4330 System Administration",
+                line2: "",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
@@ -524,6 +565,7 @@ var treeJson = [
               },
               {
                 name: "ITEC 3600 OS",
+                line2: "",
                 parent: "Windows",
                 value: 9,
                 type: "darkblue",
@@ -540,6 +582,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 3300 Info Security",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -547,6 +590,7 @@ var treeJson = [
               },
               {
                 name: "ITEC 4320 Internet Security",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -554,6 +598,7 @@ var treeJson = [
               }, 
               {
                 name: "ITEC 4200 Advanced Databases",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -561,6 +606,7 @@ var treeJson = [
               },
               {
                 name: "ITEC 4550 Mobile Apps Dev",
+                line2: "",
                 parent: "Information Security",
                 value: 9,
                 type: "darkblue",
@@ -577,6 +623,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "CISSP",
                 value: 9,
                 type: "darkblue",
@@ -593,6 +640,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "IAT",
                 value: 9,
                 type: "darkblue",
