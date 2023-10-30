@@ -63,6 +63,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "Social Media Management",
                 value: 9,
                 type: "darkblue",
@@ -79,6 +80,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 2110  Digital Media",
+                line2: "",
                 parent: "Adobe Photoshop",
                 value: 9,
                 type: "darkblue",
@@ -95,6 +97,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 1001 Introduction Computing",
+                line2: "",
                 parent: "Microsoft Powerpoint",
                 value: 9,
                 type: "darkblue",
@@ -120,6 +123,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "Writing Skills",
                 value: 9,
                 type: "darkblue",
@@ -161,6 +165,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 2110 Digital Media",
+                line2: "",
                 parent: "Editing",
                 value: 9,
                 type: "darkblue",
@@ -202,6 +207,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "Social Media Management",
                 value: 9,
                 type: "darkblue",
@@ -227,6 +233,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "Social Media Management",
                 value: 9,
                 type: "darkblue",
@@ -243,6 +250,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 3870  Software Development II",
+                line2: "",
                 parent: "Communication Skills",
                 value: 9,
                 type: "darkblue",
@@ -259,6 +267,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 2110 Digital Media",
+                line2: "",
                 parent: "Adobe Photoshop",
                 value: 9,
                 type: "darkblue",
@@ -275,6 +284,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 3350 Digital Commerce",
+                line2: "",
                 parent: "Marketing",
                 value: 9,
                 type: "darkblue",
@@ -291,6 +301,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "Writing Skills",
                 value: 9,
                 type: "darkblue",
@@ -316,6 +327,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 3350 Digital Commerce",
+                line2: "",
                 parent: "Digital Marketing",
                 value: 9,
                 type: "darkblue",
@@ -332,6 +344,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "Social Media Management",
                 value: 9,
                 type: "darkblue",
@@ -373,6 +386,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "SEO",
                 value: 9,
                 type: "darkblue",
@@ -398,6 +412,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "Social Media Management",
                 value: 9,
                 type: "darkblue",
@@ -414,6 +429,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 3350 Digital Commerce",
+                line2: "",
                 parent: "Marketing",
                 value: 9,
                 type: "darkblue",
@@ -430,6 +446,7 @@ var treeJson = [
             _children: [
               {
                 name: "COURSE",
+                line2: "",
                 parent: "Writing Skills",
                 value: 9,
                 type: "darkblue",
@@ -446,6 +463,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 2110 Digital Media",
+                line2: "",
                 parent: "Editing",
                 value: 9,
                 type: "darkblue",
@@ -462,6 +480,7 @@ var treeJson = [
             _children: [
               {
                 name: "ITEC 2110  Digital Media",
+                line2: "",
                 parent: "Adobe Premiere",
                 value: 9,
                 type: "darkblue",
