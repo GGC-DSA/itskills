@@ -16,6 +16,10 @@ This tool is designed to assist IT students in exploring different entry-level p
 ## Final Report
 ### Spring '23: [Grizzly Insights Final Report](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Grizzly%20Insights%20Final%20Report.pdf)
 
+## Fall '23 Team
+* Students: Sam Downs
+* Advisor: Dr. Anca Doloc-Mihu
+
 ## Spring '23 Team
 ![alt text](https://github.com/GGC-DSA/itskills/blob/main/media/Spr%20'23/Team%20Photo)
 * Students: Anel Coralic, Sam Downs, Ashley Mendez
