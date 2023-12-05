@@ -1,0 +1,49 @@
+Skills,Course,Tech/Soft
+AWS,['ITEC 4000\xa0 Cloud Computing Technologies'],Technical
+Agile,"['ITEC 3870\xa0 Software Development II', 'ITEC 4860\xa0 Software Development Project']",Soft
+Andriod,['ITEC 4550\xa0 Mobile Application Development'],Technical
+Blender,['ITEC 2110\xa0 Digital Media'],Technical
+C#,['ITEC 3860\xa0 Software Development I'],Technical
+CSS,['ITEC 2130\xa0 Web Technologies'],Technical
+Communication,['ITEC 3870\xa0 Software Development II'],Soft
+Creative design,['ITEC 2110\xa0 Digital Media'],Soft
+Django,['ITEC 4860\xa0 Software Development Project'],Technical
+Ethics,['ITEC 3900\xa0 Professional Practice and Ethics'],Soft
+Flutter,['ITEC 4550\xa0 Mobile Application Development'],Technical
+Front-end languages,['ITEC 2130\xa0 Web Technologies'],Technical
+GIMP,['ITEC 2110\xa0 Digital Media'],Technical
+Graphical Design,['ITEC 2110\xa0 Digital Media'],Technical
+HTML,['ITEC 2130\xa0 Web Technologies'],Technical
+JIRA,"['ITEC 3870\xa0 Software Development II', 'ITEC 4860\xa0 Software Development Project']",Soft
+JUnit,['ITEC 4260\xa0 Software Testing and QA'],Technical
+Java,"['ITEC 3150\xa0 Advanced Programming', 'ITEC 3860\xa0 Software Development I', 'ITEC 3870\xa0 Software Development II', 'ITEC 4260\xa0 Software Testing and QA']",Technical
+Javascript,"['ITEC 3860\xa0 Software Development I', 'ITEC 3870\xa0 Software Development II', 'ITEC 4450\xa0 Web Development', 'ITEC 2130\xa0 Web Technologies']",Technical
+Laravel,['ITEC 4860\xa0 Software Development Project'],Technical
+Leadership,"['ITEC 3150\xa0 Advanced Programming', 'ITEC 3860\xa0 Software Development I']",Soft
+MTA,['ITEC 3100\xa0 Introduction to Networks'],Technical
+Machine Learning,['ITEC 4700\xa0 Artificial Intelligence'],Technical
+MySQL,['ITEC 3200\xa0 Introduction to Databases'],Technical
+Networking,['ITEC 3100\xa0 Introduction to Networks'],Technical
+OS,"['ITEC 4310\xa0 Operating Systems Security', 'ITEC 4330\xa0 System Administration']",Technical
+Oracle,['ITEC 4200\xa0 Advanced Databases'],Technical
+Organization,['ITEC 3150\xa0 Advanced Programming'],Soft
+Outlook,['ITEC 3870\xa0 Software Development II'],Technical
+PHP,"['ITEC 4450\xa0 Web Development', 'ITEC 4860\xa0 Software Development Project', 'ITEC 2130\xa0 Web Technologies']",Technical
+PacketTracer,['ITEC 3100\xa0 Introduction to Networks'],Technical
+Photoshop,['ITEC 2110\xa0 Digital Media'],Technical
+Postgres,['ITEC 4860\xa0 Software Development Project'],Technical
+Presentation,"['ITEC 3200\xa0 Introduction to Databases', 'ITEC 3700\xa0 Systems Analysis and Design', 'ITEC 3860\xa0 Software Development I', 'ITEC 3870\xa0 Software Development II', 'ITEC 3900\xa0 Professional Practice and Ethics', 'ITEC 4450\xa0 Web Development', 'ITEC 4550\xa0 Mobile Application Development', 'ITEC 4860\xa0 Software Development Project', 'ITEC 2130\xa0 Web Technologies']",Soft
+Python,"['ITEC 4400\xa0 Special Topics in Information Technology', 'ITEC 4700\xa0 Artificial Intelligence', 'ITEC 4860\xa0 Software Development Project']",Technical
+SQL,"['ITEC 3200\xa0 Introduction to Databases', 'ITEC 4200\xa0 Advanced Databases']",Technical
+SVG,['ITEC 2110\xa0 Digital Media'],Technical
+Scrum,['ITEC 3870\xa0 Software Development II'],Soft
+Selenium,['ITEC 4260\xa0 Software Testing and QA'],Technical
+Spring,['ITEC 3870\xa0 Software Development II'],Soft
+Subnetting,['ITEC 3100\xa0 Introduction to Networks'],Technical
+Teamwork,"['ITEC 3150\xa0 Advanced Programming', 'ITEC 3700\xa0 Systems Analysis and Design', 'ITEC 3860\xa0 Software Development I', 'ITEC 3870\xa0 Software Development II', 'ITEC 4260\xa0 Software Testing and QA', 'ITEC 4450\xa0 Web Development', 'ITEC 4860\xa0 Software Development Project', 'ITEC 2110\xa0 Digital Media']",Soft
+Time Management,['ITEC 3200\xa0 Introduction to Databases'],Soft
+UML,['ITEC 3700\xa0 Systems Analysis and Design'],Technical
+Waterfall,['ITEC 3860\xa0 Software Development I'],Soft
+paired programming,['ITEC 4260\xa0 Software Testing and QA'],Technical
+unit tests,['ITEC 4260\xa0 Software Testing and QA'],Technical
+vector graphics,['ITEC 2110\xa0 Digital Media'],Technical
