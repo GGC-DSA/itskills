@@ -50,6 +50,9 @@ This tool is designed to assist IT students in exploring different entry-level p
 * ITEC 2140 Introduction to Java, Profession Xin Xu, April 28, 2021
 
 ## Technology
+### Fall '23
+* [Jupyter Notebook](https://jupyter.org/install)
+* Python, JavaScript, JSON
 ### Spring '23
 * [Web Scraper Google Chrome Extension](https://chrome.google.com/webstore/detail/web-scraper-free-web-scra/jnhgnonknehpejjnehehllkliplmbmhn?hl=en)
 * [Web Scraper YouTube Tutorial](https://youtu.be/aClnnoQK9G0)
@@ -111,6 +114,11 @@ I utilized the website kaggle.com to obtain the job listing datasets, Microsoft 
 3.  Grizzly Path Website up to date since April '23
 
 ## Datasets
+### Fall 2023
+* [Cleaned Skills Survey](https://github.com/GGC-DSA/itskills/blob/main/Fall%202023/Documents/IT_Skills_Survey.csv)
+* [Not Cleaned Skills Survey](https://github.com/GGC-DSA/itskills/blob/main/Fall%202023/Documents/Matching_Skills_Courses_3_16_2023_11.32.csv)
+* [Skills To Classes](https://github.com/GGC-DSA/itskills/blob/main/Fall%202023/Documents/CoursesToSkills.csv)
+* [Skills To List of Classes](https://github.com/GGC-DSA/itskills/blob/main/Fall%202023/Documents/CoursesToSkillsList.csv)
 ### Cleaned
 * [Digital Media](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Combined%2C%20Compressed%2C%20and%20Generalized/DMDF.csv)
 * [Enterprise Systems](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Combined%2C%20Compressed%2C%20and%20Generalized/ESDF.csv)
