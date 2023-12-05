@@ -17,6 +17,7 @@ This tool is designed to assist IT students in exploring different entry-level p
 ### Spring '23: [Grizzly Insights Notebook](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Grizzly_Insights.ipynb)
 
 ## Final Report
+### Fall '23: [Fall 2023 Final Report](https://github.com/GGC-DSA/itskills/blob/main/Fall%202023/Report/Fall_2023_Report.pdf)
 ### Spring '23: [Grizzly Insights Final Report](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Grizzly%20Insights%20Final%20Report.pdf)
 
 ## Fall '23 Team
