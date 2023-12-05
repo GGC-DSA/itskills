@@ -137,6 +137,12 @@ I utilized the website kaggle.com to obtain the job listing datasets, Microsoft 
 ![Systems and Security Common Job Titles](https://github.com/GGC-DSA/itskills/blob/main/media/Spr%20'23/Systems%20and%20Security%20Results/SAS_Common_JobTitles.jpg)
 ![Software Developer Common Skills for Web Developer](https://github.com/GGC-DSA/itskills/blob/main/media/Spr%20'23/Software%20Development%20Results/SD_CommonSkills_WebDeveloper.jpg)
 
+### Fall 2023 Remaining Scope
+1. Create/Update GGC class survey and ask collect data from students using the survey.
+2. Collect more information about Entriprise Systems Classes.
+3. Add a disclaimer page
+4. Refactor the TreeCreation.js file
+
 ### Spring 2022 Remaing Scope of Project
 1. Create/Update GGC class survey. Needs to be user friendly and easier to extract data.
 2. Ask GGC IT students to complete survey
