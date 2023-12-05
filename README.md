@@ -4,7 +4,7 @@
 This tool is designed to assist IT students in exploring different entry-level positions and then view the specific courses at GGC which would provide the entry-level skills for each position they are interested in. The scope of this project for Spring 2021 is to gather job listing datasets, clean and filter the initial datasets, manually test the project's goal, and statistically analyze data about job skills. The result of the project is that we have proven that our process works and that important job-skills data can be captured, filtered, displayed, and can be ultimately used in an application. Significant further development is required. Other IT students at GGC will have the opportunity to provide more research into different entry-level positions and provide the actual development of the Web/Mobile application to create a highly-beneficial working tool.  
 
 ## Project Demo Video
-### Fall '23: [ITSkills_Fall_2023_Vlog.webm](https://github.com/GGC-DSA/itskills/assets/60529957/c88c3360-a92b-4571-852c-53548882d7f2)
+### Fall '23: [Fall 2023 Presentation](https://github.com/GGC-DSA/itskills/assets/60529957/c88c3360-a92b-4571-852c-53548882d7f2)
 ### Spring '23:  [Grizzly Insights Screencast](https://github.com/GGC-DSA/itskills/blob/main/media/Spr%20'23/ItSkills%20Screencast%20Spring%202023.mp4)
 ### Summer '21: [Hugh Smith Presentation](https://github.com/GGC-DSA/itskills/blob/main/media/Sum%20'21/Presentation.mp4)
 
