@@ -12,7 +12,7 @@ This tool is designed to assist IT students in exploring different entry-level p
 ### Spring '23: [Grizzly Path](ggc-dsa.github.io/itskills/)
 
 ## Notebook
-### Fall '23: [Grizzly Insights Notebook](https://github.com/GGC-DSA/itskills/blob/main/Fall 2023/Notebook/EditingCSV.ipynb)
+### Fall '23: [Fall 2023 Notebook](https://github.com/GGC-DSA/itskills/blob/main/Fall%2023/Notebook/EditingCSV.ipynb)
 
 ### Spring '23: [Grizzly Insights Notebook](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Grizzly_Insights.ipynb)
 
