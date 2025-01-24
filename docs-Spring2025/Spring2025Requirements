@@ -1,0 +1,43 @@
+Grizzly Gang – Capstone Project Requirements
+Remaining Fall 2024 Scope
+1.	Survey and Data Collection
+a.	Update and distribute the GGC class survey to students.
+b.	Collect responses and analyze trends to gather actionable insights.
+2.	Enterprise Systems Data
+a.	Gather detailed information about the Enterprise Systems classes, including syllabi, course outcomes, and skill mappings.
+3.	Website Enhancement
+a.	Add a disclaimer page to the website. The page should clearly state limitations, data sources, and intended use of the information.
+4.	Code Optimization
+a.	Refactor the TreeCreation.js file for better performance and maintainability. Ensure the code aligns with the updated website structure and client requirements.
+Spring 2025 Data Requirements
+5.	Job Posting Data
+a.	Obtain updated job postings and relevant skill requirements from Kaggle.com or other reliable sources.
+b.	Leverage web scraping tools for dynamic data retrieval.
+6.	Student Surveys
+a.	Design and deploy surveys using tools like SurveyMonkey to collect data about skills learned in specific courses.
+b.	Create a specialized survey targeting Enterprise Systems students for comprehensive data collection.
+7.	Data Cleansing and Utilization
+a.	Cleanse and preprocess survey data for accuracy and usability.
+b.	Integrate cleansed data into the IT skills website to enhance its relevance and value for users.
+Spring 2025 Functionality Requirements (Client-Specified)
+For Users:
+8.	Input Capabilities:
+a.	Allow users to enter their degrees through an intuitive text box or dropdown menu.
+b.	Enable users to input single or multiple courses (up to 5-10 at a time) for skill mapping.
+c.	Provide a separate field for users to list courses they plan to take in the future.
+9.	Output Features:
+a.	Display the skills associated with a specific degree program.
+b.	Show skills acquired from entered courses and compare them to job market requirements based on real-time job posting data.
+c.	Highlight gaps or matches between user-centered course skills and employer demands.
+For Team:
+10.	User Interface Enhancements:
+a.	Redesign the website structure from a tree-like form to a more linear and user-friendly format, as per client feedback.
+b.	Create a text box for degree entry and additional fields for single and multiple course entries.
+c.	Add a dedicated section for users to input their future course plans.
+11.	Legal and Informational Additions:
+a.	Develop and integrate a disclaimer page that outlines the limitations of the data and its intended use.
+General Project Goals
+12.	Ensure all new functionality is fully tested and debugged before deployment.
+13.	Revamp website to align with established client vision.
+14.	Maintain detailed documentation for all updates to facilitate future development.
+15.	Gather user feedback periodically to validate that the website meets user and client expectations.
