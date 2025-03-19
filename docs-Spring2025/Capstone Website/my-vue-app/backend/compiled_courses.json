@@ -1,0 +1,296 @@
+{
+  "Data Scientist": {
+    "ITEC 3160 - Python Data Science": {
+      "hard_skills": [
+        "Python",
+        "Data Manipulation",
+        "Pandas/Numpy",
+        "Hadoop",
+        "Spark"
+      ]
+    },
+    "ITEC 4700 - Artificial Intelligence": {
+      "hard_skills": [
+        "Machine Learning",
+        "AI Algorithms",
+        "Deep Learning"
+      ]
+    },
+    "ITEC 4230 - DSA Capstone": {
+      "hard_skills": [
+        "SQL",
+        "Data Analysis",
+        "Project Management"
+      ]
+    },
+    "MATH 2050 - Statistics": {
+      "hard_skills": [
+        "Statistics",
+        "Data Analysis",
+        "Statistical Software"
+      ]
+    },
+    "MATH 2450 - Linear Algebra": {
+      "hard_skills": [
+        "Linear Algebra",
+        "Mathematical Modeling",
+        "Matrix Operations"
+      ]
+    },
+    "ITEC 4220 - Advanced Data Analytics": {
+      "hard_skills": [
+        "SQL",
+        "Data Analysis",
+        "Statistical Modeling"
+      ]
+    },
+    "ITEC 4210 - Info Analytics": {
+      "hard_skills": [
+        "Power BI",
+        "Data Visualization",
+        "Dashboard Creation"
+      ]
+    }
+  },
+  "Systems and Security": {
+    "MATH 2050 - Statistics": {
+      "hard_skills": [
+        "Statistics",
+        "Data Analysis",
+        "Statistical Software"
+      ]
+    },
+    "ITEC 4550 - Mobile Apps Dev": {
+      "hard_skills": [
+        "Mobile App Security",
+        "Secure Coding",
+        "Swift/Kotlin"
+      ]
+    },
+    "ITEC 3600 - OS": {
+      "hard_skills": [
+        "Operating Systems",
+        "Shell Scripting",
+        "System Administration"
+      ]
+    },
+    "ITEC 3300 - Info Security": {
+      "hard_skills": [
+        "Network Security",
+        "Encryption",
+        "Cyber Threat Analysis"
+      ]
+    },
+    "ITEC 4310 - OS Security": {
+      "hard_skills": [
+        "Windows Security",
+        "Linux Security",
+        "System Administration"
+      ]
+    },
+    "ITEC 4320 - Internet Security": {
+      "hard_skills": [
+        "Firewall Management",
+        "Penetration Testing",
+        "Malware Analysis"
+      ]
+    }
+  },
+  "Software Development": {
+    "ITEC 3860 - Software Dev I": {
+      "hard_skills": [
+        "SQL",
+        "Programming",
+        "Software Development",
+        "Java",
+        "JavaScript"
+      ]
+    },
+    "ITEC 4450 - Web Dev": {
+      "hard_skills": [
+        "SQL",
+        "Web Development",
+        "Database Integration",
+        "Java",
+        "JavaScript"
+      ]
+    },
+    "ITEC 3870 - Software Dev II": {
+      "hard_skills": [
+        "React",
+        "Web Development",
+        "Agile Methodology"
+      ]
+    },
+    "ITEC 4000 - Cloud Computing Technologies": {
+      "hard_skills": [
+        "AWS",
+        "Azure",
+        "Cloud Security"
+      ]
+    },
+    "ITEC 4650 - Game Dev": {
+      "hard_skills": [
+        "C++",
+        "Game Design",
+        "Graphics Programming"
+      ]
+    },
+    "ITEC 4860 - Software Dev Project": {
+      "hard_skills": [
+        "React",
+        "Agile Methodology",
+        "Project Management"
+      ]
+    },
+    "ITEC 2130 - Web Tech": {
+      "hard_skills": [
+        "CSS",
+        "HTML",
+        "JavaScript"
+      ]
+    },
+    "ITEC 4100 - Advanced Networks": {
+      "hard_skills": [
+        "Network Protocols",
+        "Shell Scripting",
+        "System Administration"
+      ]
+    },
+    "ITEC 3150 - Advanced Programming": {
+      "hard_skills": [
+        "Advanced Programming Techniques",
+        "Algorithm Design",
+        "Data Structures",
+        "Java"
+      ]
+    },
+    "ITEC 4200 - Advanced Databases": {
+      "hard_skills": [
+        "Database Security",
+        "Data Encryption",
+        "Advanced SQL"
+      ]
+    }
+  },
+  "Digital Media": {
+    "ITEC 3350 - Digital Commerce": {
+      "hard_skills": [
+        "Marketing Analytics",
+        "SEO",
+        "E-commerce Platforms"
+      ]
+    },
+    "ITEC 2110 - Digital Media": {
+      "hard_skills": [
+        "Adobe Photoshop",
+        "Video Editing",
+        "Graphic Design"
+      ]
+    },
+    "ITEC 1001 - Introduction to Computing": {
+      "hard_skills": [
+        "Microsoft PowerPoint",
+        "Basic IT Skills",
+        "Presentation Design"
+      ]
+    },
+    "DATA 1501 - Intro Data Science": {
+      "hard_skills": [
+        "Microsoft Excel",
+        "Data Analysis",
+        "Basic Programming"
+      ]
+    },
+    "ITEC 4450 - Web Dev": {
+      "hard_skills": [
+        "SQL",
+        "Web Development",
+        "Database Integration",
+        "Java",
+        "JavaScript"
+      ]
+    },
+    "ITEC 2130 - Web Tech": {
+      "hard_skills": [
+        "CSS",
+        "HTML",
+        "JavaScript"
+      ]
+    }
+  },
+  "Enterprise Systems": {
+    "ITEC 4750 - Enterprise Architecture Design": {
+      "hard_skills": [
+        "ERP Systems",
+        "Business Process Modeling",
+        "System Integration"
+      ]
+    },
+    "DATA 1501 - Intro to Data Science": {
+      "hard_skills": [
+        "Microsoft Excel",
+        "Data Analysis",
+        "Basic Programming"
+      ]
+    },
+    "ITEC 4150 - Enterprise Process Integration": {
+      "hard_skills": [
+        "ERP Systems",
+        "Process Optimization",
+        "Integration Technologies"
+      ]
+    },
+    "ACCT 2101 - Accounting": {
+      "hard_skills": [
+        "Financial Accounting",
+        "Financial Reporting",
+        "Taxation"
+      ]
+    },
+    "ITEC 4330 - System Administration": {
+      "hard_skills": [
+        "Windows System Administration",
+        "Linux System Administration",
+        "Automation"
+      ]
+    }
+  },
+  "Data Analyst": {
+    "ITEC 2201 - Intro Info Systems": {
+      "hard_skills": [
+        "Microsoft Excel",
+        "Data Entry",
+        "IT Fundamentals"
+      ]
+    },
+    "ITEC 3200 - Introduction to Databases": {
+      "hard_skills": [
+        "SQL",
+        "Database Management",
+        "Data Warehousing"
+      ]
+    },
+    "ITEC 2201 - Intro to Info Systems": {
+      "hard_skills": [
+        "Microsoft Excel",
+        "Data Entry",
+        "IT Fundamentals"
+      ]
+    },
+    "DATA 1501 - Intro Data Science": {
+      "hard_skills": [
+        "Python",
+        "Data Analysis",
+        "Microsoft Excel"
+      ]
+    },
+    "ITEC 2120 - Intro Programming": {
+      "hard_skills": [
+        "Java",
+        "Basic Programming",
+        "Algorithm Design"
+      ]
+    }
+  }
+}
