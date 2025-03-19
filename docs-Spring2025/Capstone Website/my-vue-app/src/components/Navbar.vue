@@ -4,6 +4,7 @@
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/visualizer">Visualizer</router-link></li>
         <li><router-link to="/chatbot">Chatbot</router-link></li>
+        <li><router-link to="/topskills">Top Skills</router-link></li>
       </ul>
     </nav>
   </template>

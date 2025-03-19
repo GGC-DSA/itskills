@@ -1,0 +1,551 @@
+job_field,Top Job Title,Job Count,Top Skill,Skill Count
+Data Analyst,Product Manager,31,SQL,146.0
+Data Analyst,Product Manager,31,Excel,94.0
+Data Analyst,Product Manager,31,Python,50.0
+Data Analyst,Product Manager,31,Tableau,43.0
+Data Analyst,Product Manager,31,Machine Learning,31.0
+Data Analyst,Product Manager,31,Google Sheets,27.0
+Data Analyst,Product Manager,31,Power BI,25.0
+Data Analyst,Product Manager,31,R,24.0
+Data Analyst,Product Manager,31,AI,16.0
+Data Analyst,Product Manager,31,Pandas,16.0
+Data Analyst,Associate Product Manager,27,SQL,146.0
+Data Analyst,Associate Product Manager,27,Excel,94.0
+Data Analyst,Associate Product Manager,27,Python,50.0
+Data Analyst,Associate Product Manager,27,Tableau,43.0
+Data Analyst,Associate Product Manager,27,Machine Learning,31.0
+Data Analyst,Associate Product Manager,27,Google Sheets,27.0
+Data Analyst,Associate Product Manager,27,Power BI,25.0
+Data Analyst,Associate Product Manager,27,R,24.0
+Data Analyst,Associate Product Manager,27,AI,16.0
+Data Analyst,Associate Product Manager,27,Pandas,16.0
+Data Analyst,TikTok Shop - Data Analyst Intern - 2025 Start,11,SQL,146.0
+Data Analyst,TikTok Shop - Data Analyst Intern - 2025 Start,11,Excel,94.0
+Data Analyst,TikTok Shop - Data Analyst Intern - 2025 Start,11,Python,50.0
+Data Analyst,TikTok Shop - Data Analyst Intern - 2025 Start,11,Tableau,43.0
+Data Analyst,TikTok Shop - Data Analyst Intern - 2025 Start,11,Machine Learning,31.0
+Data Analyst,TikTok Shop - Data Analyst Intern - 2025 Start,11,Google Sheets,27.0
+Data Analyst,TikTok Shop - Data Analyst Intern - 2025 Start,11,Power BI,25.0
+Data Analyst,TikTok Shop - Data Analyst Intern - 2025 Start,11,R,24.0
+Data Analyst,TikTok Shop - Data Analyst Intern - 2025 Start,11,AI,16.0
+Data Analyst,TikTok Shop - Data Analyst Intern - 2025 Start,11,Pandas,16.0
+Data Analyst,Research & Data Analyst,10,SQL,146.0
+Data Analyst,Research & Data Analyst,10,Excel,94.0
+Data Analyst,Research & Data Analyst,10,Python,50.0
+Data Analyst,Research & Data Analyst,10,Tableau,43.0
+Data Analyst,Research & Data Analyst,10,Machine Learning,31.0
+Data Analyst,Research & Data Analyst,10,Google Sheets,27.0
+Data Analyst,Research & Data Analyst,10,Power BI,25.0
+Data Analyst,Research & Data Analyst,10,R,24.0
+Data Analyst,Research & Data Analyst,10,AI,16.0
+Data Analyst,Research & Data Analyst,10,Pandas,16.0
+Data Analyst,DATA ANALYST,8,SQL,146.0
+Data Analyst,DATA ANALYST,8,Excel,94.0
+Data Analyst,DATA ANALYST,8,Python,50.0
+Data Analyst,DATA ANALYST,8,Tableau,43.0
+Data Analyst,DATA ANALYST,8,Machine Learning,31.0
+Data Analyst,DATA ANALYST,8,Google Sheets,27.0
+Data Analyst,DATA ANALYST,8,Power BI,25.0
+Data Analyst,DATA ANALYST,8,R,24.0
+Data Analyst,DATA ANALYST,8,AI,16.0
+Data Analyst,DATA ANALYST,8,Pandas,16.0
+Data Analyst,Downstream Product Manager,8,SQL,146.0
+Data Analyst,Downstream Product Manager,8,Excel,94.0
+Data Analyst,Downstream Product Manager,8,Python,50.0
+Data Analyst,Downstream Product Manager,8,Tableau,43.0
+Data Analyst,Downstream Product Manager,8,Machine Learning,31.0
+Data Analyst,Downstream Product Manager,8,Google Sheets,27.0
+Data Analyst,Downstream Product Manager,8,Power BI,25.0
+Data Analyst,Downstream Product Manager,8,R,24.0
+Data Analyst,Downstream Product Manager,8,AI,16.0
+Data Analyst,Downstream Product Manager,8,Pandas,16.0
+Data Analyst,Financial Analyst,8,SQL,146.0
+Data Analyst,Financial Analyst,8,Excel,94.0
+Data Analyst,Financial Analyst,8,Python,50.0
+Data Analyst,Financial Analyst,8,Tableau,43.0
+Data Analyst,Financial Analyst,8,Machine Learning,31.0
+Data Analyst,Financial Analyst,8,Google Sheets,27.0
+Data Analyst,Financial Analyst,8,Power BI,25.0
+Data Analyst,Financial Analyst,8,R,24.0
+Data Analyst,Financial Analyst,8,AI,16.0
+Data Analyst,Financial Analyst,8,Pandas,16.0
+Data Analyst,Data Analyst,7,SQL,146.0
+Data Analyst,Data Analyst,7,Excel,94.0
+Data Analyst,Data Analyst,7,Python,50.0
+Data Analyst,Data Analyst,7,Tableau,43.0
+Data Analyst,Data Analyst,7,Machine Learning,31.0
+Data Analyst,Data Analyst,7,Google Sheets,27.0
+Data Analyst,Data Analyst,7,Power BI,25.0
+Data Analyst,Data Analyst,7,R,24.0
+Data Analyst,Data Analyst,7,AI,16.0
+Data Analyst,Data Analyst,7,Pandas,16.0
+Data Analyst,"Analyst, Marketing & Business Intelligence - Nissan United",6,SQL,146.0
+Data Analyst,"Analyst, Marketing & Business Intelligence - Nissan United",6,Excel,94.0
+Data Analyst,"Analyst, Marketing & Business Intelligence - Nissan United",6,Python,50.0
+Data Analyst,"Analyst, Marketing & Business Intelligence - Nissan United",6,Tableau,43.0
+Data Analyst,"Analyst, Marketing & Business Intelligence - Nissan United",6,Machine Learning,31.0
+Data Analyst,"Analyst, Marketing & Business Intelligence - Nissan United",6,Google Sheets,27.0
+Data Analyst,"Analyst, Marketing & Business Intelligence - Nissan United",6,Power BI,25.0
+Data Analyst,"Analyst, Marketing & Business Intelligence - Nissan United",6,R,24.0
+Data Analyst,"Analyst, Marketing & Business Intelligence - Nissan United",6,AI,16.0
+Data Analyst,"Analyst, Marketing & Business Intelligence - Nissan United",6,Pandas,16.0
+Data Analyst,Data Analyst (International Markets),6,SQL,146.0
+Data Analyst,Data Analyst (International Markets),6,Excel,94.0
+Data Analyst,Data Analyst (International Markets),6,Python,50.0
+Data Analyst,Data Analyst (International Markets),6,Tableau,43.0
+Data Analyst,Data Analyst (International Markets),6,Machine Learning,31.0
+Data Analyst,Data Analyst (International Markets),6,Google Sheets,27.0
+Data Analyst,Data Analyst (International Markets),6,Power BI,25.0
+Data Analyst,Data Analyst (International Markets),6,R,24.0
+Data Analyst,Data Analyst (International Markets),6,AI,16.0
+Data Analyst,Data Analyst (International Markets),6,Pandas,16.0
+Data Science,AI&T Junior Technician,5,AI,15.0
+Data Science,AI&T Junior Technician,5,Python,4.0
+Data Science,AI&T Junior Technician,5,Java,3.0
+Data Science,AI&T Junior Technician,5,Machine Learning,3.0
+Data Science,AI&T Junior Technician,5,PyTorch,2.0
+Data Science,AI&T Junior Technician,5,R,2.0
+Data Science,AI&T Junior Technician,5,SQL,2.0
+Data Science,AI&T Junior Technician,5,TensorFlow,2.0
+Data Science,AI&T Junior Technician,5,Azure,1.0
+Data Science,AI&T Junior Technician,5,Feature Engineering,1.0
+Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,AI,15.0
+Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,Python,4.0
+Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,Java,3.0
+Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,Machine Learning,3.0
+Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,PyTorch,2.0
+Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,R,2.0
+Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,SQL,2.0
+Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,TensorFlow,2.0
+Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,Azure,1.0
+Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,Feature Engineering,1.0
+Data Science,AI Model Training and Deployment Intern (Remote),1,AI,15.0
+Data Science,AI Model Training and Deployment Intern (Remote),1,Python,4.0
+Data Science,AI Model Training and Deployment Intern (Remote),1,Java,3.0
+Data Science,AI Model Training and Deployment Intern (Remote),1,Machine Learning,3.0
+Data Science,AI Model Training and Deployment Intern (Remote),1,PyTorch,2.0
+Data Science,AI Model Training and Deployment Intern (Remote),1,R,2.0
+Data Science,AI Model Training and Deployment Intern (Remote),1,SQL,2.0
+Data Science,AI Model Training and Deployment Intern (Remote),1,TensorFlow,2.0
+Data Science,AI Model Training and Deployment Intern (Remote),1,Azure,1.0
+Data Science,AI Model Training and Deployment Intern (Remote),1,Feature Engineering,1.0
+Data Science,AI Model Validation Lead,1,AI,15.0
+Data Science,AI Model Validation Lead,1,Python,4.0
+Data Science,AI Model Validation Lead,1,Java,3.0
+Data Science,AI Model Validation Lead,1,Machine Learning,3.0
+Data Science,AI Model Validation Lead,1,PyTorch,2.0
+Data Science,AI Model Validation Lead,1,R,2.0
+Data Science,AI Model Validation Lead,1,SQL,2.0
+Data Science,AI Model Validation Lead,1,TensorFlow,2.0
+Data Science,AI Model Validation Lead,1,Azure,1.0
+Data Science,AI Model Validation Lead,1,Feature Engineering,1.0
+Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,AI,15.0
+Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,Python,4.0
+Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,Java,3.0
+Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,Machine Learning,3.0
+Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,PyTorch,2.0
+Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,R,2.0
+Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,SQL,2.0
+Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,TensorFlow,2.0
+Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,Azure,1.0
+Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,Feature Engineering,1.0
+Data Science,Data Engineering & AI Lead,1,AI,15.0
+Data Science,Data Engineering & AI Lead,1,Python,4.0
+Data Science,Data Engineering & AI Lead,1,Java,3.0
+Data Science,Data Engineering & AI Lead,1,Machine Learning,3.0
+Data Science,Data Engineering & AI Lead,1,PyTorch,2.0
+Data Science,Data Engineering & AI Lead,1,R,2.0
+Data Science,Data Engineering & AI Lead,1,SQL,2.0
+Data Science,Data Engineering & AI Lead,1,TensorFlow,2.0
+Data Science,Data Engineering & AI Lead,1,Azure,1.0
+Data Science,Data Engineering & AI Lead,1,Feature Engineering,1.0
+Data Science,Google AI External Communications Manager,1,AI,15.0
+Data Science,Google AI External Communications Manager,1,Python,4.0
+Data Science,Google AI External Communications Manager,1,Java,3.0
+Data Science,Google AI External Communications Manager,1,Machine Learning,3.0
+Data Science,Google AI External Communications Manager,1,PyTorch,2.0
+Data Science,Google AI External Communications Manager,1,R,2.0
+Data Science,Google AI External Communications Manager,1,SQL,2.0
+Data Science,Google AI External Communications Manager,1,TensorFlow,2.0
+Data Science,Google AI External Communications Manager,1,Azure,1.0
+Data Science,Google AI External Communications Manager,1,Feature Engineering,1.0
+Data Science,HPC&AI Finance Lead,1,AI,15.0
+Data Science,HPC&AI Finance Lead,1,Python,4.0
+Data Science,HPC&AI Finance Lead,1,Java,3.0
+Data Science,HPC&AI Finance Lead,1,Machine Learning,3.0
+Data Science,HPC&AI Finance Lead,1,PyTorch,2.0
+Data Science,HPC&AI Finance Lead,1,R,2.0
+Data Science,HPC&AI Finance Lead,1,SQL,2.0
+Data Science,HPC&AI Finance Lead,1,TensorFlow,2.0
+Data Science,HPC&AI Finance Lead,1,Azure,1.0
+Data Science,HPC&AI Finance Lead,1,Feature Engineering,1.0
+Data Science,Master Data Manager W/M/X,1,AI,15.0
+Data Science,Master Data Manager W/M/X,1,Python,4.0
+Data Science,Master Data Manager W/M/X,1,Java,3.0
+Data Science,Master Data Manager W/M/X,1,Machine Learning,3.0
+Data Science,Master Data Manager W/M/X,1,PyTorch,2.0
+Data Science,Master Data Manager W/M/X,1,R,2.0
+Data Science,Master Data Manager W/M/X,1,SQL,2.0
+Data Science,Master Data Manager W/M/X,1,TensorFlow,2.0
+Data Science,Master Data Manager W/M/X,1,Azure,1.0
+Data Science,Master Data Manager W/M/X,1,Feature Engineering,1.0
+Data Science,R&D Engineer – AI/ML,1,AI,15.0
+Data Science,R&D Engineer – AI/ML,1,Python,4.0
+Data Science,R&D Engineer – AI/ML,1,Java,3.0
+Data Science,R&D Engineer – AI/ML,1,Machine Learning,3.0
+Data Science,R&D Engineer – AI/ML,1,PyTorch,2.0
+Data Science,R&D Engineer – AI/ML,1,R,2.0
+Data Science,R&D Engineer – AI/ML,1,SQL,2.0
+Data Science,R&D Engineer – AI/ML,1,TensorFlow,2.0
+Data Science,R&D Engineer – AI/ML,1,Azure,1.0
+Data Science,R&D Engineer – AI/ML,1,Feature Engineering,1.0
+Digital Media,WEB DESIGN AND EMAIL SPECIALIST,6,Design,36.0
+Digital Media,WEB DESIGN AND EMAIL SPECIALIST,6,Marketing,31.0
+Digital Media,WEB DESIGN AND EMAIL SPECIALIST,6,Adobe,13.0
+Digital Media,WEB DESIGN AND EMAIL SPECIALIST,6,UI,11.0
+Digital Media,WEB DESIGN AND EMAIL SPECIALIST,6,Digital Marketing,10.0
+Digital Media,WEB DESIGN AND EMAIL SPECIALIST,6,UX,8.0
+Digital Media,WEB DESIGN AND EMAIL SPECIALIST,6,E-commerce,7.0
+Digital Media,WEB DESIGN AND EMAIL SPECIALIST,6,Figma,6.0
+Digital Media,WEB DESIGN AND EMAIL SPECIALIST,6,Social Media,6.0
+Digital Media,WEB DESIGN AND EMAIL SPECIALIST,6,Web Design,6.0
+Digital Media,Marketing Performance Manager,4,Design,36.0
+Digital Media,Marketing Performance Manager,4,Marketing,31.0
+Digital Media,Marketing Performance Manager,4,Adobe,13.0
+Digital Media,Marketing Performance Manager,4,UI,11.0
+Digital Media,Marketing Performance Manager,4,Digital Marketing,10.0
+Digital Media,Marketing Performance Manager,4,UX,8.0
+Digital Media,Marketing Performance Manager,4,E-commerce,7.0
+Digital Media,Marketing Performance Manager,4,Figma,6.0
+Digital Media,Marketing Performance Manager,4,Social Media,6.0
+Digital Media,Marketing Performance Manager,4,Web Design,6.0
+Digital Media,Downstream Marketing Manager,3,Design,36.0
+Digital Media,Downstream Marketing Manager,3,Marketing,31.0
+Digital Media,Downstream Marketing Manager,3,Adobe,13.0
+Digital Media,Downstream Marketing Manager,3,UI,11.0
+Digital Media,Downstream Marketing Manager,3,Digital Marketing,10.0
+Digital Media,Downstream Marketing Manager,3,UX,8.0
+Digital Media,Downstream Marketing Manager,3,E-commerce,7.0
+Digital Media,Downstream Marketing Manager,3,Figma,6.0
+Digital Media,Downstream Marketing Manager,3,Social Media,6.0
+Digital Media,Downstream Marketing Manager,3,Web Design,6.0
+Digital Media,R&D Laser Design and Modeling Engineer,2,Design,36.0
+Digital Media,R&D Laser Design and Modeling Engineer,2,Marketing,31.0
+Digital Media,R&D Laser Design and Modeling Engineer,2,Adobe,13.0
+Digital Media,R&D Laser Design and Modeling Engineer,2,UI,11.0
+Digital Media,R&D Laser Design and Modeling Engineer,2,Digital Marketing,10.0
+Digital Media,R&D Laser Design and Modeling Engineer,2,UX,8.0
+Digital Media,R&D Laser Design and Modeling Engineer,2,E-commerce,7.0
+Digital Media,R&D Laser Design and Modeling Engineer,2,Figma,6.0
+Digital Media,R&D Laser Design and Modeling Engineer,2,Social Media,6.0
+Digital Media,R&D Laser Design and Modeling Engineer,2,Web Design,6.0
+Digital Media,Chargé(e) de développement des affaires_Secteur Marketing,1,Design,36.0
+Digital Media,Chargé(e) de développement des affaires_Secteur Marketing,1,Marketing,31.0
+Digital Media,Chargé(e) de développement des affaires_Secteur Marketing,1,Adobe,13.0
+Digital Media,Chargé(e) de développement des affaires_Secteur Marketing,1,UI,11.0
+Digital Media,Chargé(e) de développement des affaires_Secteur Marketing,1,Digital Marketing,10.0
+Digital Media,Chargé(e) de développement des affaires_Secteur Marketing,1,UX,8.0
+Digital Media,Chargé(e) de développement des affaires_Secteur Marketing,1,E-commerce,7.0
+Digital Media,Chargé(e) de développement des affaires_Secteur Marketing,1,Figma,6.0
+Digital Media,Chargé(e) de développement des affaires_Secteur Marketing,1,Social Media,6.0
+Digital Media,Chargé(e) de développement des affaires_Secteur Marketing,1,Web Design,6.0
+Digital Media,Copywriter,1,Design,36.0
+Digital Media,Copywriter,1,Marketing,31.0
+Digital Media,Copywriter,1,Adobe,13.0
+Digital Media,Copywriter,1,UI,11.0
+Digital Media,Copywriter,1,Digital Marketing,10.0
+Digital Media,Copywriter,1,UX,8.0
+Digital Media,Copywriter,1,E-commerce,7.0
+Digital Media,Copywriter,1,Figma,6.0
+Digital Media,Copywriter,1,Social Media,6.0
+Digital Media,Copywriter,1,Web Design,6.0
+Digital Media,Design Intern,1,Design,36.0
+Digital Media,Design Intern,1,Marketing,31.0
+Digital Media,Design Intern,1,Adobe,13.0
+Digital Media,Design Intern,1,UI,11.0
+Digital Media,Design Intern,1,Digital Marketing,10.0
+Digital Media,Design Intern,1,UX,8.0
+Digital Media,Design Intern,1,E-commerce,7.0
+Digital Media,Design Intern,1,Figma,6.0
+Digital Media,Design Intern,1,Social Media,6.0
+Digital Media,Design Intern,1,Web Design,6.0
+Digital Media,Design Project Coordinator,1,Design,36.0
+Digital Media,Design Project Coordinator,1,Marketing,31.0
+Digital Media,Design Project Coordinator,1,Adobe,13.0
+Digital Media,Design Project Coordinator,1,UI,11.0
+Digital Media,Design Project Coordinator,1,Digital Marketing,10.0
+Digital Media,Design Project Coordinator,1,UX,8.0
+Digital Media,Design Project Coordinator,1,E-commerce,7.0
+Digital Media,Design Project Coordinator,1,Figma,6.0
+Digital Media,Design Project Coordinator,1,Social Media,6.0
+Digital Media,Design Project Coordinator,1,Web Design,6.0
+Digital Media,Design Specialist,1,Design,36.0
+Digital Media,Design Specialist,1,Marketing,31.0
+Digital Media,Design Specialist,1,Adobe,13.0
+Digital Media,Design Specialist,1,UI,11.0
+Digital Media,Design Specialist,1,Digital Marketing,10.0
+Digital Media,Design Specialist,1,UX,8.0
+Digital Media,Design Specialist,1,E-commerce,7.0
+Digital Media,Design Specialist,1,Figma,6.0
+Digital Media,Design Specialist,1,Social Media,6.0
+Digital Media,Design Specialist,1,Web Design,6.0
+Digital Media,Design Strategist,1,Design,36.0
+Digital Media,Design Strategist,1,Marketing,31.0
+Digital Media,Design Strategist,1,Adobe,13.0
+Digital Media,Design Strategist,1,UI,11.0
+Digital Media,Design Strategist,1,Digital Marketing,10.0
+Digital Media,Design Strategist,1,UX,8.0
+Digital Media,Design Strategist,1,E-commerce,7.0
+Digital Media,Design Strategist,1,Figma,6.0
+Digital Media,Design Strategist,1,Social Media,6.0
+Digital Media,Design Strategist,1,Web Design,6.0
+Enterprise Systems,Institutional Equity Research Sales Analyst / Associate,11,PeopleSoft,10.0
+Enterprise Systems,Institutional Equity Research Sales Analyst / Associate,11,Enterprise,2.0
+Enterprise Systems,Institutional Equity Research Sales Analyst / Associate,11,Enterprise Architect,2.0
+Enterprise Systems,Institutional Equity Research Sales Analyst / Associate,11,AWS,1.0
+Enterprise Systems,Institutional Equity Research Sales Analyst / Associate,11,Ansible,1.0
+Enterprise Systems,Institutional Equity Research Sales Analyst / Associate,11,ITIL,1.0
+Enterprise Systems,Institutional Equity Research Sales Analyst / Associate,11,JavaScript,1.0
+Enterprise Systems,Institutional Equity Research Sales Analyst / Associate,11,OpenShift,1.0
+Enterprise Systems,Institutional Equity Research Sales Analyst / Associate,11,Oracle,1.0
+Enterprise Systems,Institutional Equity Research Sales Analyst / Associate,11,Oracle Database,1.0
+Enterprise Systems,"Data Systems Analyst, HR Shared Services",5,PeopleSoft,10.0
+Enterprise Systems,"Data Systems Analyst, HR Shared Services",5,Enterprise,2.0
+Enterprise Systems,"Data Systems Analyst, HR Shared Services",5,Enterprise Architect,2.0
+Enterprise Systems,"Data Systems Analyst, HR Shared Services",5,AWS,1.0
+Enterprise Systems,"Data Systems Analyst, HR Shared Services",5,Ansible,1.0
+Enterprise Systems,"Data Systems Analyst, HR Shared Services",5,ITIL,1.0
+Enterprise Systems,"Data Systems Analyst, HR Shared Services",5,JavaScript,1.0
+Enterprise Systems,"Data Systems Analyst, HR Shared Services",5,OpenShift,1.0
+Enterprise Systems,"Data Systems Analyst, HR Shared Services",5,Oracle,1.0
+Enterprise Systems,"Data Systems Analyst, HR Shared Services",5,Oracle Database,1.0
+Enterprise Systems,Enterprise Architect,2,PeopleSoft,10.0
+Enterprise Systems,Enterprise Architect,2,Enterprise,2.0
+Enterprise Systems,Enterprise Architect,2,Enterprise Architect,2.0
+Enterprise Systems,Enterprise Architect,2,AWS,1.0
+Enterprise Systems,Enterprise Architect,2,Ansible,1.0
+Enterprise Systems,Enterprise Architect,2,ITIL,1.0
+Enterprise Systems,Enterprise Architect,2,JavaScript,1.0
+Enterprise Systems,Enterprise Architect,2,OpenShift,1.0
+Enterprise Systems,Enterprise Architect,2,Oracle,1.0
+Enterprise Systems,Enterprise Architect,2,Oracle Database,1.0
+Enterprise Systems,Epic Cupid Systems Analyst,1,PeopleSoft,10.0
+Enterprise Systems,Epic Cupid Systems Analyst,1,Enterprise,2.0
+Enterprise Systems,Epic Cupid Systems Analyst,1,Enterprise Architect,2.0
+Enterprise Systems,Epic Cupid Systems Analyst,1,AWS,1.0
+Enterprise Systems,Epic Cupid Systems Analyst,1,Ansible,1.0
+Enterprise Systems,Epic Cupid Systems Analyst,1,ITIL,1.0
+Enterprise Systems,Epic Cupid Systems Analyst,1,JavaScript,1.0
+Enterprise Systems,Epic Cupid Systems Analyst,1,OpenShift,1.0
+Enterprise Systems,Epic Cupid Systems Analyst,1,Oracle,1.0
+Enterprise Systems,Epic Cupid Systems Analyst,1,Oracle Database,1.0
+Enterprise Systems,Information Systems Analyst,1,PeopleSoft,10.0
+Enterprise Systems,Information Systems Analyst,1,Enterprise,2.0
+Enterprise Systems,Information Systems Analyst,1,Enterprise Architect,2.0
+Enterprise Systems,Information Systems Analyst,1,AWS,1.0
+Enterprise Systems,Information Systems Analyst,1,Ansible,1.0
+Enterprise Systems,Information Systems Analyst,1,ITIL,1.0
+Enterprise Systems,Information Systems Analyst,1,JavaScript,1.0
+Enterprise Systems,Information Systems Analyst,1,OpenShift,1.0
+Enterprise Systems,Information Systems Analyst,1,Oracle,1.0
+Enterprise Systems,Information Systems Analyst,1,Oracle Database,1.0
+Enterprise Systems,SYSTEMS ANALYST - INTERMEDIATE,1,PeopleSoft,10.0
+Enterprise Systems,SYSTEMS ANALYST - INTERMEDIATE,1,Enterprise,2.0
+Enterprise Systems,SYSTEMS ANALYST - INTERMEDIATE,1,Enterprise Architect,2.0
+Enterprise Systems,SYSTEMS ANALYST - INTERMEDIATE,1,AWS,1.0
+Enterprise Systems,SYSTEMS ANALYST - INTERMEDIATE,1,Ansible,1.0
+Enterprise Systems,SYSTEMS ANALYST - INTERMEDIATE,1,ITIL,1.0
+Enterprise Systems,SYSTEMS ANALYST - INTERMEDIATE,1,JavaScript,1.0
+Enterprise Systems,SYSTEMS ANALYST - INTERMEDIATE,1,OpenShift,1.0
+Enterprise Systems,SYSTEMS ANALYST - INTERMEDIATE,1,Oracle,1.0
+Enterprise Systems,SYSTEMS ANALYST - INTERMEDIATE,1,Oracle Database,1.0
+Enterprise Systems,"Sales Analyst, ETF Team (Bilingual, English/Spanish)",1,PeopleSoft,10.0
+Enterprise Systems,"Sales Analyst, ETF Team (Bilingual, English/Spanish)",1,Enterprise,2.0
+Enterprise Systems,"Sales Analyst, ETF Team (Bilingual, English/Spanish)",1,Enterprise Architect,2.0
+Enterprise Systems,"Sales Analyst, ETF Team (Bilingual, English/Spanish)",1,AWS,1.0
+Enterprise Systems,"Sales Analyst, ETF Team (Bilingual, English/Spanish)",1,Ansible,1.0
+Enterprise Systems,"Sales Analyst, ETF Team (Bilingual, English/Spanish)",1,ITIL,1.0
+Enterprise Systems,"Sales Analyst, ETF Team (Bilingual, English/Spanish)",1,JavaScript,1.0
+Enterprise Systems,"Sales Analyst, ETF Team (Bilingual, English/Spanish)",1,OpenShift,1.0
+Enterprise Systems,"Sales Analyst, ETF Team (Bilingual, English/Spanish)",1,Oracle,1.0
+Enterprise Systems,"Sales Analyst, ETF Team (Bilingual, English/Spanish)",1,Oracle Database,1.0
+Enterprise Systems,Unix Systems Administrator (3674) (Secret to TS),1,PeopleSoft,10.0
+Enterprise Systems,Unix Systems Administrator (3674) (Secret to TS),1,Enterprise,2.0
+Enterprise Systems,Unix Systems Administrator (3674) (Secret to TS),1,Enterprise Architect,2.0
+Enterprise Systems,Unix Systems Administrator (3674) (Secret to TS),1,AWS,1.0
+Enterprise Systems,Unix Systems Administrator (3674) (Secret to TS),1,Ansible,1.0
+Enterprise Systems,Unix Systems Administrator (3674) (Secret to TS),1,ITIL,1.0
+Enterprise Systems,Unix Systems Administrator (3674) (Secret to TS),1,JavaScript,1.0
+Enterprise Systems,Unix Systems Administrator (3674) (Secret to TS),1,OpenShift,1.0
+Enterprise Systems,Unix Systems Administrator (3674) (Secret to TS),1,Oracle,1.0
+Enterprise Systems,Unix Systems Administrator (3674) (Secret to TS),1,Oracle Database,1.0
+Other,Neurologist - Raleigh,19,,
+Other,Store Associate,19,,
+Other,Shift Supervisor Trainee,18,,
+Other,Talent Business Partner,17,,
+Other,Downstream Operator,15,,
+Other,Sales Development Representative,15,,
+Other,Superintendent,15,,
+Other,Travel CT Tech,15,,
+Other,Package Handler - Part Time (Warehouse like),14,,
+Other,FP&A Lead Analyst,12,,
+Software Development,Automation Engineer,21,Development,258.0
+Software Development,Automation Engineer,21,Management,203.0
+Software Development,Automation Engineer,21,Technology,177.0
+Software Development,Automation Engineer,21,Cloud,143.0
+Software Development,Automation Engineer,21,SQL,133.0
+Software Development,Automation Engineer,21,Project,124.0
+Software Development,Automation Engineer,21,Python,120.0
+Software Development,Automation Engineer,21,Developer,109.0
+Software Development,Automation Engineer,21,Agile,104.0
+Software Development,Automation Engineer,21,AWS,103.0
+Software Development,Software Developer,13,Development,258.0
+Software Development,Software Developer,13,Management,203.0
+Software Development,Software Developer,13,Technology,177.0
+Software Development,Software Developer,13,Cloud,143.0
+Software Development,Software Developer,13,SQL,133.0
+Software Development,Software Developer,13,Project,124.0
+Software Development,Software Developer,13,Python,120.0
+Software Development,Software Developer,13,Developer,109.0
+Software Development,Software Developer,13,Agile,104.0
+Software Development,Software Developer,13,AWS,103.0
+Software Development,Full Stack Engineer,10,Development,258.0
+Software Development,Full Stack Engineer,10,Management,203.0
+Software Development,Full Stack Engineer,10,Technology,177.0
+Software Development,Full Stack Engineer,10,Cloud,143.0
+Software Development,Full Stack Engineer,10,SQL,133.0
+Software Development,Full Stack Engineer,10,Project,124.0
+Software Development,Full Stack Engineer,10,Python,120.0
+Software Development,Full Stack Engineer,10,Developer,109.0
+Software Development,Full Stack Engineer,10,Agile,104.0
+Software Development,Full Stack Engineer,10,AWS,103.0
+Software Development,Principal Data Scientist - Supply Chain Optimization,10,Development,258.0
+Software Development,Principal Data Scientist - Supply Chain Optimization,10,Management,203.0
+Software Development,Principal Data Scientist - Supply Chain Optimization,10,Technology,177.0
+Software Development,Principal Data Scientist - Supply Chain Optimization,10,Cloud,143.0
+Software Development,Principal Data Scientist - Supply Chain Optimization,10,SQL,133.0
+Software Development,Principal Data Scientist - Supply Chain Optimization,10,Project,124.0
+Software Development,Principal Data Scientist - Supply Chain Optimization,10,Python,120.0
+Software Development,Principal Data Scientist - Supply Chain Optimization,10,Developer,109.0
+Software Development,Principal Data Scientist - Supply Chain Optimization,10,Agile,104.0
+Software Development,Principal Data Scientist - Supply Chain Optimization,10,AWS,103.0
+Software Development,Project Manager,9,Development,258.0
+Software Development,Project Manager,9,Management,203.0
+Software Development,Project Manager,9,Technology,177.0
+Software Development,Project Manager,9,Cloud,143.0
+Software Development,Project Manager,9,SQL,133.0
+Software Development,Project Manager,9,Project,124.0
+Software Development,Project Manager,9,Python,120.0
+Software Development,Project Manager,9,Developer,109.0
+Software Development,Project Manager,9,Agile,104.0
+Software Development,Project Manager,9,AWS,103.0
+Software Development,"Software Engineer, Platform - Back-End",9,Development,258.0
+Software Development,"Software Engineer, Platform - Back-End",9,Management,203.0
+Software Development,"Software Engineer, Platform - Back-End",9,Technology,177.0
+Software Development,"Software Engineer, Platform - Back-End",9,Cloud,143.0
+Software Development,"Software Engineer, Platform - Back-End",9,SQL,133.0
+Software Development,"Software Engineer, Platform - Back-End",9,Project,124.0
+Software Development,"Software Engineer, Platform - Back-End",9,Python,120.0
+Software Development,"Software Engineer, Platform - Back-End",9,Developer,109.0
+Software Development,"Software Engineer, Platform - Back-End",9,Agile,104.0
+Software Development,"Software Engineer, Platform - Back-End",9,AWS,103.0
+Software Development,Data Scientist II,8,Development,258.0
+Software Development,Data Scientist II,8,Management,203.0
+Software Development,Data Scientist II,8,Technology,177.0
+Software Development,Data Scientist II,8,Cloud,143.0
+Software Development,Data Scientist II,8,SQL,133.0
+Software Development,Data Scientist II,8,Project,124.0
+Software Development,Data Scientist II,8,Python,120.0
+Software Development,Data Scientist II,8,Developer,109.0
+Software Development,Data Scientist II,8,Agile,104.0
+Software Development,Data Scientist II,8,AWS,103.0
+Software Development,Software Engineer,8,Development,258.0
+Software Development,Software Engineer,8,Management,203.0
+Software Development,Software Engineer,8,Technology,177.0
+Software Development,Software Engineer,8,Cloud,143.0
+Software Development,Software Engineer,8,SQL,133.0
+Software Development,Software Engineer,8,Project,124.0
+Software Development,Software Engineer,8,Python,120.0
+Software Development,Software Engineer,8,Developer,109.0
+Software Development,Software Engineer,8,Agile,104.0
+Software Development,Software Engineer,8,AWS,103.0
+Software Development,Software Engineer - Infrastructure Automation,8,Development,258.0
+Software Development,Software Engineer - Infrastructure Automation,8,Management,203.0
+Software Development,Software Engineer - Infrastructure Automation,8,Technology,177.0
+Software Development,Software Engineer - Infrastructure Automation,8,Cloud,143.0
+Software Development,Software Engineer - Infrastructure Automation,8,SQL,133.0
+Software Development,Software Engineer - Infrastructure Automation,8,Project,124.0
+Software Development,Software Engineer - Infrastructure Automation,8,Python,120.0
+Software Development,Software Engineer - Infrastructure Automation,8,Developer,109.0
+Software Development,Software Engineer - Infrastructure Automation,8,Agile,104.0
+Software Development,Software Engineer - Infrastructure Automation,8,AWS,103.0
+Software Development,Data Engineer,6,Development,258.0
+Software Development,Data Engineer,6,Management,203.0
+Software Development,Data Engineer,6,Technology,177.0
+Software Development,Data Engineer,6,Cloud,143.0
+Software Development,Data Engineer,6,SQL,133.0
+Software Development,Data Engineer,6,Project,124.0
+Software Development,Data Engineer,6,Python,120.0
+Software Development,Data Engineer,6,Developer,109.0
+Software Development,Data Engineer,6,Agile,104.0
+Software Development,Data Engineer,6,AWS,103.0
+Systems Security,Global Security Threat Intelligence Analyst,4,Security,9.0
+Systems Security,Global Security Threat Intelligence Analyst,4,Compliance,6.0
+Systems Security,Global Security Threat Intelligence Analyst,4,Risk Assessment,5.0
+Systems Security,Global Security Threat Intelligence Analyst,4,C,4.0
+Systems Security,Global Security Threat Intelligence Analyst,4,Information Security,4.0
+Systems Security,Global Security Threat Intelligence Analyst,4,GDPR,2.0
+Systems Security,Global Security Threat Intelligence Analyst,4,ISO 27001,2.0
+Systems Security,Global Security Threat Intelligence Analyst,4,Incident Response,2.0
+Systems Security,Global Security Threat Intelligence Analyst,4,Risk Management,2.0
+Systems Security,Global Security Threat Intelligence Analyst,4,SIEM,2.0
+Systems Security,Cyber Security Analyst (m/w/d) – Schwerpunkt Microsoft Defender XDR und Microsoft Sentinel,1,Security,9.0
+Systems Security,Cyber Security Analyst (m/w/d) – Schwerpunkt Microsoft Defender XDR und Microsoft Sentinel,1,Compliance,6.0
+Systems Security,Cyber Security Analyst (m/w/d) – Schwerpunkt Microsoft Defender XDR und Microsoft Sentinel,1,Risk Assessment,5.0
+Systems Security,Cyber Security Analyst (m/w/d) – Schwerpunkt Microsoft Defender XDR und Microsoft Sentinel,1,C,4.0
+Systems Security,Cyber Security Analyst (m/w/d) – Schwerpunkt Microsoft Defender XDR und Microsoft Sentinel,1,Information Security,4.0
+Systems Security,Cyber Security Analyst (m/w/d) – Schwerpunkt Microsoft Defender XDR und Microsoft Sentinel,1,GDPR,2.0
+Systems Security,Cyber Security Analyst (m/w/d) – Schwerpunkt Microsoft Defender XDR und Microsoft Sentinel,1,ISO 27001,2.0
+Systems Security,Cyber Security Analyst (m/w/d) – Schwerpunkt Microsoft Defender XDR und Microsoft Sentinel,1,Incident Response,2.0
+Systems Security,Cyber Security Analyst (m/w/d) – Schwerpunkt Microsoft Defender XDR und Microsoft Sentinel,1,Risk Management,2.0
+Systems Security,Cyber Security Analyst (m/w/d) – Schwerpunkt Microsoft Defender XDR und Microsoft Sentinel,1,SIEM,2.0
+Systems Security,Cybersecurity / IT Security Analyst (w/m/d),1,Security,9.0
+Systems Security,Cybersecurity / IT Security Analyst (w/m/d),1,Compliance,6.0
+Systems Security,Cybersecurity / IT Security Analyst (w/m/d),1,Risk Assessment,5.0
+Systems Security,Cybersecurity / IT Security Analyst (w/m/d),1,C,4.0
+Systems Security,Cybersecurity / IT Security Analyst (w/m/d),1,Information Security,4.0
+Systems Security,Cybersecurity / IT Security Analyst (w/m/d),1,GDPR,2.0
+Systems Security,Cybersecurity / IT Security Analyst (w/m/d),1,ISO 27001,2.0
+Systems Security,Cybersecurity / IT Security Analyst (w/m/d),1,Incident Response,2.0
+Systems Security,Cybersecurity / IT Security Analyst (w/m/d),1,Risk Management,2.0
+Systems Security,Cybersecurity / IT Security Analyst (w/m/d),1,SIEM,2.0
+Systems Security,DevSecOps Engineer,1,Security,9.0
+Systems Security,DevSecOps Engineer,1,Compliance,6.0
+Systems Security,DevSecOps Engineer,1,Risk Assessment,5.0
+Systems Security,DevSecOps Engineer,1,C,4.0
+Systems Security,DevSecOps Engineer,1,Information Security,4.0
+Systems Security,DevSecOps Engineer,1,GDPR,2.0
+Systems Security,DevSecOps Engineer,1,ISO 27001,2.0
+Systems Security,DevSecOps Engineer,1,Incident Response,2.0
+Systems Security,DevSecOps Engineer,1,Risk Management,2.0
+Systems Security,DevSecOps Engineer,1,SIEM,2.0
+Systems Security,Information Security Manager,1,Security,9.0
+Systems Security,Information Security Manager,1,Compliance,6.0
+Systems Security,Information Security Manager,1,Risk Assessment,5.0
+Systems Security,Information Security Manager,1,C,4.0
+Systems Security,Information Security Manager,1,Information Security,4.0
+Systems Security,Information Security Manager,1,GDPR,2.0
+Systems Security,Information Security Manager,1,ISO 27001,2.0
+Systems Security,Information Security Manager,1,Incident Response,2.0
+Systems Security,Information Security Manager,1,Risk Management,2.0
+Systems Security,Information Security Manager,1,SIEM,2.0
+Systems Security,Security Consultant DRC (m/w/d),1,Security,9.0
+Systems Security,Security Consultant DRC (m/w/d),1,Compliance,6.0
+Systems Security,Security Consultant DRC (m/w/d),1,Risk Assessment,5.0
+Systems Security,Security Consultant DRC (m/w/d),1,C,4.0
+Systems Security,Security Consultant DRC (m/w/d),1,Information Security,4.0
+Systems Security,Security Consultant DRC (m/w/d),1,GDPR,2.0
+Systems Security,Security Consultant DRC (m/w/d),1,ISO 27001,2.0
+Systems Security,Security Consultant DRC (m/w/d),1,Incident Response,2.0
+Systems Security,Security Consultant DRC (m/w/d),1,Risk Management,2.0
+Systems Security,Security Consultant DRC (m/w/d),1,SIEM,2.0

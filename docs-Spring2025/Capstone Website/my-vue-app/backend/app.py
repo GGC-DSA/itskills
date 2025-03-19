@@ -83,7 +83,6 @@ def clean_title(title):
 
 # Function to get relevant courses
 def get_courses(degree_category, user_skills):
-    print(f"Getting courses for degree: {degree_category} and user skills: {user_skills}")  # ✅ Debugging
 
     courses = list(course_data.get(degree_category, {}).items())  # Get courses for the degree
     categorized_courses = {"1000": [], "2000": [], "3000": [], "4000": []}
@@ -96,27 +95,27 @@ def get_courses(degree_category, user_skills):
             if level in categorized_courses:
                 categorized_courses[level].append((course_name, attributes))
 
-        # ✅ Convert course skills to lowercase and remove spaces
+        # Convert course skills to lowercase and remove spaces
         course_skills = {skill.strip().lower() for skill in attributes["hard_skills"]}
 
-        # ✅ Fix skill matching logic
+        # Fix skill matching logic
         if any(skill in course_skills for skill in user_skills):
             matched_courses.append((course_name, attributes))
 
-    # ✅ Debugging: Print Matched Courses
+    # Debugging: Print Matched Courses
     print(f"Matched Courses: {matched_courses}")
 
-    # ✅ If no exact matches, return 1 random course per level
+    # If no exact matches, return 1 random course per level
     selected_courses = []
     for level in ["1000", "2000", "3000", "4000"]:
         if categorized_courses[level]:
             selected_courses.append(random.choice(categorized_courses[level]))
 
-    # ✅ Ensure we always return at least 3 courses
+    # Ensure we always return at least 3 courses
     if not matched_courses and selected_courses:
         matched_courses = selected_courses[:3]
 
-    # ✅ Debugging: Print Final Selected Courses
+    # Debugging: Print Final Selected Courses
     print(f"Final Selected Courses: {matched_courses}")
 
     return matched_courses[:3]
@@ -174,18 +173,28 @@ def get_top_skills():
 def get_degree_categories():
     unique_degrees = df["degree_category"].dropna().unique().tolist()  # Get unique non-null degree categories
 
-    # ✅ Ensure the full list of degrees is included
+    # Ensure the full list of degrees is included
     all_degrees = [
         "No Preference", "Digital Media", "Data Analyst", "Data Scientist",
         "Enterprise Systems", "Software Development", "Systems and Security"
     ]
 
-    # ✅ Merge both lists, ensuring all expected degrees are included
+    # Merge both lists, ensuring all expected degrees are included
     final_degrees = sorted(set(all_degrees + unique_degrees), key=lambda x: all_degrees.index(x) if x in all_degrees else float('inf'))
 
     return jsonify({"degree_categories": final_degrees})
 
-
+top_skills_csv=pd.read_csv('top_10_jobs_per_field (4).csv')
+@app.route('/treemap')
+def treemap_chart():
+    fig=px.treemap(
+        top_skills_csv,
+        path=['job_field', 'Top Job Title','Top Skill'],
+        values='Skill Count',
+        color='job_field',
+        color_discrete_sequence=px.colors.qualitative.Pastel
+    )
+    return jsonify(fig.to_json())
 
 # ========== Run Flask Server ========== #
 if __name__ == '__main__':
