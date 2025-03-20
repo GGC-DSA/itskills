@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify, request
-from flask_cors import CORS  # ✅ Import CORS
+from flask_cors import CORS, cross_origin  # ✅ Import CORS
 import plotly.express as px
 import pandas as pd
 import json
@@ -8,7 +8,7 @@ import random
 from collections import Counter
 
 app = Flask(__name__)
-CORS(app)  # ✅ Enable CORS for all routes
+CORS(app)  
 
 # ========== Load Data Once (Global Variables) ========== #
 combined_df = pd.read_json('combined_df.json', orient='records')
@@ -185,16 +185,54 @@ def get_degree_categories():
     return jsonify({"degree_categories": final_degrees})
 
 top_skills_csv=pd.read_csv('top_10_jobs_per_field (4).csv')
-@app.route('/treemap')
-def treemap_chart():
-    fig=px.treemap(
-        top_skills_csv,
-        path=['job_field', 'Top Job Title','Top Skill'],
-        values='Skill Count',
-        color='job_field',
-        color_discrete_sequence=px.colors.qualitative.Pastel
-    )
-    return jsonify(fig.to_json())
+@app.route('/get_job_fields', methods=['GET'])
+
+def get_job_fields():
+    job_fields = top_skills_csv['job_field'].unique().tolist()
+    return jsonify(job_fields)
+
+@app.route('/top_skills_per_field', methods=['POST'])
+def top_skills_per_field():
+    job_field = request.json.get('job_field')
+    
+    if not job_field:
+        return jsonify({"error": "No job field selected"}), 400
+
+    # Filter the data for the selected job field
+    filtered_data = top_skills_csv[top_skills_csv['job_field'] == job_field]
+    
+    # Debugging: Print the filtered data
+    print(f"Filtered Data for {job_field}: {filtered_data}")
+
+    # If no data matches, return an error
+    if filtered_data.empty:
+        return jsonify({"error": f"No skills found for job field: {job_field}"}), 404
+
+    # Create a dictionary to store skills for each job title
+    job_title_skills = {}
+
+    # Iterate through the filtered data
+    for _, row in filtered_data.iterrows():
+        job_title = row['Top Job Title']
+        skills = row['Top Skill']
+
+        # If this job title is not already in the dictionary, initialize it with an empty set
+        if job_title not in job_title_skills:
+            job_title_skills[job_title] = set()
+
+        # Add the skill to the set (automatically avoids duplicates)
+        job_title_skills[job_title].add(skills)
+
+    # Convert the dictionary to a list of job titles and their associated unique skills
+    result = [{"job_title": job_title, "skills": list(skills)} for job_title, skills in job_title_skills.items()]
+
+    # Debugging: Check the result being returned
+    print(f"Job Titles and Skills: {result}")
+
+    return jsonify(result)
+
+
+    
 
 # ========== Run Flask Server ========== #
 if __name__ == '__main__':
