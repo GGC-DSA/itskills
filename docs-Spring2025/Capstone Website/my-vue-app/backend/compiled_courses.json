@@ -27,7 +27,8 @@
       "hard_skills": [
         "Statistics",
         "Data Analysis",
-        "Statistical Software"
+        "Statistical Software",
+        "R"
       ]
     },
     "MATH 2450 - Linear Algebra": {
@@ -261,7 +262,8 @@
       "hard_skills": [
         "Microsoft Excel",
         "Data Entry",
-        "IT Fundamentals"
+        "IT Fundamentals",
+        "Power BI"
       ]
     },
     "ITEC 3200 - Introduction to Databases": {
@@ -269,13 +271,6 @@
         "SQL",
         "Database Management",
         "Data Warehousing"
-      ]
-    },
-    "ITEC 2201 - Intro to Info Systems": {
-      "hard_skills": [
-        "Microsoft Excel",
-        "Data Entry",
-        "IT Fundamentals"
       ]
     },
     "DATA 1501 - Intro Data Science": {

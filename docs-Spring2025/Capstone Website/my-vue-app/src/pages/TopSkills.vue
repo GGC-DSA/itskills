@@ -1,23 +1,31 @@
 <template>
-  <div>
-    <h1>Top Skills for Job Roles</h1>
-    
+  <div id="app">
+    <h1>Select Job Field</h1>
     <!-- Dropdown to select job field -->
-    <select v-model="selectedJobField" @change="fetchTopSkills">
-      <option v-for="jobField in jobFields" :key="jobField" :value="jobField">
-        {{ jobField }}
-      </option>
+    <select v-model="selectedJobField" @change="fetchChartData">
+      <option disabled value="">Please select a job field</option>
+      <option v-for="field in jobFields" :key="field" :value="field">{{ field }}</option>
     </select>
 
-    <!-- Display job titles and their skills -->
-    <div v-if="Object.keys(topSkills).length">
-      <h3>Job Titles and Skills</h3>
-      <div v-for="(skills, jobTitle) in topSkills" :key="jobTitle" class="job-container">
-        <h4 class="job-title">{{ jobTitle }}</h4>
-        <ul class="skills-list">
-          <li v-for="skill in skills" :key="skill" class="skill-item">{{ skill }}</li>
-        </ul>
-      </div>
+    <!-- Show chart when available -->
+    <div v-if="chartData">
+      <h2>Chart for {{ selectedJobField }}</h2>
+      <img :src="`data:image/png;base64,${chartData}`" alt="Top Skills Chart" />
+    </div>
+
+    <!-- Show courses when available -->
+    <div v-if="courses.length > 0">
+      <h3>Recommended Courses for {{ selectedJobField }}</h3>
+      <ul>
+        <li v-for="course in courses" :key="course.course_name">
+          <h4>{{ course.course_name }}</h4>
+          <p><strong>Matching Hard Skills:</strong> {{ course.hard_skills.join(', ') }}</p>
+        </li>
+      </ul>
+    </div>
+    <!-- Display message if no courses are found -->
+    <div v-else-if="selectedJobField && courses.length === 0">
+      <p>No courses found for the selected job field.</p>
     </div>
   </div>
 </template>
@@ -26,98 +34,98 @@
 export default {
   data() {
     return {
-      jobFields: [],  // List of job fields to populate the dropdown
-      selectedJobField: null,  // Selected job field
-      topSkills: {},  // Object to store the top skills by job title
+      selectedJobField: "",      // Store the selected job field
+      jobFields: [],             // Will store job fields dynamically from the backend
+      chartData: null,           // Will store the base64 image data for the chart
+      courses: [],               // Will store courses for the selected job field
     };
   },
-  mounted() {
-    // Fetch the job fields when the component is mounted
-    this.fetchJobFields();
+  created() {
+    this.fetchJobFields(); // Fetch job fields when the component is created
   },
   methods: {
+    // Fetch job fields from the backend
     async fetchJobFields() {
       try {
-        const response = await fetch('http://127.0.0.1:5000/get_job_fields');
+        const response = await fetch("http://localhost:5000/get_job_fields");
         const data = await response.json();
-        this.jobFields = data;
+        this.jobFields = data; // Assign fetched job fields to the `jobFields` array
       } catch (error) {
-        console.error('Error fetching job fields:', error);
+        console.error("Error fetching job fields:", error);
       }
     },
-    async fetchTopSkills() {
+
+    // This method will be triggered when the user selects a job field
+    async fetchChartData() {
       if (!this.selectedJobField) return;
 
       try {
-        const response = await fetch('http://127.0.0.1:5000/top_skills_per_field', {
-          method: 'POST',
+        // Fetch chart data (base64 image of the chart)
+        const chartResponse = await fetch("http://localhost:5000/top_skills_per_field", {
+          method: "POST",
           headers: {
-            'Content-Type': 'application/json',
+            "Content-Type": "application/json",
           },
-          body: JSON.stringify({ job_field: this.selectedJobField }),
+          body: JSON.stringify({
+            job_field: this.selectedJobField,
+          }),
         });
 
-        const data = await response.json();
-        
-        // Log the response data to see its structure
-        console.log('Fetched top skills:', data);
-
-        // Check if the data is in the expected format
-        if (Array.isArray(data)) {
-          // Transform the data into an object where the key is the job title and the value is the list of skills
-          this.topSkills = data.reduce((acc, { job_title, skills }) => {
-            acc[job_title] = skills;
-            return acc;
-          }, {});
+        const chartData = await chartResponse.json();
+        if (chartData.image) {
+          this.chartData = chartData.image; // Assign the base64 image to `chartData`
         }
+
+        // Fetch courses data
+        const coursesResponse = await fetch("http://localhost:5000/courses_for_field", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            job_field: this.selectedJobField,
+          }),
+        });
+
+        const coursesData = await coursesResponse.json();
+        this.courses = coursesData; // Store the courses data in `courses`
       } catch (error) {
-        console.error('Error fetching top skills:', error);
+        console.error("Error fetching data:", error);
       }
     },
   },
 };
 </script>
 
-<style scoped>
-/* Style for the dropdown */
+<style>
+/* Add some basic styling */
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
 select {
-  margin: 20px;
+  margin-bottom: 20px;
   padding: 10px;
-  font-size: 16px;
-  width: 200px;
 }
 
-/* Style for the job containers */
-.job-container {
-  margin: 20px 0;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
 }
 
-/* Style for job title */
-.job-title {
-  font-size: 20px;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-/* Style for the skills list */
-.skills-list {
+ul {
   list-style-type: none;
   padding: 0;
 }
 
-/* Style for individual skill items */
-.skill-item {
-  margin: 5px 0;
-  font-size: 16px;
-  color: #555;
+h4 {
+  margin: 10px 0;
 }
 
-.skill-item:hover {
-  background-color: #f0f0f0;
-  cursor: pointer;
+p {
+  margin: 5px 0;
 }
 </style>

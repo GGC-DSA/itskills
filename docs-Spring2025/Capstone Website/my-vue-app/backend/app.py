@@ -6,6 +6,11 @@ import json
 import re
 import random
 from collections import Counter
+import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('Agg')
+import base64
+from io import BytesIO
 
 app = Flask(__name__)
 CORS(app)  
@@ -185,8 +190,31 @@ def get_degree_categories():
     return jsonify({"degree_categories": final_degrees})
 
 top_skills_csv=pd.read_csv('top_10_jobs_per_field (4).csv')
-@app.route('/get_job_fields', methods=['GET'])
+def get_courses_for_job_field(job_field, tech_skills):
+    # First, get courses for the selected job field
+    filtered_courses = []
+    
+    if job_field in course_data:
+        for course, details in course_data[job_field].items():
+            # Normalize the tech skills by converting them to lowercase and stripping spaces
+            normalized_hard_skills = [skill.strip().lower() for skill in details['hard_skills']]
+            
+            # Normalize the selected job field skills as well
+            normalized_tech_skills = [skill.strip().lower() for skill in tech_skills]
+            
+            # Check if any of the hard skills for this course match any of the tech skills
+            matching_skills = set(normalized_hard_skills).intersection(normalized_tech_skills)
+            
+            if matching_skills:  # If there's at least one match
+                filtered_courses.append({
+                    "course_name": course,
+                    "hard_skills": [skill for skill in details['hard_skills'] if skill.lower() in matching_skills],
+                })
 
+    return filtered_courses
+
+
+@app.route('/get_job_fields', methods=['GET'])
 def get_job_fields():
     job_fields = top_skills_csv['job_field'].unique().tolist()
     return jsonify(job_fields)
@@ -194,44 +222,66 @@ def get_job_fields():
 @app.route('/top_skills_per_field', methods=['POST'])
 def top_skills_per_field():
     job_field = request.json.get('job_field')
-    
+
     if not job_field:
         return jsonify({"error": "No job field selected"}), 400
 
     # Filter the data for the selected job field
     filtered_data = top_skills_csv[top_skills_csv['job_field'] == job_field]
-    
-    # Debugging: Print the filtered data
-    print(f"Filtered Data for {job_field}: {filtered_data}")
 
-    # If no data matches, return an error
     if filtered_data.empty:
-        return jsonify({"error": f"No skills found for job field: {job_field}"}), 404
+        return jsonify({"error": "No data found for the selected job field"}), 404
 
-    # Create a dictionary to store skills for each job title
-    job_title_skills = {}
+    # Pivot the data for creating a stacked bar chart
+    df_pivot = filtered_data.pivot_table(index='Top Job Title', columns='Top Skill', values='Skill Count', aggfunc='sum', fill_value=0)
 
-    # Iterate through the filtered data
-    for _, row in filtered_data.iterrows():
-        job_title = row['Top Job Title']
-        skills = row['Top Skill']
+    # Create a stacked bar chart
+    fig, ax = plt.subplots(figsize=(10, 7))
 
-        # If this job title is not already in the dictionary, initialize it with an empty set
-        if job_title not in job_title_skills:
-            job_title_skills[job_title] = set()
+    # Check if data is present before plotting
+    if df_pivot.empty:
+        return jsonify({"error": "No data to plot for the selected job field"}), 404
 
-        # Add the skill to the set (automatically avoids duplicates)
-        job_title_skills[job_title].add(skills)
+    df_pivot.plot(kind='bar', stacked=True, ax=ax, colormap='Set3')
 
-    # Convert the dictionary to a list of job titles and their associated unique skills
-    result = [{"job_title": job_title, "skills": list(skills)} for job_title, skills in job_title_skills.items()]
+    # Customize the plot
+    ax.set_title('Top Skills for Each Job Title')
+    ax.set_xlabel('Top Job Title')
+    ax.set_ylabel('Skill Count')
+    ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha='right')
+    ax.legend(title='Top Skill', bbox_to_anchor=(1.05, 1), loc='upper left')
 
-    # Debugging: Check the result being returned
-    print(f"Job Titles and Skills: {result}")
+    # Convert the plot to a base64 string
+    img_bytes = BytesIO()
+    plt.tight_layout()  # Ensure everything fits into the image
+    fig.savefig(img_bytes, format='png')
+    img_bytes.seek(0)  # Go to the beginning of the BytesIO stream
 
-    return jsonify(result)
+    img_base64 = base64.b64encode(img_bytes.getvalue()).decode('utf-8')
 
+    # Return the base64-encoded image in JSON format
+    return jsonify({"image": img_base64})
 
+@app.route('/courses_for_field', methods=['POST'])
+def courses_for_field():
+    job_field = request.json.get('job_field')
+
+    if not job_field:
+        return jsonify({"error": "No job field selected"}), 400
+
+    # Filter the data for the selected job field
+    filtered_data = top_skills_csv[top_skills_csv['job_field'] == job_field]
+
+    if filtered_data.empty:
+        return jsonify({"error": "No data found for the selected job field"}), 404
+
+    # Get the unique tech skills for the selected job field
+    filtered_tech_skills = set(filtered_data['Top Skill'])
+
+    # Filter the courses JSON based on the selected job field and tech skills
+    courses_for_field = get_courses_for_job_field(job_field, filtered_tech_skills)
+
+    return jsonify(courses_for_field)
     
 
 # ========== Run Flask Server ========== #
