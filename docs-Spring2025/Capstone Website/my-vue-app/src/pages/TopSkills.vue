@@ -16,13 +16,14 @@
     <!-- Show courses when available -->
     <div v-if="courses.length > 0">
       <h3>Recommended Courses for {{ selectedJobField }}</h3>
-      <ul>
-        <li v-for="course in courses" :key="course.course_name">
-          <h4>{{ course.course_name }}</h4>
-          <p><strong>Matching Hard Skills:</strong> {{ course.hard_skills.join(', ') }}</p>
+      <ul class="course-list">
+        <li v-for="course in courses" :key="course.course_name" class="course-card">
+          <h4 class="course-name">{{ course.course_name }}</h4>
+          <p class="course-skills"><strong>Matching Hard Skills:</strong> {{ course.hard_skills.join(', ') }}</p>
         </li>
       </ul>
     </div>
+
     <!-- Display message if no courses are found -->
     <div v-else-if="selectedJobField && courses.length === 0">
       <p>No courses found for the selected job field.</p>
@@ -47,7 +48,7 @@ export default {
     // Fetch job fields from the backend
     async fetchJobFields() {
       try {
-        const response = await fetch("http://localhost:5000/get_job_fields");
+        const response = await fetch("http://127.0.0.1:5000/get_job_fields");
         const data = await response.json();
         this.jobFields = data; // Assign fetched job fields to the `jobFields` array
       } catch (error) {
@@ -61,7 +62,7 @@ export default {
 
       try {
         // Fetch chart data (base64 image of the chart)
-        const chartResponse = await fetch("http://localhost:5000/top_skills_per_field", {
+        const chartResponse = await fetch("http://127.0.0.1:5000/top_skills_per_field", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -77,7 +78,7 @@ export default {
         }
 
         // Fetch courses data
-        const coursesResponse = await fetch("http://localhost:5000/courses_for_field", {
+        const coursesResponse = await fetch("http://127.0.0.1:5000/courses_for_field", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -98,7 +99,6 @@ export default {
 </script>
 
 <style>
-/* Add some basic styling */
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
@@ -108,6 +108,9 @@ export default {
 select {
   margin-bottom: 20px;
   padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
 img {
@@ -116,16 +119,51 @@ img {
   margin-top: 20px;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
+.course-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
 }
 
-h4 {
-  margin: 10px 0;
+.course-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.course-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.course-skills {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+h2, h3 {
+  font-size: 20px;
+  color: #555;
 }
 
 p {
-  margin: 5px 0;
+  font-size: 16px;
+  color: #777;
 }
 </style>

@@ -1,5 +1,5 @@
 {
-  "Data Scientist": {
+  
     "ITEC 3160 - Python Data Science": {
       "hard_skills": [
         "Python",
@@ -51,15 +51,6 @@
         "Data Visualization",
         "Dashboard Creation"
       ]
-    }
-  },
-  "Systems and Security": {
-    "MATH 2050 - Statistics": {
-      "hard_skills": [
-        "Statistics",
-        "Data Analysis",
-        "Statistical Software"
-      ]
     },
     "ITEC 4550 - Mobile Apps Dev": {
       "hard_skills": [
@@ -79,7 +70,8 @@
       "hard_skills": [
         "Network Security",
         "Encryption",
-        "Cyber Threat Analysis"
+        "Cyber Threat Analysis",
+        "Information Security"
       ]
     },
     "ITEC 4310 - OS Security": {
@@ -93,11 +85,11 @@
       "hard_skills": [
         "Firewall Management",
         "Penetration Testing",
-        "Malware Analysis"
+        "Malware Analysis",
+        "Risk Assessment",
+        "Risk Management"
       ]
-    }
-  },
-  "Software Development": {
+    },
     "ITEC 3860 - Software Dev I": {
       "hard_skills": [
         "SQL",
@@ -113,7 +105,8 @@
         "Web Development",
         "Database Integration",
         "Java",
-        "JavaScript"
+        "JavaScript",
+        "Web Design"
       ]
     },
     "ITEC 3870 - Software Dev II": {
@@ -172,19 +165,18 @@
         "Data Encryption",
         "Advanced SQL"
       ]
-    }
-  },
-  "Digital Media": {
+    },
     "ITEC 3350 - Digital Commerce": {
       "hard_skills": [
         "Marketing Analytics",
         "SEO",
-        "E-commerce Platforms"
+        "E-commerce",
+        "Digital Marketing"
       ]
     },
     "ITEC 2110 - Digital Media": {
       "hard_skills": [
-        "Adobe Photoshop",
+        "Adobe",
         "Video Editing",
         "Graphic Design"
       ]
@@ -196,31 +188,6 @@
         "Presentation Design"
       ]
     },
-    "DATA 1501 - Intro Data Science": {
-      "hard_skills": [
-        "Microsoft Excel",
-        "Data Analysis",
-        "Basic Programming"
-      ]
-    },
-    "ITEC 4450 - Web Dev": {
-      "hard_skills": [
-        "SQL",
-        "Web Development",
-        "Database Integration",
-        "Java",
-        "JavaScript"
-      ]
-    },
-    "ITEC 2130 - Web Tech": {
-      "hard_skills": [
-        "CSS",
-        "HTML",
-        "JavaScript"
-      ]
-    }
-  },
-  "Enterprise Systems": {
     "ITEC 4750 - Enterprise Architecture Design": {
       "hard_skills": [
         "ERP Systems",
@@ -255,9 +222,7 @@
         "Linux System Administration",
         "Automation"
       ]
-    }
-  },
-  "Data Analyst": {
+    },
     "ITEC 2201 - Intro Info Systems": {
       "hard_skills": [
         "Microsoft Excel",
@@ -273,13 +238,6 @@
         "Data Warehousing"
       ]
     },
-    "DATA 1501 - Intro Data Science": {
-      "hard_skills": [
-        "Python",
-        "Data Analysis",
-        "Microsoft Excel"
-      ]
-    },
     "ITEC 2120 - Intro Programming": {
       "hard_skills": [
         "Java",
@@ -288,4 +246,3 @@
       ]
     }
   }
-}

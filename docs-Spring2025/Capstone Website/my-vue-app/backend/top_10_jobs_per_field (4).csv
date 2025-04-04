@@ -99,107 +99,106 @@ Data Analyst,Data Analyst (International Markets),6,Power BI,25.0
 Data Analyst,Data Analyst (International Markets),6,R,24.0
 Data Analyst,Data Analyst (International Markets),6,AI,16.0
 Data Analyst,Data Analyst (International Markets),6,Pandas,16.0
-Data Science,AI&T Junior Technician,5,AI,15.0
-Data Science,AI&T Junior Technician,5,Python,4.0
-Data Science,AI&T Junior Technician,5,Java,3.0
-Data Science,AI&T Junior Technician,5,Machine Learning,3.0
-Data Science,AI&T Junior Technician,5,PyTorch,2.0
-Data Science,AI&T Junior Technician,5,R,2.0
-Data Science,AI&T Junior Technician,5,SQL,2.0
-Data Science,AI&T Junior Technician,5,TensorFlow,2.0
-Data Science,AI&T Junior Technician,5,Azure,1.0
-Data Science,AI&T Junior Technician,5,Feature Engineering,1.0
-Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,AI,15.0
-Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,Python,4.0
-Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,Java,3.0
-Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,Machine Learning,3.0
-Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,PyTorch,2.0
-Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,R,2.0
-Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,SQL,2.0
-Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,TensorFlow,2.0
-Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,Azure,1.0
-Data Science,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,Feature Engineering,1.0
-Data Science,AI Model Training and Deployment Intern (Remote),1,AI,15.0
-Data Science,AI Model Training and Deployment Intern (Remote),1,Python,4.0
-Data Science,AI Model Training and Deployment Intern (Remote),1,Java,3.0
-Data Science,AI Model Training and Deployment Intern (Remote),1,Machine Learning,3.0
-Data Science,AI Model Training and Deployment Intern (Remote),1,PyTorch,2.0
-Data Science,AI Model Training and Deployment Intern (Remote),1,R,2.0
-Data Science,AI Model Training and Deployment Intern (Remote),1,SQL,2.0
-Data Science,AI Model Training and Deployment Intern (Remote),1,TensorFlow,2.0
-Data Science,AI Model Training and Deployment Intern (Remote),1,Azure,1.0
-Data Science,AI Model Training and Deployment Intern (Remote),1,Feature Engineering,1.0
-Data Science,AI Model Validation Lead,1,AI,15.0
-Data Science,AI Model Validation Lead,1,Python,4.0
-Data Science,AI Model Validation Lead,1,Java,3.0
-Data Science,AI Model Validation Lead,1,Machine Learning,3.0
-Data Science,AI Model Validation Lead,1,PyTorch,2.0
-Data Science,AI Model Validation Lead,1,R,2.0
-Data Science,AI Model Validation Lead,1,SQL,2.0
-Data Science,AI Model Validation Lead,1,TensorFlow,2.0
-Data Science,AI Model Validation Lead,1,Azure,1.0
-Data Science,AI Model Validation Lead,1,Feature Engineering,1.0
-Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,AI,15.0
-Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,Python,4.0
-Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,Java,3.0
-Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,Machine Learning,3.0
-Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,PyTorch,2.0
-Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,R,2.0
-Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,SQL,2.0
-Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,TensorFlow,2.0
-Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,Azure,1.0
-Data Science,Competition Coders -Remote Coding Expertise for AI Training,1,Feature Engineering,1.0
-Data Science,Data Engineering & AI Lead,1,AI,15.0
-Data Science,Data Engineering & AI Lead,1,Python,4.0
-Data Science,Data Engineering & AI Lead,1,Java,3.0
-Data Science,Data Engineering & AI Lead,1,Machine Learning,3.0
-Data Science,Data Engineering & AI Lead,1,PyTorch,2.0
-Data Science,Data Engineering & AI Lead,1,R,2.0
-Data Science,Data Engineering & AI Lead,1,SQL,2.0
-Data Science,Data Engineering & AI Lead,1,TensorFlow,2.0
-Data Science,Data Engineering & AI Lead,1,Azure,1.0
-Data Science,Data Engineering & AI Lead,1,Feature Engineering,1.0
-Data Science,Google AI External Communications Manager,1,AI,15.0
-Data Science,Google AI External Communications Manager,1,Python,4.0
-Data Science,Google AI External Communications Manager,1,Java,3.0
-Data Science,Google AI External Communications Manager,1,Machine Learning,3.0
-Data Science,Google AI External Communications Manager,1,PyTorch,2.0
-Data Science,Google AI External Communications Manager,1,R,2.0
-Data Science,Google AI External Communications Manager,1,SQL,2.0
-Data Science,Google AI External Communications Manager,1,TensorFlow,2.0
-Data Science,Google AI External Communications Manager,1,Azure,1.0
-Data Science,Google AI External Communications Manager,1,Feature Engineering,1.0
-Data Science,HPC&AI Finance Lead,1,AI,15.0
-Data Science,HPC&AI Finance Lead,1,Python,4.0
-Data Science,HPC&AI Finance Lead,1,Java,3.0
-Data Science,HPC&AI Finance Lead,1,Machine Learning,3.0
-Data Science,HPC&AI Finance Lead,1,PyTorch,2.0
-Data Science,HPC&AI Finance Lead,1,R,2.0
-Data Science,HPC&AI Finance Lead,1,SQL,2.0
-Data Science,HPC&AI Finance Lead,1,TensorFlow,2.0
-Data Science,HPC&AI Finance Lead,1,Azure,1.0
-Data Science,HPC&AI Finance Lead,1,Feature Engineering,1.0
-Data Science,Master Data Manager W/M/X,1,AI,15.0
-Data Science,Master Data Manager W/M/X,1,Python,4.0
-Data Science,Master Data Manager W/M/X,1,Java,3.0
-Data Science,Master Data Manager W/M/X,1,Machine Learning,3.0
-Data Science,Master Data Manager W/M/X,1,PyTorch,2.0
-Data Science,Master Data Manager W/M/X,1,R,2.0
-Data Science,Master Data Manager W/M/X,1,SQL,2.0
-Data Science,Master Data Manager W/M/X,1,TensorFlow,2.0
-Data Science,Master Data Manager W/M/X,1,Azure,1.0
-Data Science,Master Data Manager W/M/X,1,Feature Engineering,1.0
-Data Science,R&D Engineer – AI/ML,1,AI,15.0
-Data Science,R&D Engineer – AI/ML,1,Python,4.0
-Data Science,R&D Engineer – AI/ML,1,Java,3.0
-Data Science,R&D Engineer – AI/ML,1,Machine Learning,3.0
-Data Science,R&D Engineer – AI/ML,1,PyTorch,2.0
-Data Science,R&D Engineer – AI/ML,1,R,2.0
-Data Science,R&D Engineer – AI/ML,1,SQL,2.0
-Data Science,R&D Engineer – AI/ML,1,TensorFlow,2.0
-Data Science,R&D Engineer – AI/ML,1,Azure,1.0
-Data Science,R&D Engineer – AI/ML,1,Feature Engineering,1.0
-Digital Media,WEB DESIGN AND EMAIL SPECIALIST,6,Design,36.0
+Data Scientist,AI&T Junior Technician,5,AI,15.0
+Data Scientist,AI&T Junior Technician,5,Python,4.0
+Data Scientist,AI&T Junior Technician,5,Java,3.0
+Data Scientist,AI&T Junior Technician,5,Machine Learning,3.0
+Data Scientist,AI&T Junior Technician,5,PyTorch,2.0
+Data Scientist,AI&T Junior Technician,5,R,2.0
+Data Scientist,AI&T Junior Technician,5,SQL,2.0
+Data Scientist,AI&T Junior Technician,5,TensorFlow,2.0
+Data Scientist,AI&T Junior Technician,5,Azure,1.0
+Data Scientist,AI&T Junior Technician,5,Feature Engineering,1.0
+Data Scientist,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,AI,15.0
+Data Scientist,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,Python,4.0
+Data Scientist,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,Java,3.0
+Data Scientist,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,Machine Learning,3.0
+Data Scientist,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,PyTorch,2.0
+Data Scientist,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,R,2.0
+Data Scientist,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,SQL,2.0
+Data Scientist,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,TensorFlow,2.0
+Data Scientist,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,Azure,1.0
+Data Scientist,"Research and Insights Manager, Marketing, Policy, Responsibility, AI",2,Feature Engineering,1.0
+Data Scientist,AI Model Training and Deployment Intern (Remote),1,AI,15.0
+Data Scientist,AI Model Training and Deployment Intern (Remote),1,Python,4.0
+Data Scientist,AI Model Training and Deployment Intern (Remote),1,Java,3.0
+Data Scientist,AI Model Training and Deployment Intern (Remote),1,Machine Learning,3.0
+Data Scientist,AI Model Training and Deployment Intern (Remote),1,PyTorch,2.0
+Data Scientist,AI Model Training and Deployment Intern (Remote),1,R,2.0
+Data Scientist,AI Model Training and Deployment Intern (Remote),1,SQL,2.0
+Data Scientist,AI Model Training and Deployment Intern (Remote),1,TensorFlow,2.0
+Data Scientist,AI Model Training and Deployment Intern (Remote),1,Azure,1.0
+Data Scientist,AI Model Training and Deployment Intern (Remote),1,Feature Engineering,1.0
+Data Scientist,AI Model Validation Lead,1,AI,15.0
+Data Scientist,AI Model Validation Lead,1,Python,4.0
+Data Scientist,AI Model Validation Lead,1,Java,3.0
+Data Scientist,AI Model Validation Lead,1,Machine Learning,3.0
+Data Scientist,AI Model Validation Lead,1,PyTorch,2.0
+Data Scientist,AI Model Validation Lead,1,R,2.0
+Data Scientist,AI Model Validation Lead,1,SQL,2.0
+Data Scientist,AI Model Validation Lead,1,TensorFlow,2.0
+Data Scientist,AI Model Validation Lead,1,Azure,1.0
+Data Scientist,AI Model Validation Lead,1,Feature Engineering,1.0
+Data Scientist,Competition Coders -Remote Coding Expertise for AI Training,1,AI,15.0
+Data Scientist,Competition Coders -Remote Coding Expertise for AI Training,1,Python,4.0
+Data Scientist,Competition Coders -Remote Coding Expertise for AI Training,1,Java,3.0
+Data Scientist,Competition Coders -Remote Coding Expertise for AI Training,1,Machine Learning,3.0
+Data Scientist,Competition Coders -Remote Coding Expertise for AI Training,1,PyTorch,2.0
+Data Scientist,Competition Coders -Remote Coding Expertise for AI Training,1,R,2.0
+Data Scientist,Competition Coders -Remote Coding Expertise for AI Training,1,SQL,2.0
+Data Scientist,Competition Coders -Remote Coding Expertise for AI Training,1,TensorFlow,2.0
+Data Scientist,Competition Coders -Remote Coding Expertise for AI Training,1,Azure,1.0
+Data Scientist,Competition Coders -Remote Coding Expertise for AI Training,1,Feature Engineering,1.0
+Data Scientist,Data Engineering & AI Lead,1,AI,15.0
+Data Scientist,Data Engineering & AI Lead,1,Python,4.0
+Data Scientist,Data Engineering & AI Lead,1,Java,3.0
+Data Scientist,Data Engineering & AI Lead,1,Machine Learning,3.0
+Data Scientist,Data Engineering & AI Lead,1,PyTorch,2.0
+Data Scientist,Data Engineering & AI Lead,1,R,2.0
+Data Scientist,Data Engineering & AI Lead,1,SQL,2.0
+Data Scientist,Data Engineering & AI Lead,1,TensorFlow,2.0
+Data Scientist,Data Engineering & AI Lead,1,Azure,1.0
+Data Scientist,Data Engineering & AI Lead,1,Feature Engineering,1.0
+Data Scientist,Google AI External Communications Manager,1,AI,15.0
+Data Scientist,Google AI External Communications Manager,1,Python,4.0
+Data Scientist,Google AI External Communications Manager,1,Java,3.0
+Data Scientist,Google AI External Communications Manager,1,Machine Learning,3.0
+Data Scientist,Google AI External Communications Manager,1,PyTorch,2.0
+Data Scientist,Google AI External Communications Manager,1,R,2.0
+Data Scientist,Google AI External Communications Manager,1,SQL,2.0
+Data Scientist,Google AI External Communications Manager,1,TensorFlow,2.0
+Data Scientist,Google AI External Communications Manager,1,Azure,1.0
+Data Scientist,Google AI External Communications Manager,1,Feature Engineering,1.0
+Data Scientist,HPC&AI Finance Lead,1,AI,15.0
+Data Scientist,HPC&AI Finance Lead,1,Python,4.0
+Data Scientist,HPC&AI Finance Lead,1,Java,3.0
+Data Scientist,HPC&AI Finance Lead,1,Machine Learning,3.0
+Data Scientist,HPC&AI Finance Lead,1,PyTorch,2.0
+Data Scientist,HPC&AI Finance Lead,1,R,2.0
+Data Scientist,HPC&AI Finance Lead,1,SQL,2.0
+Data Scientist,HPC&AI Finance Lead,1,TensorFlow,2.0
+Data Scientist,HPC&AI Finance Lead,1,Azure,1.0
+Data Scientist,HPC&AI Finance Lead,1,Feature Engineering,1.0
+Data Scientist,Master Data Manager W/M/X,1,AI,15.0
+Data Scientist,Master Data Manager W/M/X,1,Python,4.0
+Data Scientist,Master Data Manager W/M/X,1,Java,3.0
+Data Scientist,Master Data Manager W/M/X,1,Machine Learning,3.0
+Data Scientist,Master Data Manager W/M/X,1,PyTorch,2.0
+Data Scientist,Master Data Manager W/M/X,1,R,2.0
+Data Scientist,Master Data Manager W/M/X,1,SQL,2.0
+Data Scientist,Master Data Manager W/M/X,1,TensorFlow,2.0
+Data Scientist,Master Data Manager W/M/X,1,Azure,1.0
+Data Scientist,Master Data Manager W/M/X,1,Feature Engineering,1.0
+Data Scientist,R&D Engineer – AI/ML,1,AI,15.0
+Data Scientist,R&D Engineer – AI/ML,1,Python,4.0
+Data Scientist,R&D Engineer – AI/ML,1,Java,3.0
+Data Scientist,R&D Engineer – AI/ML,1,Machine Learning,3.0
+Data Scientist,R&D Engineer – AI/ML,1,PyTorch,2.0
+Data Scientist,R&D Engineer – AI/ML,1,R,2.0
+Data Scientist,R&D Engineer – AI/ML,1,SQL,2.0
+Data Scientist,R&D Engineer – AI/ML,1,TensorFlow,2.0
+Data Scientist,R&D Engineer – AI/ML,1,Azure,1.0
+Data Scientist,R&D Engineer – AI/ML,1,Feature Engineering,1.0
 Digital Media,WEB DESIGN AND EMAIL SPECIALIST,6,Marketing,31.0
 Digital Media,WEB DESIGN AND EMAIL SPECIALIST,6,Adobe,13.0
 Digital Media,WEB DESIGN AND EMAIL SPECIALIST,6,UI,11.0

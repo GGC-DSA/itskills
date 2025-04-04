@@ -11,6 +11,7 @@ import matplotlib
 matplotlib.use('Agg')
 import base64
 from io import BytesIO
+import textwrap
 
 app = Flask(__name__)
 CORS(app)  
@@ -190,28 +191,46 @@ def get_degree_categories():
     return jsonify({"degree_categories": final_degrees})
 
 top_skills_csv=pd.read_csv('top_10_jobs_per_field (4).csv')
-def get_courses_for_job_field(job_field, tech_skills):
-    # First, get courses for the selected job field
-    filtered_courses = []
+def get_courses_for_job_field(job_field):
+    # Get skills for the given job field
+    top_skill_major = top_skills_csv[top_skills_csv['job_field'] == job_field]
+    skills = set(top_skill_major['Top Skill'].str.lower())    
     
-    if job_field in course_data:
-        for course, details in course_data[job_field].items():
-            # Normalize the tech skills by converting them to lowercase and stripping spaces
-            normalized_hard_skills = [skill.strip().lower() for skill in details['hard_skills']]
-            
-            # Normalize the selected job field skills as well
-            normalized_tech_skills = [skill.strip().lower() for skill in tech_skills]
-            
-            # Check if any of the hard skills for this course match any of the tech skills
-            matching_skills = set(normalized_hard_skills).intersection(normalized_tech_skills)
-            
-            if matching_skills:  # If there's at least one match
-                filtered_courses.append({
-                    "course_name": course,
-                    "hard_skills": [skill for skill in details['hard_skills'] if skill.lower() in matching_skills],
-                })
+    # Prepare the courses with their skills
+    courses_with_skills = []
+    for course, course_info in course_data.items():
+        hard_skills = course_info["hard_skills"]
+        courses_with_skills.append({
+            "course_name": course,
+            "hard_skills": [skill.lower() for skill in hard_skills]
+        })
+    
+    # Prepare the list to store matching courses and skills
+    matching_courses_and_skills = []    
+    for item in courses_with_skills:
+        course_name = item['course_name']
+        hard_skills = set(item['hard_skills'])  # Hard skills as a set
+        matching_skills = [skill for skill in hard_skills 
+                        if any(word in skill.split() for word in skills)]
 
-    return filtered_courses
+        
+        if matching_skills:
+            # Convert set to list before appending to the result
+            matching_courses_and_skills.append({
+                "course_name": course_name,
+                "hard_skills": matching_skills  # List of matching skills
+            })
+    
+    return matching_courses_and_skills
+
+    
+    
+
+
+def wrap_label(label, width=10):
+    return "\n".join(textwrap.wrap(label, width))  # Breaks into multiple lines
+
+
 
 
 @app.route('/get_job_fields', methods=['GET'])
@@ -236,7 +255,7 @@ def top_skills_per_field():
     df_pivot = filtered_data.pivot_table(index='Top Job Title', columns='Top Skill', values='Skill Count', aggfunc='sum', fill_value=0)
 
     # Create a stacked bar chart
-    fig, ax = plt.subplots(figsize=(10, 7))
+    fig, ax = plt.subplots(figsize=(18, 7))
 
     # Check if data is present before plotting
     if df_pivot.empty:
@@ -244,11 +263,13 @@ def top_skills_per_field():
 
     df_pivot.plot(kind='bar', stacked=True, ax=ax, colormap='Set3')
 
+    wrapped_labels = [wrap_label(label.get_text()) for label in ax.get_xticklabels()]
+
     # Customize the plot
     ax.set_title('Top Skills for Each Job Title')
     ax.set_xlabel('Top Job Title')
     ax.set_ylabel('Skill Count')
-    ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha='right')
+    ax.set_xticklabels(wrapped_labels, rotation=45, ha='right')
     ax.legend(title='Top Skill', bbox_to_anchor=(1.05, 1), loc='upper left')
 
     # Convert the plot to a base64 string
@@ -279,7 +300,7 @@ def courses_for_field():
     filtered_tech_skills = set(filtered_data['Top Skill'])
 
     # Filter the courses JSON based on the selected job field and tech skills
-    courses_for_field = get_courses_for_job_field(job_field, filtered_tech_skills)
+    courses_for_field = get_courses_for_job_field(job_field)
 
     return jsonify(courses_for_field)
     
