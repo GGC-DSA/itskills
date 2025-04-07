@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <h1>Select Job Field</h1>
+    <h1>Determine Top Skills Per Field</h1>
+    <h2>View live representations of the most-demanded skills in the most prominent positions on the market right now</h2>
+    <h2>Select Job Field</h2>
     <!-- Dropdown to select job field -->
     <select v-model="selectedJobField" @change="fetchChartData">
       <option disabled value="">Please select a job field</option>

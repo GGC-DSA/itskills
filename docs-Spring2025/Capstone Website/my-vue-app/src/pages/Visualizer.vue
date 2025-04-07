@@ -1,6 +1,7 @@
 <template>
   <div class="centerize">
     <h2>Job Market Overview: Click to Explore Technical & Soft Skills</h2>
+    <h3> Explore a summary of the technical and soft skills generally required in each field</h3>
     <div class="chart-container">
       <div ref="chart"></div>
     </div>

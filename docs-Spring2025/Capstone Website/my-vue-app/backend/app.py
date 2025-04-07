@@ -126,6 +126,30 @@ def get_courses(degree_category, user_skills):
 
     return matched_courses[:3]
 
+def calculate_weight(user_skills, courses):
+    major_scores = {}
+
+    for course, data in courses.items():
+        # go through each course and extract their skills
+        major = data['major']
+        course_skills = set(data['hard_skills'])
+        course_skills=[skill.lower() for skill in course_skills]
+        
+        #see what skills match for each course
+        matched_skills = set(user_skills).intersection(course_skills)
+        
+        
+        # proportional weight based on matched skills
+        weight = len(matched_skills) / len(course_skills) if course_skills else 0
+        
+        # add the weights for each major
+        if major not in major_scores:
+            major_scores[major] = 0
+        major_scores[major] += weight
+
+    # Find the major with the highest total score
+    best_major = max(major_scores, key=major_scores.get)
+    return best_major
 
 @app.route('/recommend_jobs', methods=['POST'])
 def recommend_jobs():
@@ -155,7 +179,11 @@ def recommend_jobs():
         top_jobs = [(clean_title(job.job_title), job.job_summary, 0, "N/A", job.extracted_skills) for job in top_jobs]
 
     # Extract degree (if matched)
-    selected_degree = top_jobs[0][3] if top_jobs[0][3] != "N/A" else selected_degree
+    # selected_degree = top_jobs[0][3] if top_jobs[0][3] != "N/A" else selected_degree
+    selected_degree=calculate_weight(user_skills,course_data)
+    print(f'user skills: {user_skills}')
+    print(f"selected degree: {selected_degree}")
+    
     courses = get_courses(selected_degree, user_skills)
 
     # Format response

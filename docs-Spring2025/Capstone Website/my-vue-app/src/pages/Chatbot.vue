@@ -1,15 +1,12 @@
 <template>
   <div class="chatbot-container">
     <h1>Job & Course Recommendations</h1>
+    <h2>Input your own skills for professional and academic recommendations</h2>
 
     <div class="input-section">
       <label>Enter your skills (comma-separated):</label>
       <input v-model="skills" placeholder="e.g. Python, SQL, Machine Learning" />
 
-      <label>Select Degree:</label>
-      <select v-model="degree">
-        <option v-for="deg in degrees" :key="deg">{{ deg }}</option>
-      </select>
 
       <button @click="getRecommendations" :disabled="loading">
         {{ loading ? "Fetching..." : "Get Recommendations" }}
@@ -28,6 +25,7 @@
         </li>
       </ul>
       <p v-else class="no-results">No relevant courses found.</p>
+
 
       <h3>💼 Job Recommendations:</h3>
       <div v-if="recommendation.job_recommendations.length" class="jobs-list">
