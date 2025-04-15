@@ -11,9 +11,10 @@
 
     <!-- Show chart when available -->
     <div v-if="chartData">
-      <h2>Chart for {{ selectedJobField }}</h2>
-      <img :src="`data:image/png;base64,${chartData}`" alt="Top Skills Chart" />
-    </div>
+  <h2>Chart for {{ selectedJobField }}</h2>
+  <div ref="plotContainer" style="width: 100%; height: 800px;"></div>
+</div>
+
 
     <!-- Show courses when available -->
     <div v-if="courses.length > 0">
@@ -34,6 +35,7 @@
 </template>
 
 <script>
+import Plotly from 'plotly.js-dist';
 export default {
   data() {
     return {
@@ -60,42 +62,46 @@ export default {
 
     // This method will be triggered when the user selects a job field
     async fetchChartData() {
-      if (!this.selectedJobField) return;
+  if (!this.selectedJobField) return;
 
-      try {
-        // Fetch chart data (base64 image of the chart)
-        const chartResponse = await fetch("http://127.0.0.1:5000/top_skills_per_field", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            job_field: this.selectedJobField,
-          }),
-        });
+  try {
+    // Fetch chart JSON data
+    const chartResponse = await fetch("http://127.0.0.1:5000/top_skills_per_field", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        job_field: this.selectedJobField,
+      }),
+    });
 
-        const chartData = await chartResponse.json();
-        if (chartData.image) {
-          this.chartData = chartData.image; // Assign the base64 image to `chartData`
-        }
+    const chartData = await chartResponse.json();
+    this.chartData = chartData; // Store the chart JSON data for conditional rendering
 
-        // Fetch courses data
-        const coursesResponse = await fetch("http://127.0.0.1:5000/courses_for_field", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            job_field: this.selectedJobField,
-          }),
-        });
+    // Plot the sunburst chart
+    this.$nextTick(() => {
+      Plotly.newPlot(this.$refs.plotContainer, chartData.data, chartData.layout);
+    });
 
-        const coursesData = await coursesResponse.json();
-        this.courses = coursesData; // Store the courses data in `courses`
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    },
+    // Fetch courses data
+    const coursesResponse = await fetch("http://127.0.0.1:5000/courses_for_field", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        job_field: this.selectedJobField,
+      }),
+    });
+
+    const coursesData = await coursesResponse.json();
+    this.courses = coursesData;
+
+  } catch (error) {
+    console.error("Error fetching data:", error);
+  }
+},
   },
 };
 </script>

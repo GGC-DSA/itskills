@@ -89,8 +89,11 @@ def clean_title(title):
 
 # Function to get relevant courses
 def get_courses(degree_category, user_skills):
+    user_skills = {skill.strip().lower() for skill in user_skills}
+    
+    # Filter courses by major
+    courses = [(name, attr) for name, attr in course_data.items() if attr["major"] == degree_category]
 
-    courses = list(course_data.get(degree_category, {}).items())  # Get courses for the degree
     categorized_courses = {"1000": [], "2000": [], "3000": [], "4000": []}
     matched_courses = []
 
@@ -101,30 +104,21 @@ def get_courses(degree_category, user_skills):
             if level in categorized_courses:
                 categorized_courses[level].append((course_name, attributes))
 
-        # Convert course skills to lowercase and remove spaces
         course_skills = {skill.strip().lower() for skill in attributes["hard_skills"]}
 
-        # Fix skill matching logic
         if any(skill in course_skills for skill in user_skills):
             matched_courses.append((course_name, attributes))
 
-    # Debugging: Print Matched Courses
     print(f"Matched Courses: {matched_courses}")
 
-    # If no exact matches, return 1 random course per level
-    selected_courses = []
-    for level in ["1000", "2000", "3000", "4000"]:
-        if categorized_courses[level]:
-            selected_courses.append(random.choice(categorized_courses[level]))
+    if not matched_courses:
+        all_courses = [course for level in categorized_courses.values() for course in level]
+        matched_courses = random.sample(all_courses, min(3, len(all_courses)))
 
-    # Ensure we always return at least 3 courses
-    if not matched_courses and selected_courses:
-        matched_courses = selected_courses[:3]
-
-    # Debugging: Print Final Selected Courses
     print(f"Final Selected Courses: {matched_courses}")
-
+    
     return matched_courses[:3]
+
 
 def calculate_weight(user_skills, courses):
     major_scores = {}
@@ -185,6 +179,7 @@ def recommend_jobs():
     print(f"selected degree: {selected_degree}")
     
     courses = get_courses(selected_degree, user_skills)
+    print(courses)
 
     # Format response
     response = {
@@ -273,43 +268,41 @@ def top_skills_per_field():
     if not job_field:
         return jsonify({"error": "No job field selected"}), 400
 
-    # Filter the data for the selected job field
+    # Filter data for the selected job field
     filtered_data = top_skills_csv[top_skills_csv['job_field'] == job_field]
+    print(filtered_data.head())
 
     if filtered_data.empty:
         return jsonify({"error": "No data found for the selected job field"}), 404
 
-    # Pivot the data for creating a stacked bar chart
-    df_pivot = filtered_data.pivot_table(index='Top Job Title', columns='Top Skill', values='Skill Count', aggfunc='sum', fill_value=0)
+    # Prepare data for sunburst: we need a column for each level of the hierarchy
+    sunburst_df = filtered_data[['job_field', 'Top Job Title', 'Top Skill', 'Skill Count']]
 
-    # Create a stacked bar chart
-    fig, ax = plt.subplots(figsize=(18, 7))
+    # Create the sunburst chart using Plotly
+    fig = px.sunburst(
+        sunburst_df,
+        path=['job_field', 'Top Job Title', 'Top Skill'],
+        values='Skill Count',
+        color='Top Job Title',
+        title=f"Top Skills in {job_field}",
+    )
 
-    # Check if data is present before plotting
-    if df_pivot.empty:
-        return jsonify({"error": "No data to plot for the selected job field"}), 404
+    fig.update_traces(
+        textinfo='label',
+        textfont_size=12,
+        insidetextorientation='radial',
+        marker=dict(line=dict(color='white', width=2)),
+        maxdepth=2
+    )
 
-    df_pivot.plot(kind='bar', stacked=True, ax=ax, colormap='Set3')
+    fig.update_layout(
+        margin=dict(t=50, l=0, r=0, b=0),
+        width=800, height=800,
+        title_x=0.5,
+        title_font_size=24
+    )
 
-    wrapped_labels = [wrap_label(label.get_text()) for label in ax.get_xticklabels()]
-
-    # Customize the plot
-    ax.set_title('Top Skills for Each Job Title')
-    ax.set_xlabel('Top Job Title')
-    ax.set_ylabel('Skill Count')
-    ax.set_xticklabels(wrapped_labels, rotation=45, ha='right')
-    ax.legend(title='Top Skill', bbox_to_anchor=(1.05, 1), loc='upper left')
-
-    # Convert the plot to a base64 string
-    img_bytes = BytesIO()
-    plt.tight_layout()  # Ensure everything fits into the image
-    fig.savefig(img_bytes, format='png')
-    img_bytes.seek(0)  # Go to the beginning of the BytesIO stream
-
-    img_base64 = base64.b64encode(img_bytes.getvalue()).decode('utf-8')
-
-    # Return the base64-encoded image in JSON format
-    return jsonify({"image": img_base64})
+    return jsonify(json.loads(fig.to_json()))
 
 @app.route('/courses_for_field', methods=['POST'])
 def courses_for_field():
