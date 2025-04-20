@@ -19,7 +19,7 @@ Further develop the website tool by cleaning, analyzing, and creating visualizat
 
 ### Spring '23: [Grizzly Insights Notebook](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Grizzly_Insights.ipynb)
 
-### Spring '25: [Grizzly Paths '25](https://github.com/GGC-DSA/itskills/blob/main/docs-Spring2025/final_files/Final_Copy_of_Master_Notebook.ipynb)
+### Spring '25: [Grizzly Paths '25 Notebook](https://github.com/GGC-DSA/itskills/blob/main/docs-Spring2025/final_files/Final_Copy_of_Master_Notebook.ipynb)
 
 ## Final Report
 ### Fall '23: [Fall 2023 Final Report](https://github.com/GGC-DSA/itskills/blob/main/Fall%202023/Report/Fall_2023_Report.pdf)
