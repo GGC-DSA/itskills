@@ -1,4 +1,5 @@
 {
+  "name": "my-vue-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +12,6 @@
     "@watermarkify/vue-watermark": "^0.0.7",
     "axios": "^1.8.1",
     "d3": "^7.9.0",
-    "my-vue-app": "file:",
     "plotly.js-dist": "^3.0.1",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
