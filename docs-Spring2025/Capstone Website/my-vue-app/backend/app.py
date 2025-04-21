@@ -53,9 +53,10 @@ with open("compiled_courses.json", "r") as f:
 
 # ========== Flask Routes ========== #
 
-@app.route('/')
+@app.route("/")
 def index():
-    return render_template('index.html')
+    return "Flask backend is running!"
+
 
 @app.route('/sunburst')
 def sunburst_chart():
