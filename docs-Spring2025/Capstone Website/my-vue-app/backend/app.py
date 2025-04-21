@@ -12,6 +12,11 @@ matplotlib.use('Agg')
 import base64
 from io import BytesIO
 import textwrap
+import pickle
+def load_job_data(pkl_path='job_data.pkl'):
+    with open(pkl_path, 'rb') as f:
+        all_jobs_df, skills_by_domain = pickle.load(f)
+    return all_jobs_df, skills_by_domain
 
 app = Flask(__name__)
 CORS(app)  
@@ -194,9 +199,7 @@ def recommend_jobs():
     return jsonify(response)
 
 
-@app.route('/top_skills', methods=['GET'])
-def get_top_skills():
-    return jsonify({"top_skills": random.sample(top_100_skills, 10)})
+
 
 @app.route('/degree_categories', methods=['GET'])
 def get_degree_categories():
@@ -213,12 +216,28 @@ def get_degree_categories():
 
     return jsonify({"degree_categories": final_degrees})
 
-top_skills_csv=pd.read_csv('top_10_jobs_per_field (4).csv')
+top_skills_csv=pd.read_csv('merged_jobs_cleaned (6).csv')
+all_jobs_df, skills_by_domain = load_job_data()
+
 def get_courses_for_job_field(job_field):
     # Get skills for the given job field
-    top_skill_major = top_skills_csv[top_skills_csv['job_field'] == job_field]
-    skills = set(top_skill_major['Top Skill'].str.lower())    
+
+    top_5_jobs = all_jobs_df[all_jobs_df['domain']==job_field].head(5)['Keyword'].tolist()
+
+    for job in top_5_jobs:
+        job_rows = top_skills_csv[top_skills_csv['job_title'].str.contains(re.escape(job), case=False, na=False)]
+
+        # Count only within this job's descriptions
+        skill_counts = {
+            skill: job_rows['job_description'].str.contains(re.escape(skill), case=False, na=False).sum()
+            for skill in skills_by_domain[job_field]
+        }
+
+        # top 5 most relevant skills for this job
+        top_skills_for_job = sorted(skill_counts.items(), key=lambda x: x[1], reverse=True)[:5]   
     
+    skills = [skill.lower() for skill, _ in top_skills_for_job]
+    print(skills)
     # Prepare the courses with their skills
     courses_with_skills = []
     for course, course_info in course_data.items():
@@ -233,8 +252,9 @@ def get_courses_for_job_field(job_field):
     for item in courses_with_skills:
         course_name = item['course_name']
         hard_skills = set(item['hard_skills'])  # Hard skills as a set
-        matching_skills = [skill for skill in hard_skills 
-                        if any(word in skill.split() for word in skills)]
+        matching_skills = list(set(hard_skills) & set(skills))
+
+
 
         
         if matching_skills:
@@ -250,41 +270,57 @@ def get_courses_for_job_field(job_field):
     
 
 
-def wrap_label(label, width=10):
-    return "\n".join(textwrap.wrap(label, width))  # Breaks into multiple lines
-
 
 
 
 @app.route('/get_job_fields', methods=['GET'])
 def get_job_fields():
-    job_fields = top_skills_csv['job_field'].unique().tolist()
-    return jsonify(job_fields)
+    domain = all_jobs_df['domain'].unique().tolist()
+    return jsonify(domain)
 
 @app.route('/top_skills_per_field', methods=['POST'])
 def top_skills_per_field():
-    job_field = request.json.get('job_field')
+    domain = request.json.get('job_field')
 
-    if not job_field:
+    if not domain:
         return jsonify({"error": "No job field selected"}), 400
 
-    # Filter data for the selected job field
-    filtered_data = top_skills_csv[top_skills_csv['job_field'] == job_field]
-    print(filtered_data.head())
+    top_5_jobs = all_jobs_df[all_jobs_df['domain']==domain].head(5)['Keyword'].tolist()
 
-    if filtered_data.empty:
-        return jsonify({"error": "No data found for the selected job field"}), 404
 
-    # Prepare data for sunburst: we need a column for each level of the hierarchy
-    sunburst_df = filtered_data[['job_field', 'Top Job Title', 'Top Skill', 'Skill Count']]
+    sunburst_data = []
 
-    # Create the sunburst chart using Plotly
+    for job in top_5_jobs:
+        job_rows = top_skills_csv[top_skills_csv['job_title'].str.contains(re.escape(job), case=False, na=False)]
+
+        # Count only within this job's descriptions
+        skill_counts = {
+            skill: job_rows['job_description'].str.contains(re.escape(skill), case=False, na=False).sum()
+            for skill in skills_by_domain[domain]
+        }
+
+        # top 5 most relevant skills for this job
+        top_skills_for_job = sorted(skill_counts.items(), key=lambda x: x[1], reverse=True)[:5]
+
+        for skill, count in top_skills_for_job:
+            if count > 0:
+                sunburst_data.append({
+                    'Domain': domain,
+                    'Job Title': job,
+                    'Skill': skill,
+                    'Count': count
+                })
+
+    # Convert to DataFrame
+    sunburst_df = pd.DataFrame(sunburst_data)
+
+    # Create sunburst: Domain to  Job Title to Skill
     fig = px.sunburst(
         sunburst_df,
-        path=['job_field', 'Top Job Title', 'Top Skill'],
-        values='Skill Count',
-        color='Top Job Title',
-        title=f"Top Skills in {job_field}",
+        path=['Domain', 'Job Title', 'Skill'],
+        values='Count',
+        color='Job Title',
+        title=f'{domain}: Top 5 Job Titles and Their Most Relevant Skills'
     )
 
     fig.update_traces(
@@ -306,22 +342,21 @@ def top_skills_per_field():
 
 @app.route('/courses_for_field', methods=['POST'])
 def courses_for_field():
-    job_field = request.json.get('job_field')
+    domain = request.json.get('job_field')
 
-    if not job_field:
+    if not domain:
         return jsonify({"error": "No job field selected"}), 400
 
     # Filter the data for the selected job field
-    filtered_data = top_skills_csv[top_skills_csv['job_field'] == job_field]
+    filtered_data = all_jobs_df[all_jobs_df['domain'] == domain]
 
     if filtered_data.empty:
         return jsonify({"error": "No data found for the selected job field"}), 404
 
-    # Get the unique tech skills for the selected job field
-    filtered_tech_skills = set(filtered_data['Top Skill'])
+    
 
     # Filter the courses JSON based on the selected job field and tech skills
-    courses_for_field = get_courses_for_job_field(job_field)
+    courses_for_field = get_courses_for_job_field(domain)
 
     return jsonify(courses_for_field)
     

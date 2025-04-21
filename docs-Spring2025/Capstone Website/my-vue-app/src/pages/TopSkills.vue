@@ -12,7 +12,23 @@
     <!-- Show chart when available -->
     <div v-if="chartData">
   <h2>Chart for {{ selectedJobField }}</h2>
-  <div ref="plotContainer" style="width: 100%; height: 800px;"></div>
+</div>
+
+<div class="chart-description-wrapper">
+  <div class="chart-container" ref="plotContainer" style="width: 100%; height: 800px;"></div>
+
+  <div class="description-container">
+    <h3>What You’re Seeing</h3>
+    <p>
+      These charts display the top 5 job titles within the selected field, each branching into the top 5 most relevant skills based on real job descriptions.
+    </p>
+    <p>
+      These skills are extracted from live job market data and mapped to recommended courses that cover those skills — helping you understand what’s in demand and how to prepare for it.
+    </p>
+    <p>
+      Use this visualization to explore and compare different IT domains, and to discover which skills and courses will help you break into your desired field.
+    </p>
+  </div>
 </div>
 
 
@@ -126,6 +142,29 @@ img {
   height: auto;
   margin-top: 20px;
 }
+.chart-description-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.chart-container {
+  flex: 2; 
+}
+
+.description-container {
+  flex: 1; 
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #0077cc;
+  border-radius: 6px;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
 
 .course-list {
   display: grid;
