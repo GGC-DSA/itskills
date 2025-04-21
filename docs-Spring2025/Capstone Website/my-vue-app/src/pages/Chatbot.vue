@@ -16,18 +16,28 @@
     <div v-if="loading" class="loading">🔄 Fetching recommendations...</div>
 
     <div v-if="recommendation.recommended_degree" class="results-section">
-      <h2>🎓 Recommended Degree: <span class="highlight">{{ recommendation.recommended_degree }}</span></h2>
+      <h2>Recommended Degree: <span class="highlight">{{ recommendation.recommended_degree }}</span></h2>
 
-      <h3>📚 Relevant Courses:</h3>
+      <h3>Relevant Courses:</h3>
       <ul v-if="recommendation.relevant_courses.length">
-        <li v-for="course in recommendation.relevant_courses" :key="course.course_name">
-          <strong>{{ course.course_name }}</strong> - Hard Skills: {{ course.hard_skills.join(", ") }}
-        </li>
-      </ul>
+  <li
+    v-for="course in recommendation.relevant_courses"
+    :key="course.course_name"
+    class="job-card"
+  >
+    <div class="course-title">
+      <strong>{{ course.course_name }}</strong>
+    </div>
+    <div class="course-skills">
+      Technical Skills: {{ course.hard_skills.join(", ") }}
+    </div>
+  </li>
+</ul>
+
       <p v-else class="no-results">No relevant courses found.</p>
 
 
-      <h3>💼 Job Recommendations:</h3>
+      <h3>Job Recommendations:</h3>
       <div v-if="recommendation.job_recommendations.length" class="jobs-list">
         <div v-for="job in recommendation.job_recommendations" :key="job.title" class="job-card">
           <h4>🔹 {{ job.title }}</h4>
@@ -159,10 +169,26 @@ button:disabled {
 }
 
 .job-card {
-  background: #e3f2fd;
-  padding: 10px;
+  background-color: #e0f0ff;
+  padding: 10px 15px;
   border-radius: 8px;
+  margin-bottom: 10px;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
 }
+
+.course-title {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.course-skills {
+  color: #333;
+}
+
 
 .job-card h4 {
   margin-bottom: 5px;
