@@ -26,7 +26,7 @@ export default {
 .visualizer-container {
   text-align: center;
   padding: -20px;
-  background-image: url('/Users/silve/OneDrive/Desktop/itskills/docs-Spring2025/Capstone Website/my-vue-app/src/assets/ggc_background_blurred.png');
+  background-image: url('./assets/ggc_background_blurred.png');
   background-size: cover;
   background-position: center;
   min-height: 100vh;

@@ -11,9 +11,26 @@
 
     <!-- Show chart when available -->
     <div v-if="chartData">
-      <h2>Chart for {{ selectedJobField }}</h2>
-      <img :src="`data:image/png;base64,${chartData}`" alt="Top Skills Chart" />
-    </div>
+  <h2>Chart for {{ selectedJobField }}</h2>
+</div>
+
+<div class="chart-description-wrapper">
+  <div class="chart-container" ref="plotContainer" style="width: 100%; height: 800px;"></div>
+
+  <div class="description-container">
+    <h3>What You’re Seeing</h3>
+    <p>
+      These charts display the top 5 job titles within the selected field, each branching into the top 5 most relevant skills based on real job descriptions.
+    </p>
+    <p>
+      These skills are extracted from live job market data and mapped to recommended courses that cover those skills — helping you understand what’s in demand and how to prepare for it.
+    </p>
+    <p>
+      Use this visualization to explore and compare different IT domains, and to discover which skills and courses will help you break into your desired field.
+    </p>
+  </div>
+</div>
+
 
     <!-- Show courses when available -->
     <div v-if="courses.length > 0">
@@ -34,6 +51,7 @@
 </template>
 
 <script>
+import Plotly from 'plotly.js-dist';
 export default {
   data() {
     return {
@@ -60,42 +78,46 @@ export default {
 
     // This method will be triggered when the user selects a job field
     async fetchChartData() {
-      if (!this.selectedJobField) return;
+  if (!this.selectedJobField) return;
 
-      try {
-        // Fetch chart data (base64 image of the chart)
-        const chartResponse = await fetch("http://127.0.0.1:5000/top_skills_per_field", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            job_field: this.selectedJobField,
-          }),
-        });
+  try {
+    // Fetch chart JSON data
+    const chartResponse = await fetch("http://127.0.0.1:5000/top_skills_per_field", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        job_field: this.selectedJobField,
+      }),
+    });
 
-        const chartData = await chartResponse.json();
-        if (chartData.image) {
-          this.chartData = chartData.image; // Assign the base64 image to `chartData`
-        }
+    const chartData = await chartResponse.json();
+    this.chartData = chartData; // Store the chart JSON data for conditional rendering
 
-        // Fetch courses data
-        const coursesResponse = await fetch("http://127.0.0.1:5000/courses_for_field", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            job_field: this.selectedJobField,
-          }),
-        });
+    // Plot the sunburst chart
+    this.$nextTick(() => {
+      Plotly.newPlot(this.$refs.plotContainer, chartData.data, chartData.layout);
+    });
 
-        const coursesData = await coursesResponse.json();
-        this.courses = coursesData; // Store the courses data in `courses`
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    },
+    // Fetch courses data
+    const coursesResponse = await fetch("http://127.0.0.1:5000/courses_for_field", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        job_field: this.selectedJobField,
+      }),
+    });
+
+    const coursesData = await coursesResponse.json();
+    this.courses = coursesData;
+
+  } catch (error) {
+    console.error("Error fetching data:", error);
+  }
+},
   },
 };
 </script>
@@ -120,6 +142,29 @@ img {
   height: auto;
   margin-top: 20px;
 }
+.chart-description-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.chart-container {
+  flex: 2; 
+}
+
+.description-container {
+  flex: 1; 
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #0077cc;
+  border-radius: 6px;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
 
 .course-list {
   display: grid;
