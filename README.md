@@ -64,6 +64,7 @@ Further develop the website tool by cleaning, analyzing, and creating visualizat
 ### Spring '25
 * [Colab Notebook](https://colab.google/)
 * [PowerBi](https://app.powerbi.com/home?experience=power-bi)
+* [Web Scraping Site - Bright Data](https://brightdata.com/)
 * Python, Vue.js, JSON, HTML/CSS
 ### Fall '23
 * [Jupyter Notebook](https://jupyter.org/install)
