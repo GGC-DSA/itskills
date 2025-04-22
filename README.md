@@ -15,11 +15,11 @@ Further develop the website tool by cleaning, analyzing, and creating visualizat
 ### Spring '23: [Grizzly Path](ggc-dsa.github.io/itskills/)
 
 ## Notebook
+### Spring '25: [Grizzly Paths '25 Notebook](https://github.com/GGC-DSA/itskills/blob/main/code/Spr%20'25/Final_Copy_of_Master_Notebook%20(1).ipynb)
+
 ### Fall '23: [Fall 2023 Notebook](https://github.com/GGC-DSA/itskills/blob/main/Fall%202023/Notebook/EditingCSV.ipynb)
 
 ### Spring '23: [Grizzly Insights Notebook](https://github.com/GGC-DSA/itskills/blob/main/Spr%20'23/Grizzly_Insights.ipynb)
-
-### Spring '25: [Grizzly Paths '25 Notebook](https://github.com/GGC-DSA/itskills/blob/main/docs-Spring2025/final_files/Final_Copy_of_Master_Notebook.ipynb)
 
 ## Final Report
 ### Fall '23: [Fall 2023 Final Report](https://github.com/GGC-DSA/itskills/blob/main/Fall%202023/Report/Fall_2023_Report.pdf)
@@ -48,6 +48,8 @@ Further develop the website tool by cleaning, analyzing, and creating visualizat
 
 ## Publications
 ### STaRS Symposium Poster
+* [Grizzly Paths Poster, April 17, 2025 at GGC](https://github.com/GGC-DSA/itskills/blob/main/media/Spr%20'25/Capstone%20STARS%20Poster%20-%20Untitled%20Page%20(2).pdf)
+* [Team Photo for Honorable Mention awarded - Spr '25](https://github.com/GGC-DSA/itskills/blob/main/media/Spr%20'25/teamphoto2.jpg)
 * [Grizzly Insights Poster, April 13, 2023 at GGC](https://github.com/GGC-DSA/itskills/blob/main/media/Spr%20'23/Grizzly_Insight_STARS_Poster_1.pdf)
 * 2nd Place Poster https://ggc-stars.github.io/posters/, April 8, 2021 at GGC
 ### CREATE Symposium
@@ -59,6 +61,10 @@ Further develop the website tool by cleaning, analyzing, and creating visualizat
 * ITEC 2140 Introduction to Java, Profession Xin Xu, April 28, 2021
 
 ## Technology
+### Spring '25
+* [Colab Notebook](https://colab.google/)
+* [PowerBi](https://app.powerbi.com/home?experience=power-bi)
+* Python, Vue.js, JSON, HTML/CSS
 ### Fall '23
 * [Jupyter Notebook](https://jupyter.org/install)
 * Python, JavaScript, JSON
@@ -123,6 +129,17 @@ I utilized the website kaggle.com to obtain the job listing datasets, Microsoft 
 3.  Grizzly Path Website up to date since April '23
 
 ## Datasets
+### Spring 2025
+* [Original Glassdoor](https://github.com/GGC-DSA/itskills/blob/main/docs-Spring2025/colab_files/Glassdoor%20job%20listings%20information.csv)
+* [Original LinkedIn](https://github.com/GGC-DSA/itskills/blob/main/docs-Spring2025/colab_files/Linkedin%20job%20listings%20information.csv)
+* [Original Indeed](https://github.com/GGC-DSA/itskills/blob/main/docs-Spring2025/colab_files/Linkedin%20job%20listings%20information.csv)
+### Cleaned
+* [Cleaned Glassdoor](https://github.com/GGC-DSA/itskills/blob/main/docs-Spring2025/colab_files/glassdoor_cleaned.csv)
+* [Cleaned LinkedIn](https://github.com/GGC-DSA/itskills/blob/main/docs-Spring2025/colab_files/linkedin_cleaned.csv)
+* [Cleaned Indeed](https://github.com/GGC-DSA/itskills/blob/main/docs-Spring2025/colab_files/indeed_cleaned.csv)
+### Final
+* [Final Merged Dataset](https://github.com/GGC-DSA/itskills/blob/main/docs-Spring2025/final_files/merged_jobs_cleaned%20(6).csv)
+
 ### Fall 2023
 * [Cleaned Skills Survey](https://github.com/GGC-DSA/itskills/blob/main/Fall%202023/Documents/IT_Skills_Survey.csv)
 * [Not Cleaned Skills Survey](https://github.com/GGC-DSA/itskills/blob/main/Fall%202023/Documents/Matching_Skills_Courses_3_16_2023_11.32.csv)
@@ -138,13 +155,30 @@ I utilized the website kaggle.com to obtain the job listing datasets, Microsoft 
 * [Indeed CSV files](https://github.com/GGC-DSA/itskills/tree/main/Spr%20'23/Indeed%20Datasets)
 * [Simply Hired CSV files](https://github.com/GGC-DSA/itskills/tree/main/Spr%20'23/SimplyHiredData)
 
-## Main methods for Analysis, ML/AI 
+## Main methods for Analysis, ML/AI
+### Spr '25: 
+- Python - value counts
+- Prince module for MCA
+- MCA/K-Means for classification and clustering
+
+### Fall '23:
 * Python - value_counts()
 * Predicting job titles - Naive Byes, Logistic Regression, Support Vector Machine, Random Forest
 
 ## 2 Main Results
+### Spring '25:
+![Tree Map with Courses and Related Skills](https://github.com/GGC-DSA/itskills/blob/main/media/Spr%20'25/treemap%20with%20skills%20and%20courses.png)
+![Systems Security Jobs with SKills](https://github.com/GGC-DSA/itskills/blob/main/media/Spr%20'25/SystemsSecurity/systemssecuritysunburst.png)
+
+### Fall '23:
 ![Systems and Security Common Job Titles](https://github.com/GGC-DSA/itskills/blob/main/media/Spr%20'23/Systems%20and%20Security%20Results/SAS_Common_JobTitles.jpg)
 ![Software Developer Common Skills for Web Developer](https://github.com/GGC-DSA/itskills/blob/main/media/Spr%20'23/Software%20Development%20Results/SD_CommonSkills_WebDeveloper.jpg)
+
+### Spring 2025 Remaining Scope
+1. Have a continuous influx of data with live job posting data
+2. Incorporate more data from other popular job sites or elsewhere
+3. Incorporating more interactive visuals as we could not implement our PowerBI dashboard into the website due to paywall
+4. Improve chatbot algorithm for better matching courses with job skills
 
 ### Fall 2023 Remaining Scope
 1. Create/Update GGC class survey and ask collect data from students using the survey.
