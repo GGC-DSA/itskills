@@ -22,7 +22,8 @@
     "hard_skills": [
       "SQL",
       "Data Analysis",
-      "Project Management"
+      "Project Management",
+      "Agile Methodology"
     ]
   },
   "MATH 2050 - Statistics": {
@@ -105,7 +106,8 @@
       "Programming",
       "Software Development",
       "Java",
-      "JavaScript"
+      "JavaScript",
+      "Agile Methodology"
     ]
   },
   "ITEC 4450 - Web Dev": {
@@ -278,6 +280,19 @@
       "Java",
       "Basic Programming",
       "Algorithm Design"
+    ]
+  },
+  "ITEC 3700 - System Analysis & Design": {
+    "major": "Data Scientist",
+    "hard_skills": [
+      "Agile Methodology",
+      "Paradigm",
+      "UML",
+      "Project Management",
+      "Project Structure",
+      "Scrum",
+      "Documentation",
+      "Requirements Writing"
     ]
   }
 }

@@ -22,7 +22,7 @@ app = Flask(__name__)
 CORS(app)  
 
 # ========== Load Data Once (Global Variables) ========== #
-combined_df = pd.read_json('combined_df.json', orient='records')
+combined_df = pd.read_json('updated_combined_df.json', orient='records')
 df = pd.read_csv("merged_jobs_with_degrees_and_skills.csv")
 
 # Define acceptable seniority levels
@@ -64,26 +64,26 @@ def sunburst_chart():
         combined_df,
         path=['Domain', 'Category', 'Keyword'],
         values='Count',
-        title='Job Market Overview: Click to Explore Technical & Soft Skills',
+        title='Job Market Overview: Click to Explore Technical, Soft, & PM Skills',
         color='Domain',
         color_discrete_sequence=px.colors.qualitative.Pastel,
         branchvalues='total'
-    )
+)
 
     fig.update_traces(
         textinfo='label',
         textfont_size=12,
         insidetextorientation='radial',
         marker=dict(line=dict(color='white', width=2)),
-        maxdepth=2
-    )
+        maxdepth=2  # Only Domain & Category visible at first
+)
 
     fig.update_layout(
         margin=dict(t=50, l=0, r=0, b=0),
         width=800, height=800,
         title_x=0.5,
         title_font_size=24
-    )
+)
 
     return jsonify(json.loads(fig.to_json()))
 
@@ -112,7 +112,7 @@ def get_courses(degree_category, user_skills):
 
         course_skills = {skill.strip().lower() for skill in attributes["hard_skills"]}
 
-        if any(skill in course_skills for skill in user_skills):
+        if any(user_skill in course_skill for course_skill in course_skills for user_skill in user_skills):
             matched_courses.append((course_name, attributes))
 
     print(f"Matched Courses: {matched_courses}")

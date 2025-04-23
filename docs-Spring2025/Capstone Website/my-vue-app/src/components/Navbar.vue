@@ -1,10 +1,10 @@
 <template>
     <nav class="navbar">
       <ul>
-        <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/visualizer">Visualizer</router-link></li>
-        <li><router-link to="/chatbot">Chatbot</router-link></li>
-        <li><router-link to="/topskills">Top Skills</router-link></li>
+        <li><router-link to="/">Overview</router-link></li>
+        <li><router-link to="/visualizer">All Skills Explorer</router-link></li>
+        <li><router-link to="/chatbot">Path Finder</router-link></li>
+        <li><router-link to="/topskills">Career Insights</router-link></li>
       </ul>
     </nav>
   </template>
