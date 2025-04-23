@@ -50,7 +50,7 @@ with open("compiled_courses.json", "r") as f:
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return "backend is running"
 
 @app.route('/sunburst')
 def sunburst_chart():
