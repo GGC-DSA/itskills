@@ -21,6 +21,8 @@ export default {
     async fetchChartData() {
   try {
     const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/sunburst`);
+    console.log("API URL:", `${import.meta.env.VITE_API_BASE_URL}/sunburst`);
+
     const jsonData = await response.json(); 
 
 
