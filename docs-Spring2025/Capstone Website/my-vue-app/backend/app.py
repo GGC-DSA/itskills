@@ -13,6 +13,8 @@ import base64
 from io import BytesIO
 import textwrap
 import pickle
+from flask import send_from_directory
+import os
 def load_job_data(pkl_path='job_data.pkl'):
     with open(pkl_path, 'rb') as f:
         all_jobs_df, skills_by_domain = pickle.load(f)
@@ -53,9 +55,17 @@ with open("compiled_courses.json", "r") as f:
 
 # ========== Flask Routes ========== #
 
-@app.route("/")
+@app.route('/')
 def index():
-    return "Flask backend is running!"
+    return send_from_directory(app.static_folder, 'index.html')
+
+# Catch-all route for Vue SPA
+@app.route('/<path:path>')
+def catch_all(path):
+    if os.path.exists(os.path.join(app.static_folder, path)):
+        return send_from_directory(app.static_folder, path)
+    else:
+        return send_from_directory(app.static_folder, 'index.html')
 
 
 @app.route('/sunburst')
