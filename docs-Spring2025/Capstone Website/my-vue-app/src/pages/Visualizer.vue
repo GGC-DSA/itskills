@@ -20,10 +20,10 @@ export default {
   methods: {
     async fetchChartData() {
   try {
-    const response = await fetch('http://127.0.0.1:5000/sunburst'); // Fetch from Flask
-    const jsonData = await response.json(); // Parse JSON response directly
+    const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/sunburst`);
+    const jsonData = await response.json(); 
 
-    // Pass the already parsed JSON data to Plotly
+
     Plotly.newPlot(this.$refs.chart, jsonData.data, jsonData.layout);
   } catch (error) {
     console.error('Error fetching Sunburst chart data:', error);

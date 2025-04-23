@@ -59,7 +59,7 @@ export default {
   },
   async created() {  // ✅ Fetch degree categories when the component is mounted
     try {
-      const response = await axios.get("http://127.0.0.1:5000/degree_categories");
+      const response = await axios.get(`${import.meta.env.VITE_API_BASE_URL}/degree_categories`);
       this.degrees = response.data.degree_categories;
     } catch (error) {
       console.error("Error fetching degree categories:", error);
@@ -75,7 +75,7 @@ export default {
       this.loading = true;
 
       try {
-        const response = await axios.post("http://127.0.0.1:5000/recommend_jobs", {
+        const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/recommend_jobs`, {
           skills: this.skills,
           degree: this.degree,
         });
