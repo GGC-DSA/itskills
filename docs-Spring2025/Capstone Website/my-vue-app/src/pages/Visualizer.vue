@@ -20,7 +20,7 @@ export default {
   methods: {
     async fetchChartData() {
   try {
-    const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/sunburst`);
+    const response = await fetch(`https://itskills.onrender.com/sunburst`);
     console.log("API URL:", `${import.meta.env.VITE_API_BASE_URL}/sunburst`);
 
     const jsonData = await response.json(); 
