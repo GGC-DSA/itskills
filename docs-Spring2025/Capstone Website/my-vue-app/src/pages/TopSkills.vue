@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <h1>Determine Top Skills Per Field</h1>
-    <h2>View live representations of the most-demanded skills in the most prominent positions on the market right now</h2>
+    <h1>Top Job Titles & In-Demand Skills by Field</h1>
+    <h2>Discover the top 5 roles in your chosen IT domain, along with their most critical skills — and the courses to help you get there.</h2>
     <h2>Select Job Field</h2>
     <!-- Dropdown to select job field -->
     <select v-model="selectedJobField" @change="fetchChartData">

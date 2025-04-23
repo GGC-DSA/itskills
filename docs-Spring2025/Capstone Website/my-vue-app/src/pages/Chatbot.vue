@@ -1,7 +1,7 @@
 <template>
   <div class="chatbot-container">
-    <h1>Job & Course Recommendations</h1>
-    <h2>Input your own skills for professional and academic recommendations</h2>
+    <h1>Get Matched Based on Your Skills</h1>
+    <h2>Enter the skills you already have or want to learn, and we’ll suggest a matching major, career paths, and relevant courses.</h2>
 
     <div class="input-section">
       <label>Enter your skills (comma-separated):</label>
@@ -16,9 +16,9 @@
     <div v-if="loading" class="loading">🔄 Fetching recommendations...</div>
 
     <div v-if="recommendation.recommended_degree" class="results-section">
-      <h2>Recommended Degree: <span class="highlight">{{ recommendation.recommended_degree }}</span></h2>
+      <h2>Suggested Degree: <span class="highlight">{{ recommendation.recommended_degree }}</span></h2>
 
-      <h3>Relevant Courses:</h3>
+      <h3>Matched Courses:</h3>
       <ul v-if="recommendation.relevant_courses.length">
   <li
     v-for="course in recommendation.relevant_courses"
