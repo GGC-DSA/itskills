@@ -68,7 +68,7 @@ export default {
     // Fetch job fields from the backend
     async fetchJobFields() {
       try {
-        const response = await fetch("http://127.0.0.1:5000/get_job_fields");
+        const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/get_job_fields`);
         const data = await response.json();
         this.jobFields = data; // Assign fetched job fields to the `jobFields` array
       } catch (error) {
@@ -82,7 +82,7 @@ export default {
 
   try {
     // Fetch chart JSON data
-    const chartResponse = await fetch("http://127.0.0.1:5000/top_skills_per_field", {
+    const chartResponse = await fetch(`${import.meta.env.VITE_API_BASE_URL}/top_skills_per_field`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -101,7 +101,7 @@ export default {
     });
 
     // Fetch courses data
-    const coursesResponse = await fetch("http://127.0.0.1:5000/courses_for_field", {
+    const coursesResponse = await fetch(`${import.meta.env.VITE_API_BASE_URL}/courses_for_field`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
