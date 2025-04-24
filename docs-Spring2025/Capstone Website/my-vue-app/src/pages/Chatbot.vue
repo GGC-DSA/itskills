@@ -117,12 +117,15 @@ export default {
   background: #f8f9fa;
   padding: 15px;
   border-radius: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  width:90%;
+  align-items: center;
+  margin: 0 auto;
 }
 
 input, select, button {
   display: block;
-  width: 100%;
+  width: 90%;
   margin-top: 10px;
   padding: 10px;
   font-size: 16px;

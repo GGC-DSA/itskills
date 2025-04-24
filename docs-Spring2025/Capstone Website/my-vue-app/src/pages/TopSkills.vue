@@ -141,6 +141,7 @@ img {
   max-width: 100%;
   height: auto;
   margin-top: 20px;
+  
 }
 .chart-description-wrapper {
   display: flex;
@@ -152,7 +153,8 @@ img {
 }
 
 .chart-container {
-  flex: 2; 
+  flex: 2;
+  margin-left: 350px;
 }
 
 .description-container {
@@ -163,6 +165,7 @@ img {
   border-radius: 6px;
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
+  margin-top: -150px;
 }
 
 

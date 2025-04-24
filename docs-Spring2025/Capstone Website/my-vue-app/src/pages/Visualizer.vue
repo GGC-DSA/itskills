@@ -43,8 +43,9 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%; /* Full width */
-  height: 1000px; /* Adjust as needed */
+  width: 80%; /* Full width */
+  height: 800px; /* Adjust as needed */
+  margin: 0 auto;
 }
 
 </style>

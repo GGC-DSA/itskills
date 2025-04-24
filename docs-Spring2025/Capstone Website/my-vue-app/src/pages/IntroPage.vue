@@ -37,10 +37,14 @@
         option for students to use.
       </p>
     </div>
+    <img class="poster-container" src="../assets/Capstone-Poster.jpg"/>
   </div>
 </template>
 
 <style>
+.poster-container{
+  margin: 0 auto;
+}
 .visualizer-container {
   background-color: #fdfdfd;
   border-radius: 10px;
