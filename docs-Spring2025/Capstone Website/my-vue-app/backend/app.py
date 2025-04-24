@@ -336,7 +336,7 @@ def top_skills_per_field():
         margin=dict(t=50, l=0, r=0, b=0),
         width=800, height=800,
         title_x=0.5,
-        title_font_size=24
+        title_font_size=18
     )
 
     return jsonify(json.loads(fig.to_json()))
