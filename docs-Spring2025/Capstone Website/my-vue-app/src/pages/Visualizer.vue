@@ -20,7 +20,7 @@ export default {
   methods: {
     async fetchChartData() {
   try {
-    const response = await fetch('http://127.0.0.1:5000/sunburst'); // Fetch from Flask
+    const response = await fetch('https://itskills.onrender.com/sunburst'); // Fetch from Flask
     const jsonData = await response.json(); // Parse JSON response directly
 
     // Pass the already parsed JSON data to Plotly
