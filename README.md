@@ -7,6 +7,7 @@ __Spring 2025 Scope:__
 Further develop the website tool by cleaning, analyzing, and creating visualizations from webscraped job posting sites such as LinkedIn, Glassdoor, and Indeed.com. These results will be used to attain the top 5-10 jobs and their correlating primary technical and soft skills depending on major or field. The user selected job/skill will result in the tool displaying courses that teach those necessary skills, ensuring the student will learn the skills necessary to attain their dream job. The team is working to update and revamp the current website to be more interactive and dynamic for users. 
 
 ## Project Demo Video
+### Spring '25: [Spring 2025 Presentation](https://drive.google.com/file/d/1bj1rbmg5UvHdfhg2SQcOoPqxyHSE80DV/view)
 ### Fall '23: [Fall 2023 Presentation](https://github.com/GGC-DSA/itskills/assets/60529957/c88c3360-a92b-4571-852c-53548882d7f2)
 ### Spring '23:  [Grizzly Insights Screencast](https://github.com/GGC-DSA/itskills/blob/main/media/Spr%20'23/ItSkills%20Screencast%20Spring%202023.mp4)
 ### Summer '21: [Hugh Smith Presentation](https://github.com/GGC-DSA/itskills/blob/main/media/Sum%20'21/Presentation.mp4)
