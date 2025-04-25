@@ -179,9 +179,11 @@ I utilized the website kaggle.com to obtain the job listing datasets, Microsoft 
 
 ### Spring 2025 Remaining Scope
 1. Have a continuous influx of data with live job posting data
-2. Incorporate more data from other popular job sites or elsewhere
-3. Incorporating more interactive visuals as we could not implement our PowerBI dashboard into the website due to paywall
-4. Improve chatbot algorithm for better matching courses with job skills
+2. Create a survey for IT faculty to gather which specific skills are taught for each class - Dr. Anca can distribute
+3. Include full range of courses available for domains
+4. Incorporate more data from other popular job sites or elsewhere
+5. Incorporating more interactive visuals as we could not implement our PowerBI dashboard into the website due to paywall
+6. Improve chatbot algorithm for better matching courses with job skills
 
 ### Fall 2023 Remaining Scope
 1. Create/Update GGC class survey and ask collect data from students using the survey.
